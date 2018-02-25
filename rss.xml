@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+  <title>DFIR.Life RSS Feed Digital Forensics Incident Response by Scott Bollinger @kfalconspb</title>
+  <description>This is the RSS feed for DFIR.Life Digital Forensics Incident Response by Scott Bollinger @kfalconspb</description>
+  <link>https://dfir.life/index.html</link>
+  <atom:link href="https://dfir.life/rss.xml" rel="self" type="application/rss+xml" />
+  <lastBuildDate>Fri, 17 Nov 2017 00:09:00 +0000 </lastBuildDate>
+  <pubDate>Fri, 17 Nov 2017 09:00:00 +0000 </pubDate>
+  <item>
+    <title>A free and open community of DFIR professionals</title>
+    <description>A Sip From The infoFireHose</description>
+    <link>https://dfir.life/003iFH-DFIRSlack.html</link>
+    <guid>https://dfir.life/003iFH-DFIRSlack.html</guid>
+    <pubDate>Fri, 17 Nov 2017 09:00:00 +0000 </pubDate>
+  </item>
+  <item>
+    <title>Introducing DFIR Life</title>
+    <description>A Home for DFIR Related Posts</description>
+    <link>https://dfir.life/002DFIR.LifeHome.html</link>
+    <guid>https://dfir.life/002DFIR.LifeHome.html</guid>
+    <pubDate>Tue, 04 Jul 2017 09:00:00 +0000 </pubDate>
+  </item>
+  <item>
+    <title>Forensic Lunch with David Cowen</title>
+    <description>A Sip from the infoFireHose</description>
+    <link>https://dfir.life/001InfoFireHose-ForensicLunchPodcast.html</link>
+    <guid>https://dfir.life/001InfoFireHose-ForensicLunchPodcast.html</guid>
+    <pubDate>Sun, 07 Feb 2016 09:00:00 +0000 </pubDate>
+  </item>
+</channel>
+</rss>
