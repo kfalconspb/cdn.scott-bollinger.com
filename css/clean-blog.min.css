@@ -157,7 +157,7 @@ hr.small-black {
   background-attachment: scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
-  background-size: cover;
+  background-size: auto;
   -o-background-size: cover;
   margin-bottom: 50px;
 }
