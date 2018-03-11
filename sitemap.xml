@@ -6,44 +6,32 @@
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 <!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
+
 <url>
-  <loc>https://dfir.life/</loc>
-  <lastmod>2017-11-30T10:05:01+00:00</lastmod>
+  <loc>https://scott-bollinger.com/</loc>
+  <lastmod>2018-03-11T09:35:45+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>https://dfir.life/index.html</loc>
-  <lastmod>2017-11-30T10:05:01+00:00</lastmod>
+  <loc>https://scott-bollinger.com/index.html</loc>
+  <lastmod>2018-03-11T09:35:45+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://dfir.life/about.html</loc>
-  <lastmod>2017-11-30T10:05:01+00:00</lastmod>
+  <loc>https://scott-bollinger.com/about.html</loc>
+  <lastmod>2018-03-11T09:35:45+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://dfir.life/disclaimer.html</loc>
-  <lastmod>2017-11-30T10:05:01+00:00</lastmod>
+  <loc>https://scott-bollinger.com/disclaimer.html</loc>
+  <lastmod>2018-03-11T09:35:45+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://dfir.life/infoFireHose.html</loc>
-  <lastmod>2017-11-30T10:05:01+00:00</lastmod>
+  <loc>https://scott-bollinger.com/infoFireHose.html</loc>
+  <lastmod>2018-03-11T09:35:45+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-<url>
-  <loc>https://dfir.life/003iFH-DFIRSlack.html</loc>
-  <lastmod>2017-11-30T10:05:01+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://dfir.life/002DFIR.LifeHome.html</loc>
-  <lastmod>2017-11-30T10:05:01+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://dfir.life/001InfoFireHose-ForensicLunchPodcast.html</loc>
-  <lastmod>2017-11-30T10:05:01+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
+
+
 </urlset>
