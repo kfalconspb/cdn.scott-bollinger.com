@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Packets don't lie. Wireshark, and Sniffer Days of Old.">
+    <meta name="author" content="Scott Bollinger/@kfalconspb">
+    <link rel="alternate" type="application/rss+xml" title="Sniffer.Fun RSS Feed Networks Physical Virtual and the bits in-between by Scott Bollinger @kfalconspb" href="rss.xml" />
+    <title>Packets Don't Lie. Wireshark, and Sniffer Days of Old.</title>
+    <!-- Bootstrap Core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Theme CSS -->
+    <link href="css/clean-blog.min.css" rel="stylesheet">
+    <!-- Custom Fonts -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    Menu <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand" href="index.html">Sniffer.Fun</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="https://scott-bollinger.com/about.html" target="_blank">About</a>
+                    </li>
+                    <li>
+                        <a href="https://scott-bollinger.com/disclaimer.html" target="_blank">Disclaimer</a>
+                    </li>
+                    <li>
+                        <a href="https://scott-bollinger.com/infoFireHose.html" target="_blank">infoFireHose</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+    <!-- Page Header -->
+    <!-- Set your background image for this header on the line below. -->
+    <header class="intro-header" style="background-image: url('https://bollingerusa.com/img/asset-139.jpg')">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    <div class="post-heading">
+                        <h1>Packets don't lie</h1>
+                        <h2 class="subheading">Wireshark, and Sniffer Days of Old</h2>
+                        <span class="meta">Posted by <a href="https://scott-bollinger.com/about.html" target="_blank">Scott Bollinger</a> / <a href="https://twitter.com/kfalconspb" target="_blank">@kfalconspb</a> on February 21, 2015</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Post Content -->
+    <article>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+					<h3 class="section-heading">What more could anyone want?</h3>
+					<p>I have been using protocol analyzers since the days of Network General and have always loved the analytic view of the network.</p>
+            <p>Not the smoke and mirrors we usually show the users, but the hardcore, what is on the wire, proof.</p>
+            <h3 class="section-heading">Packets don't lie.</h3>
+            <p>One knowledgeable look and you see it. You just see it in real time. It magically appears.</p>
+            <p>OK, it's not a magic application one just opens, and it tells you exactly how to fix your issues. There is some analyzing and knowledge required of how things are supposed to work to get real use out of it.</p>
+            <p>Like any tool it helps if you know how to use it.</p>
+            <p>Protocol Analysis is a tool to look at how devices are actually communicating. Not how they are supposed to be communicating.</p>
+            <h3 class="section-heading">The Awakening</h3>
+            <p>My first exposure to sniffing was a production issue at a previous employer 20+ years ago. We had a subnet having intermittent communication issues with the onsite data center.</p>
+            <h3 class="section-heading">Youngling Geek</h3>
+            <p>This was early in my career and tools like wireshark or any free sniffer tools simply didn't exist to the average public. Heck it wasn't even switches back then it was Synoptics hubs.</p>
+            <p>At the time I was one of the onsite server/PC geeks and our network people were located in the Midwest. Three days of local troubleshooting and finally we get a visit from the network home office cavalry.</p>
+            <h3 class="section-heading">The Awe Effect</h3>
+            <p>I remember the color of the carpet tiles being bright yellow because in walked in this blonde network goddess that put the color to shame. A presence larger than life. Little did I know then but she would become my mentor, friend, and confidant for many years. She was the brightest, most intelligently complex person I have ever met. The kind of intelligence that reminds me of standing room only in a conference hall listening to Radia Perlman speak. If you got 50% of what was said you were doing extremely well.</p>
+            <p>She solved the issue in less than 5 minutes and spent the next two days showing me the sniffer, packets, and answering the barrage of questions which spewed forth.</p>
+            <h3 class="section-heading">The Windy City and Italian Beef Sandwiches</h3>
+            <p>Within three months, I transferred teams and moved to Chicago, and was working and learning in the network group for three years under her tutelage. I look back fondly on those times and continue to build upon that foundation today.</p>
+            <p>One thing that hasn't changed is that protocol analysis is an awesome resource to be able to use when the need arises. Which in my opinion, happens too late in the troubleshooting process, most times.</p>
+            <p>Most tech people today know sniffers exist and most can easily step through setting up a capture. Some may even open the capture and see something standing out in red that solves the issue. But usually that is where it stops.</p>
+            <h3 class="section-heading">Sniff something? Well did ya, rat boy?</h3>
+            <p>Most organization I've worked with, the sniffer is pulled out late in the troubleshooting process. The initial troubleshooting being done by the front line teams. Usually in time, the issue gathers attention and the old neck beards come out of the cave. Usually they were stating it wasn't a network problem and see they can prove it. Often the protocol analysis helped pin point the issue and usually that it wasn't a network issue. They would then get in their late model sedan and go grab lunch early to avoid the "people" rush.</p>
+            <p>I'm a big proponent of front line techs knowing how and where to take the capture. Even if it's just to pass the pcap to an engineer later. A sample of whats actually going on can go a long way when troubleshooting. Verse all to familiar "Everything is slow" or "the computers are down".</p>
+            <p>I think the <a href="004Wireshark102.11.1.html" target="_blank">Wireshark Certified Network Analyst WCNA Certification</a> objectives are a good starting point for many admins.</p>
+					<p>Thanks,</p>
+					<p><a href="https://scott-bollinger.com/about.html" target="_blank">Scott Bollinger</a> / <a href="https://twitter.com/kfalconspb" target="_blank">@kfalconspb</a>
+					   </div>
+            </div>
+        </div>
+    </article>
+    <hr>
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    <ul class="list-inline text-center">
+                        <li>
+                          <a href="https://twitter.com/kfalconspb/" target="_blank">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/ScottPBollinger/" target="_blank">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/kfalconspb/" target="_blank">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+						<li>
+                            <a href="https://www.instagram.com/kfalconspb/" target="_blank">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-instagram fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+						<li>
+                            <a href="https://github.com/kfalconspb/" target="_blank">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+						<li>
+                            <a href="https://www.youtube.com/user/LaboratoriumRattus/" target="_blank">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-youtube fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                    </ul>
+                    <p class="copyright text-muted">Copyright &copy; 2018 <a href="https://scott-bollinger.com/about.html" target="_blank">Scott Bollinger</a> / <a href="https://twitter.com/kfalconspb" target="_blank">@kfalconspb</a></p>
+                    <p class="copyright text-muted">Please Also Visit: <a href="https://Scott-Bollinger.com">Scott-Bollinger.com</a>/<a href="https://PapaShell.com">PapaShell.com</a>/<a href="http://Sniffer.Fun">Sniffer.Fun</a>/<a href="http://VirtuallyBollinger.com">VirtuallyBollinger.com</a>/<a href="http://BollingerUSA.com">BollingerUSA.com</a></p>
+                </div>
+					 </div>
+        </div>
+    </footer>
+    <!-- jQuery -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>    
+    <!-- Theme JavaScript -->
+    <script src="js/clean-blog.min.js"></script>
+</body>
+</html>

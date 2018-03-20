@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--GoogleAnalyticsScript -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Citrix NetScaler CCP-N Exam 1Y0-350 Study Resources">
+    <meta name="author" content="Scott Bollinger/@kfalconspb">
+    <link rel="alternate" type="application/rss+xml" title="VirtuallyBollinger.com RSS Feed Virtualization VMware Citrix Microsoft and Linux by Scott Bollinger @kfalconspb" href="/rss.xml" />
+    <title>Citrix NetScaler CCP-N Exam 1Y0-350 Study Resources</title>
+    <!-- Bootstrap Core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Theme CSS -->
+    <link href="css/clean-blog.min.css" rel="stylesheet">
+    <!-- Custom Fonts -->
+    <link href="/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P4B8LBQ"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    Menu <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand" href="index.html">VirtuallyBollinger.com</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="https://scott-bollinger.com/about.html" target="_blank">About</a>
+                    </li>
+                    <li>
+                        <a href="https://scott-bollinger.com/disclaimer.html" target="_blank">Disclaimer</a>
+                    </li>
+                    <li>
+                        <a href="https://scott-bollinger.com/infoFireHose.html" target="_blank">infoFireHose</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+    <!-- Page Header -->
+    <!-- Set your background image for this header on the line below. -->
+    <header class="intro-header" style="background-image: url('/img/asset-343.jpg')">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    <div class="post-heading">
+                        <h1>Citrix NetScaler CCP-N Exam 1Y0-350</h1>
+                        <h2 class="subheading">Study Resources</h2>
+                        <span class="meta">Posted by <a href="https://scott-bollinger.com/about.html" target="_blank">Scott Bollinger</a> / <a href="https://twitter.com/kfalconspb" target="_blank">@kfalconspb</a> on October 09, 2014</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Post Content -->
+    <article>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <h3 class="section-heading">Resources</h3>
+                <p>Lab, question, lab, research, lab, repeat
+                <p>I’m a firm believer of hands on labs and exercises. Especially when learning a new topic and when studying exam objectives.</p>
+                <p>Please do not spend 100’s or 1000’s of dollars when a majority of the time a virtual lab environment is fine.</p>
+                <p>Maybe for hardware specific bugs or anomalies, the use hardware argument, may be true.</p>
+                <p>However a virtual environment should be fine for most entry and intermediate studies. There a lot of options for setting up a virtual environment. Some open source, others commercial. Some free, some trial, some cost.</p>
+                <h3 class="section-heading">What are you trying to accomplish?</h3>
+                <p>Just remember your objective.</p>
+                <p>Is it to set up an elaborate VMware ESXi cluster running on server class hardware?</p>
+                <p>If the lab is to set up an ESXi environment then, yes, that’s great!</p>
+                <p>However, if you just need to set up a high availability on a pair VPXs, then VMware workstation is fine. Or a similar hypervisor like VirtualBox.</p>
+                <p>I have wasted days and weeks, troubleshooting emulators and simulators while studying for another vendor’s exams and topics.</p>
+                <p>As a geek, I have a tendency to over complicate ideas. Over thinking or as I call it forward thinking, trying to anticipate what I’m planning for future labs. Usually the answer for me is to refocus and create the simplest environment to learn the real tasks I’m trying to assimilate and analyze.</p>
+                <p>Setting up a beginning NetScaler VPX lab may only consist of a hypervisor installed on a laptop with only one or two VPX virtual appliances in the environment. Then when I need to test another topic like LDAP integration, then bring up a Windows domain controller (DC) VM and maybe a client VM.</p>
+                <h3 class="section-heading">Slow maybe, but still functional</h3>
+                <p>Remember, as you add more virtual machines (VMs), more resources are going to be required of the host PC or laptop running the hypervisor. Giving a Windows Server VM less RAM than you would in the real world will make the OS seem slower and less responsive. But does it affect what you are trying to achieve? Maybe, maybe not. In our example of testing LDAP integration with VPX it’s fine. The DCs may be slower to respond or the GUI may be slower but the test in the lab will work.</p>
+                <p>As your labs grow you may elect to build a dedicated PC or server with a lot of RAM and Storage. Or you may elect to beef up your existing machine. Or you may just sip your tea when the environment is a little slower.</p>
+                <p>Whatever you do, learn the topic at hand.</p>
+                <p>For my labs, I chose VMware workstation. You may wish to use VirtualBox or another hypervisor. I have used VirtualBox in the past when it suited the requirements. Though when dictated by resources, I find it’s easier to move labs on to an ESXi server and more convenient with VMware Workstation.</p>
+                <p>Think about what is simplest for you and your requirements and resources they may be different than mine.</p>
+                <p>Thanks,</p>
+                <p><a href="https://scott-bollinger.com/about.html" target="_blank">Scott Bollinger</a> / <a href="https://twitter.com/kfalconspb" target="_blank">@kfalconspb</a></p>
+                </div>
+           </div>
+        </div>
+    </article>
+    <hr>
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    <ul class="list-inline text-center">
+                        <li>
+                            <a href="https://twitter.com/kfalconspb/" target="_blank">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/ScottPBollinger/" target="_blank">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/kfalconspb/" target="_blank">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/kfalconspb/" target="_blank">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-instagram fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/kfalconspb/" target="_blank">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.youtube.com/user/LaboratoriumRattus/" target="_blank">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-youtube fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                    </ul>
+                    <p class="copyright text-muted">Copyright &copy; 2018 <a href="https://scott-bollinger.com/about.html" target="_blank">Scott Bollinger</a> / <a href="https://twitter.com/kfalconspb" target="_blank">@kfalconspb</a></p>
+                    <p class="copyright text-muted">Please Also Visit: <a href="https://Scott-Bollinger.com">Scott-Bollinger.com</a>/<a href="https://PapaShell.com">PapaShell.com</a>/<a href="http://Sniffer.Fun">Sniffer.Fun</a>/<a href="http://VirtuallyBollinger.com">VirtuallyBollinger.com</a>/<a href="http://BollingerUSA.com">BollingerUSA.com</a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- jQuery -->
+    <script src="/vendor/jquery/jquery.min.js"></script>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="/vendor/bootstrap/js/bootstrap.min.js"></script>
+    <!-- Theme JavaScript -->
+    <script src="/js/clean-blog.min.js"></script>
+</body>
+</html>
