@@ -5,147 +5,207 @@
   <description>This is the RSS feed for Scott-Bollinger.com A Collection of My Writings, Notes, and Thoughts by Scott Bollinger @kfalconspb</description>
   <link>https://scott-bollinger.com/index.html</link>
   <atom:link href="https://scott-bollinger/rss.xml" rel="self" type="application/rss+xml" />
-  <lastBuildDate>Sun, 11 Mar 2018 00:09:00 +0000 </lastBuildDate>
-  <pubDate>Sun, 11 Mar 2018 09:00:00 +0000 </pubDate>
+  <lastBuildDate>Tue, 20 Mar 2018 00:09:00 +0000 </lastBuildDate>
+  <pubDate>Tue, 20 Mar 2018 09:00:00 +0000 </pubDate>
   <item>
-    <title>A free and open community of DFIR professionals</title>
-    <description>A Sip From The infoFireHose</description>
-    <link>https://Scott-Bollinger.com/003iFH-DFIRSlack.html</link>
-    <guid>https://Scott-Bollinger.com/003iFH-DFIRSlack.html</guid>
-    <pubDate>Fri, 17 Nov 2017 09:00:00 +0000 </pubDate>
-  </item>
-  <item>
-    <title>Introducing DFIR Life</title>
-    <description>A Home for DFIR Related Posts</description>
-    <link>https://Scott-Bollinger.com/002Scott-Bollinger.comHome.html</link>
-    <guid>https://Scott-Bollinger.com/002Scott-Bollinger.comHome.html</guid>
-    <pubDate>Tue, 04 Jul 2017 09:00:00 +0000 </pubDate>
-  </item>
-  <item>
-    <title>Forensic Lunch with David Cowen</title>
-    <description>A Sip from the infoFireHose</description>
-    <link>https://Scott-Bollinger.com/001InfoFireHose-ForensicLunchPodcast.html</link>
-    <guid>https://Scott-Bollinger.com/001InfoFireHose-ForensicLunchPodcast.html</guid>
-    <pubDate>Sun, 07 Feb 2016 09:00:00 +0000 </pubDate>
+    <title>VeeamON 2018</title>
+    <description>Alright, Who's going?</description>
+    <link>https://Scott-Bollinger.com/070VeeamON2018.html</link>
+    <guid>https://Scott-Bollinger.com/070VeeamON2018.html</guid>
+    <pubDate>Thu, 15 Mar 2018 09:00:00 +0000 </pubDate>
   </item>
     <item>
     <title>VeeamON Exclusive Blogger</title>
     <description>Excited and Honored</description>
     <link>https://Scott-Bollinger.com/029VeeamONExclusive.html</link>
     <guid>https://Scott-Bollinger.com/029VeeamONExclusive.html</guid>
-    <pubDate>Sat, 24 Aug 2018 09:00:00 +0000 </pubDate>
+    <pubDate>Sat, 24 Feb 2018 09:00:00 +0000 </pubDate>
   </item>
+  <item>
+    <title>Python Learning Resources</title>
+    <description>Quick List</description>
+    <link>https://Scott-Bollinger.com/068PythonLearningResources.html</link>
+    <guid>https://Scott-Bollinger.com/068PythonLearningResources.html</guid>
+    <pubDate>Sat, 29 Dec 2017 09:00:00 +0000 </pubDate>
+  </item>
+  <item>
+    <title>Finally Live</title>
+    <description>with Only Two Days to Spare</description>
+    <link>https://Scott-Bollinger.com/067FinallyLive.html</link>
+    <guid>https://Scott-Bollinger.com/067FinallyLive.html</guid>
+    <pubDate>Sat, 29 Dec 2017 09:00:00 +0000 </pubDate>
+  </item>
+  <item>
+    <title>DFIR Commmunity Slack Team</title>
+    <description>A Sip from the infoFireHose</description>
+    <link>https://Scott-Bollinger.com/066iFH-DFIRSlack.html</link>
+    <guid>https://Scott-Bollinger.com/066iFH-DFIRSlack.html</guid>
+    <pubDate>Fri, 17 Nov 2017 09:00:00 +0000 </pubDate>
+  </item>
+  <item>
+    <title>Taking Longer But Learning</title>
+    <description>Taking Longer for the Website's Migrations</description>
+    <link>https://Scott-Bollinger.com/065TakingLongerButLearning.html</link>
+    <guid>https://Scott-Bollinger.com/065TakingLongerButLearning.html</guid>
+    <pubDate>Mon, 30 Oct 2017 09:00:00 +0000 </pubDate>
+  </item>  
   <item>
     <title>My Road to VMware VMWorld 2017</title>
     <description>All 22 miles of it</description>
-    <link>https://Scott-Bollinger.com/028RoadtoVMWorld2017.html</link>
-    <guid>https://Scott-Bollinger.com/028RoadtoVMWorld2017.html</guid>
+    <link>https://Scott-Bollinger.com/064RoadtoVMWorld2017.html</link>
+    <guid>https://Scott-Bollinger.com/064RoadtoVMWorld2017.html</guid>
     <pubDate>Mon, 28 Aug 2017 09:00:00 +0000 </pubDate>
   </item>
   <item>
-    <title>Introducing Scott-Bollinger.com</title>
-    <description>A New Home for My Virtualization Related Posts</description>
-    <link>https://Scott-Bollinger.com/027NewHomeforBlogVirtuallyBollinger.html</link>
-    <guid>https://Scott-Bollinger.com/027NewHomeforBlogVirtuallyBollinger.html</guid>
-    <pubDate>Thu, 24 Aug 2017 09:00:00 +0000 </pubDate>
+    <title>Using Mute to Streamline Your Twitter Timeline</title>
+    <description>Twitter Mute</description>
+    <link>https://Scott-Bollinger.com/063TwitterTipMuteToStreamlineTimeline.html</link>
+    <guid>https://Scott-Bollinger.com/063TwitterTipMuteToStreamlineTimeline.html</guid>
+    <pubDate>Mon, 29 May 2017 09:00:00 +0000 </pubDate>
+  </item>
+  <item>
+    <title>Do You Love IT?</title>
+    <description>Are you doing what you love?</description>
+    <link>https://Scott-Bollinger.com/062DoYouLoveIT.html</link>
+    <guid>https://Scott-Bollinger.com/062DoYouLoveIT.html</guid>
+    <pubDate>Sun, 26 Mar 2017 09:00:00 +0000 </pubDate>
   </item>
   <item>
     <title>My First VMware vExpert</title>
     <description>VMware vExpert!</description>
-    <link>https://Scott-Bollinger.com/026MyFirstvExpert.html</link>
-    <guid>https://Scott-Bollinger.com/026MyFirstvExpert.html</guid>
+    <link>https://Scott-Bollinger.com/061MyFirstvExpert.html</link>
+    <guid>https://Scott-Bollinger.com/061MyFirstvExpert.html</guid>
     <pubDate>Sat, 18 Mar 2017 09:00:00 +0000 </pubDate>
+  </item>
+  <title>46, Little Look Back, Long Look Forward</title>
+    <description>Reflections and Refinement</description>
+    <link>https://Scott-Bollinger.com/060Im46LittleLookBackLongLookForw.html</link>
+    <guid>https://Scott-Bollinger.com/060Im46LittleLookBackLongLookForw.html</guid>
+    <pubDate>Fri, 17 Mar 2017 09:00:00 +0000 </pubDate>
+  </item>
+  <title>ITIL Free Training Resource</title>
+    <description>A Sip from the infoFireHose</description>
+    <link>https://Scott-Bollinger.com/059ITILFreeTrainingResource.html</link>
+    <guid>https://Scott-Bollinger.com/059ITILFreeTrainingResource.html</guid>
+    <pubDate>Tue, 28 Feb 2017 09:00:00 +0000 </pubDate>
+  </item>
+  <title>CCSP Crash Course Review</title>
+    <description>RSA Conference Training</description>
+    <link>https://Scott-Bollinger.com/058RSAConferenceCCSPCourse.html</link>
+    <guid>https://Scott-Bollinger.com/058RSAConferenceCCSPCourse.html</guid>
+    <pubDate>Tue, 14 Feb 2017 09:00:00 +0000 </pubDate>
   </item>
     <item>
     <title>Windows Error 2 While loading Java</title>
     <description>During Citrix Command Center Installation</description>
-    <link>https://Scott-Bollinger.com/025Error2CitrixCommandCenter.html</link>
-    <guid>https://Scott-Bollinger.com/025Error2CitrixCommandCenter.html</guid>
-    <pubDate>Sat, 18 Mar 2017 09:00:00 +0000 </pubDate>
+    <link>https://Scott-Bollinger.com/057Error2CitrixCommandCenter.html</link>
+    <guid>https://Scott-Bollinger.com/057Error2CitrixCommandCenter.html</guid>
+    <pubDate>Mon, 06 Feb 2017 09:00:00 +0000 </pubDate>
   </item>
   <item>
     <title>Setting up Internal vSwitch</title>
     <description>NATing in Microsoft Hyper-V</description>
-    <link>https://Scott-Bollinger.com/024InternalvSwitchHyperV.html</link>
-    <guid>https://Scott-Bollinger.com/024InternalvSwitchHyperV.html</guid>
+    <link>https://Scott-Bollinger.com/056InternalvSwitchHyperV.html</link>
+    <guid>https://Scott-Bollinger.com/056InternalvSwitchHyperV.html</guid>
     <pubDate>Mon, 06 Feb 2017 09:00:00 +0000 </pubDate>
   </item>
   <item>
-    <title>Error 3278</title>
+    <title>Error 3278 failed to change state of the VM</title>
     <description>How I Blew Up My Microsoft Hyper-V Lab</description>
-    <link>https://Scott-Bollinger.com/023Error3278.html</link>
-    <guid>https://Scott-Bollinger.com/023Error3278.html</guid>
+    <link>https://Scott-Bollinger.com/055Error3278.html</link>
+    <guid>https://Scott-Bollinger.com/055Error3278.html</guid>
     <pubDate>Fri, 03 Feb 2017 09:00:00 +0000 </pubDate>
+  </item>
+  <item>
+    <title>Pre CCSP Reading List</title>
+    <description>RSA Conference Training</description>
+    <link>https://Scott-Bollinger.com/054PreRSAReadingList.html</link>
+    <guid>https://Scott-Bollinger.com/054PreRSAReadingList.html</guid>
+    <pubDate>Mon, 30 Jan 2017 09:00:00 +0000 </pubDate>
   </item>
   <item>
     <title>VMware VMDK to Hyper-V VHDX from OVA/OVF</title>
     <description>VMware to Microsoft</description>
-    <link>https://Scott-Bollinger.com/022VMDKtoVHDX.html</link>
-    <guid>https://Scott-Bollinger.com/022VMDKtoVHDX.html</guid>
+    <link>https://Scott-Bollinger.com/053VMDKtoVHDX.html</link>
+    <guid>https://Scott-Bollinger.com/053VMDKtoVHDX.html</guid>
     <pubDate>Sun, 29 Jan 2017 09:00:00 +0000 </pubDate>
   </item>
   <item>
     <title>NetScaler 301 Class Review</title>
     <description>Citrix Training CNS301</description>
-    <link>https://Scott-Bollinger.com/021CitrixNetScalerCNS301.html</link>
-    <guid>https://Scott-Bollinger.com/021CitrixNetScalerCNS301.html</guid>
+    <link>https://Scott-Bollinger.com/052CitrixNetScalerCNS301.html</link>
+    <guid>https://Scott-Bollinger.com/052CitrixNetScalerCNS301.html</guid>
     <pubDate>Sun, 29 Jan 2017 09:00:00 +0000 </pubDate>
+  </item>
+  <item>
+    <title>RSA Conference Savings</title>
+    <description>Early Bird</description>
+    <link>https://Scott-Bollinger.com/051RSAConferenceEarlyBird.html</link>
+    <guid>https://Scott-Bollinger.com/051RSAConferenceEarlyBird.html</guid>
+    <pubDate>Thu, 20 Oct 2016 09:00:00 +0000 </pubDate>
   </item>
   <item>
     <title>vSphere 6 Product Features - vMotion</title>
     <description>VMware vMotion</description>
-    <link>https://Scott-Bollinger.com/020vSphere6FeaturesvMotion.html</link>
-    <guid>https://Scott-Bollinger.com/020vSphere6FeaturesvMotion.html</guid>
-    <pubDate>Wed, 21 Sep 2016 09:00:00 +0000 </pubDate>
+    <link>https://Scott-Bollinger.com/050vSphere6FeaturesvMotion.html</link>
+    <guid>https://Scott-Bollinger.com/050vSphere6FeaturesvMotion.html</guid>
+    <pubDate>Thu, 21 Sep 2016 09:00:00 +0000 </pubDate>
   </item>
   <item>
     <title>vSphere 6 Product Features - License Entitlement</title>
     <description>VMware vSphere Licensing</description>
-    <link>https://Scott-Bollinger.com/019vSphere6Features.html</link>
-    <guid>https://Scott-Bollinger.com/019vSphere6Features.html</guid>
-    <pubDate>Wed, 21 Sep 2016 09:00:00 +0000 </pubDate>
+    <link>https://Scott-Bollinger.com/049vSphere6Features.html</link>
+    <guid>https://Scott-Bollinger.com/049vSphere6Features.html</guid>
+    <pubDate>Thu, 21 Sep 2016 09:00:00 +0000 </pubDate>
   </item>
   <item>
     <title>VMware vSphere Editions Demystified</title>
     <description>The Editions</description>
-    <link>https://Scott-Bollinger.com/018VMWarevSphere.html</link>
-    <guid>https://Scott-Bollinger.com/018VMWarevSphere.html</guid>
-    <pubDate>Wed, 14 Sep 2016 09:00:00 +0000 </pubDate>
+    <link>https://Scott-Bollinger.com/048VMWarevSphere.html</link>
+    <guid>https://Scott-Bollinger.com/048VMWarevSphere.html</guid>
+    <pubDate>Thu, 21 Sep 2016 09:00:00 +0000 </pubDate>
   </item>
   <item>
     <title>VMware Knowledge Base Explained</title>
     <description>KB's What and Where</description>
-    <link>https://Scott-Bollinger.com/017VMKBExplained.html</link>
-    <guid>https://Scott-Bollinger.com/017VMKBExplained.html</guid>
+    <link>https://Scott-Bollinger.com/047VMKBExplained.html</link>
+    <guid>https://Scott-Bollinger.com/047VMKBExplained.html</guid>
     <pubDate>Wed, 14 Sep 2016 09:00:00 +0000 </pubDate>
   </item>
   <item>
     <title>Remove Unnecessary Hardware Devices From Your Virtual Machines</title>
     <description>Really, It's Important</description>
-    <link>https://Scott-Bollinger.com/016RemoveUnnessHW.html</link>
-    <guid>https://Scott-Bollinger.com/016RemoveUnnessHW.html</guid>
+    <link>https://Scott-Bollinger.com/046RemoveUnnessHW.html</link>
+    <guid>https://Scott-Bollinger.com/046RemoveUnnessHW.html</guid>
     <pubDate>Fri, 09 Sep 2016 09:00:00 +0000 </pubDate>
   </item>
   <item>
     <title>What are the VMware Tools?</title>
     <description>Help, I can't control my VM</description>
-    <link>https://Scott-Bollinger.com/015WhatAreVMWareTools.html</link>
-    <guid>https://Scott-Bollinger.com/015WhatAreVMWareTools.html</guid>
+    <link>https://Scott-Bollinger.com/045WhatAreVMWareTools.html</link>
+    <guid>https://Scott-Bollinger.com/045WhatAreVMWareTools.html</guid>
     <pubDate>Thu, 08 Sep 2016 09:00:00 +0000 </pubDate>
   </item>
   <item>
     <title>VMware VMworld 2016</title>
     <description>Session Videos</description>
-    <link>https://Scott-Bollinger.com/014SIFHVMWorld2016Vids.html</link>
-    <guid>https://Scott-Bollinger.com/014SIFHVMWorld2016Vids.html</guid>
+    <link>https://Scott-Bollinger.com/044SIFHVMWorld2016Vids.html</link>
+    <guid>https://Scott-Bollinger.com/044SIFHVMWorld2016Vids.html</guid>
     <pubDate>Wed, 07 Sep 2016 09:00:00 +0000 </pubDate>
   </item>
   <item>
     <title>Top vBlogs 2016</title>
     <description>Virtualization Blogs</description>
-    <link>https://Scott-Bollinger.com/013TopvBlogs2016.html</link>
-    <guid>https://Scott-Bollinger.com/013TopvBlogs2016.html</guid>
+    <link>https://Scott-Bollinger.com/043TopvBlogs2016.html</link>
+    <guid>https://Scott-Bollinger.com/043TopvBlogs2016.html</guid>
     <pubDate>Tue, 06 Sep 2016 09:00:00 +0000 </pubDate>
+  </item>
+  <item>
+    <title>CiscoLive 2016 Session Videos</title>
+    <description>A Sip from the infoFireHose</description>
+    <link>https://Scott-Bollinger.com/042InfoFireHoseCiscoLive2016.html</link>
+    <guid>https://Scott-Bollinger.com/042InfoFireHoseCiscoLive2016.html</guid>
+    <pubDate>Wed, 10 Aug 2016 09:00:00 +0000 </pubDate>
   </item>
   <item>
     <title>E1000/VMXnet3</title>
