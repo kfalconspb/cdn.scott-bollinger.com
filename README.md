@@ -6,6 +6,14 @@ I commit and push through out my thought processes and revisions. Call it Agile 
 
 So for no spoilers only view html referenced content.
 
+Prefixes
+499 and lower - Published
+5XX - Network
+6XX - Security
+7XX - Virtualization
+8XX - General IT
+9XX - Ideas
+
 Thanks,
 
 Scotty B
