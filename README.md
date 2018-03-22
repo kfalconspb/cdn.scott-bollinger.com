@@ -10,11 +10,12 @@ So, for no spoilers, only view html referenced content.
 
 File Prefixes
 499 and lower - Published
-5XX - Network
-6XX - Security
-7XX - Virtualization
-8XX - General IT
-9XX - Ideas
+
+5XX - Network - Draft
+6XX - Security - Draft
+7XX - Virtualization - Draft
+8XX - General IT - Draft
+9XX - Ideas - Draft
 
 Thanks,
 
