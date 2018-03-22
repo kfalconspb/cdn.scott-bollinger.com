@@ -81,11 +81,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                     <h3 class="section-heading">vMotion Failing?</h3>
-                    <p>These VMware PowerCLI commands came in handy a month or so ago and I'd thought I'd share. Credit is given in the links below.</p>
-                    <p>What do you do when you see a mounted ISO not being used? Left abandoned and discarded? Does it drive you absolutely mad? Do you go all stabby Joe? Does the OCD kick in and you need to find and unmount the entire world. Then the below may help.</p>
+                    <p>These VMware PowerCLI commands, came in handy a month or so ago. I'd thought I'd share. Credit is given in the links below.</p>
+                    <p>What do you do when, you see a mounted ISO not being used? Left abandoned and discarded? Does it drive you absolutely mad? Do you go all stabby Joe? Does the OCD kick in and you need to find and unmount the entire world. Then the below may help.</p>
                     <p>In all seriousness though, <b>a mounted ISO will cause a vmotion to fail.</b></p>
                     <p>Thanks,</p>
                     <p><a href="about.html">Scott Bollinger</a> / <a href="https://twitter.com/kfalconspb" target="_blank">@kfalconspb</a></p>
+                    
                     <h3 class="section-heading">Detect which VM’s have CDs mounted</h3>
                     <code>
                     Get-VM | Where-Object {$_ | Get-CDDrive | Where-Object { $_.ConnectionState.Connected -eq &quot;true&quot; } } | Select-Object Name
