@@ -4,10 +4,10 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="VMware PowerCLI Identifing, Unmounting CDs, and Rescanning the HBAs by Scott Bollinger / @kfalconspb">
+    <meta name="description" content="VMware PowerCLI Identifing, Unmounting CDs, And Rescanning The HBAs by Scott Bollinger / @kfalconspb">
     <meta name="author" content="Scott Bollinger / @kfalconspb">
-    <link rel="alternate" type="application/rss+xml" title="Scott-Bollinger.com RSS Feed A Collection of My Writings, Notes, and Thoughts by Scott Bollinger / @kfalconspb" href="rss.xml" />
-    <title>VMware PowerCLI Identifing, Unmounting CDs, and Rescanning the HBAs by Scott Bollinger / @kfalconspb</title>
+    <link rel="alternate" type="application/rss+xml" title="Scott-Bollinger.com RSS Feed A Collection of My Writings, Notes, and Thoughts By Scott Bollinger / @kfalconspb" href="rss.xml" />
+    <title>VMware PowerCLI Identifing, Unmounting CDs, And Rescanning The HBAs</title>
     <!-- Bootstrap Core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <!-- Theme CSS -->
@@ -46,13 +46,13 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                         <a href="index.html">Home</a>
                     </li>
                     <li>
-                        <a href="about.html" target="_blank">About</a>
+                        <a href="about.html">About</a>
                     </li>
                     <li>
-                        <a href="disclaimer.html" target="_blank">Disclaimer</a>
+                        <a href="disclaimer.html">Disclaimer</a>
                     </li>
                     <li>
-                        <a href="infoFireHose.html" target="_blank">infoFireHose</a>
+                        <a href="infoFireHose.html">infoFireHose</a>
                     </li>
                 </ul>
             </div>
@@ -67,9 +67,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                     <div class="post-heading">
-                        <h1>Identifing, Unmounting CDs, and Rescanning the HBAs</h1>
+                        <h1>Identifing, Unmounting CDs, And Rescanning The HBAs</h1>
                         <h2 class="subheading">With VMware PowerCLI</h2>
-                        <span class="meta">Posted by <a href="about.html" target="_blank">Scott Bollinger</a> / <a href="https://twitter.com/kfalconspb" target="_blank">@kfalconspb</a> on February 09, 2014</span>
+                        <span class="meta">Posted by <a href="about.html">Scott Bollinger</a> / <a href="https://twitter.com/kfalconspb" target="_blank">@kfalconspb</a> on February 09, 2014</span>
                     </div>
                 </div>
             </div>
@@ -81,11 +81,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                     <h3 class="section-heading">vMotion Failing?</h3>
-                    <p>These VMware PowerCLI commands came in handy a month or so ago and I'd thought I'd share. Credit is given in the links below.</p>
-                    <p>What do you do when you see a mounted ISO not being used? Left abandoned and discarded? Does it drive you absolutely mad? Do you go all stabby Joe? Does the OCD kick in and you need to find and unmount the entire world. Then the below may help.</p>
+                    <p>These VMware PowerCLI commands, came in handy a month or so ago. I'd thought I'd share. Credit is given in the links below.</p>
+                    <p>What do you do when, you see a mounted ISO not being used? Left abandoned and discarded? Does it drive you absolutely mad? Do you go all stabby Joe? Does the OCD kick in and you need to find and unmount the entire world. Then the below may help.</p>
                     <p>In all seriousness though, <b>a mounted ISO will cause a vmotion to fail.</b></p>
                     <p>Thanks,</p>
-                    <p><a href="about.html" target="_blank">Scott Bollinger</a> / <a href="https://twitter.com/kfalconspb" target="_blank">@kfalconspb</a></p>
+                    <p><a href="about.html">Scott Bollinger</a> / <a href="https://twitter.com/kfalconspb" target="_blank">@kfalconspb</a></p>
+                    
                     <h3 class="section-heading">Detect which VM’s have CDs mounted</h3>
                     <code>
                     Get-VM | Where-Object {$_ | Get-CDDrive | Where-Object { $_.ConnectionState.Connected -eq &quot;true&quot; } } | Select-Object Name
@@ -162,7 +163,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                             </a>
                         </li>
                     </ul>
-                    <p class="copyright text-muted">Copyright &copy; 2018 <a href="about.html" target="_blank">Scott Bollinger</a> / <a href="https://twitter.com/kfalconspb" target="_blank">@kfalconspb</a></p>
+                    <p class="copyright text-muted">Copyright &copy; 2018 <a href="about.html">Scott Bollinger</a> / <a href="https://twitter.com/kfalconspb" target="_blank">@kfalconspb</a></p>
                </div>
             </div>
         </div>
