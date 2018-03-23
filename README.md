@@ -9,8 +9,8 @@ Call it Agile Blogging, or a peek into my mind.
 So, for no spoilers, only view html referenced content.
 
 File Prefixes
-499 and lower - Published
-
+0299 and lower - Published
+33XX - On Deck - Actively Working
 55XX - Network - Draft
 66XX - Security - Draft
 77XX - Virtualization - Draft
