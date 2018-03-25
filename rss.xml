@@ -30,6 +30,7 @@
     <link>https://Scott-Bollinger.com/068PythonLearningResources.html</link>
     <guid>https://Scott-Bollinger.com/068PythonLearningResources.html</guid>
     <pubDate>Sat, 29 Dec 2017 09:00:00 +0000 </pubDate>
+    <category>IT</category>
   </item>
   <item>
     <title>Finally Live</title>
@@ -37,6 +38,7 @@
     <link>https://Scott-Bollinger.com/067FinallyLive.html</link>
     <guid>https://Scott-Bollinger.com/067FinallyLive.html</guid>
     <pubDate>Sat, 29 Dec 2017 09:00:00 +0000 </pubDate>
+    <category>IT</category>
   </item>
   <item>
     <title>DFIR Commmunity Slack Team</title>
@@ -52,6 +54,7 @@
     <link>https://Scott-Bollinger.com/065TakingLongerButLearning.html</link>
     <guid>https://Scott-Bollinger.com/065TakingLongerButLearning.html</guid>
     <pubDate>Mon, 30 Oct 2017 09:00:00 +0000 </pubDate>
+    <category>IT</category>
   </item>  
   <item>
     <title>My Road to VMware VMWorld 2017</title>
@@ -67,6 +70,7 @@
     <link>https://Scott-Bollinger.com/063TwitterTipMuteToStreamlineTimeline.html</link>
     <guid>https://Scott-Bollinger.com/063TwitterTipMuteToStreamlineTimeline.html</guid>
     <pubDate>Mon, 29 May 2017 09:00:00 +0000 </pubDate>
+    <category>IT</category>
   </item>
   <item>
     <title>Do You Love IT?</title>
@@ -74,6 +78,7 @@
     <link>https://Scott-Bollinger.com/062DoYouLoveIT.html</link>
     <guid>https://Scott-Bollinger.com/062DoYouLoveIT.html</guid>
     <pubDate>Sun, 26 Mar 2017 09:00:00 +0000 </pubDate>
+    <category>IT</category>
   </item>
   <item>
     <title>My First VMware vExpert</title>
@@ -81,6 +86,7 @@
     <link>https://Scott-Bollinger.com/061MyFirstvExpert.html</link>
     <guid>https://Scott-Bollinger.com/061MyFirstvExpert.html</guid>
     <pubDate>Sat, 18 Mar 2017 09:00:00 +0000 </pubDate>
+    <category>Virtualization</category>
   </item>
   <item>
   <title>46, Little Look Back, Long Look Forward</title>
@@ -88,6 +94,7 @@
     <link>https://Scott-Bollinger.com/060Im46LittleLookBackLongLookForw.html</link>
     <guid>https://Scott-Bollinger.com/060Im46LittleLookBackLongLookForw.html</guid>
     <pubDate>Fri, 17 Mar 2017 09:00:00 +0000 </pubDate>
+    <category>IT</category>
   </item>
   <item>
   <title>ITIL Free Training Resource</title>
@@ -95,6 +102,7 @@
     <link>https://Scott-Bollinger.com/059ITILFreeTrainingResource.html</link>
     <guid>https://Scott-Bollinger.com/059ITILFreeTrainingResource.html</guid>
     <pubDate>Tue, 28 Feb 2017 09:00:00 +0000 </pubDate>
+    <category>IT</category>
   </item>
   <item>
   <title>CCSP Crash Course Review</title>
@@ -110,6 +118,7 @@
     <link>https://Scott-Bollinger.com/057Error2CitrixCommandCenter.html</link>
     <guid>https://Scott-Bollinger.com/057Error2CitrixCommandCenter.html</guid>
     <pubDate>Mon, 06 Feb 2017 09:00:00 +0000 </pubDate>
+    <category>IT</category>
   </item>
   <item>
     <title>Setting up Internal vSwitch</title>
@@ -117,6 +126,7 @@
     <link>https://Scott-Bollinger.com/056InternalvSwitchHyperV.html</link>
     <guid>https://Scott-Bollinger.com/056InternalvSwitchHyperV.html</guid>
     <pubDate>Mon, 06 Feb 2017 09:00:00 +0000 </pubDate>
+    <category>Virtualization</category>
   </item>
   <item>
     <title>Error 3278 failed to change state of the VM</title>
@@ -124,6 +134,7 @@
     <link>https://Scott-Bollinger.com/055Error3278.html</link>
     <guid>https://Scott-Bollinger.com/055Error3278.html</guid>
     <pubDate>Fri, 03 Feb 2017 09:00:00 +0000 </pubDate>
+    <category>Virtualization</category>
   </item>
   <item>
     <title>Pre CCSP Reading List</title>
@@ -139,6 +150,7 @@
     <link>https://Scott-Bollinger.com/053VMDKtoVHDX.html</link>
     <guid>https://Scott-Bollinger.com/053VMDKtoVHDX.html</guid>
     <pubDate>Sun, 29 Jan 2017 09:00:00 +0000 </pubDate>
+    <category>Virtualization</category>
   </item>
   <item>
     <title>NetScaler 301 Class Review</title>
@@ -146,6 +158,7 @@
     <link>https://Scott-Bollinger.com/052CitrixNetScalerCNS301.html</link>
     <guid>https://Scott-Bollinger.com/052CitrixNetScalerCNS301.html</guid>
     <pubDate>Sun, 29 Jan 2017 09:00:00 +0000 </pubDate>
+    <category>Virtualization</category>
   </item>
   <item>
     <title>RSA Conference Savings</title>
@@ -153,6 +166,7 @@
     <link>https://Scott-Bollinger.com/051RSAConferenceEarlyBird.html</link>
     <guid>https://Scott-Bollinger.com/051RSAConferenceEarlyBird.html</guid>
     <pubDate>Thu, 20 Oct 2016 09:00:00 +0000 </pubDate>
+    <category>Security</category>
   </item>
   <item>
     <title>vSphere 6 Product Features - vMotion</title>
@@ -160,6 +174,7 @@
     <link>https://Scott-Bollinger.com/050vSphere6FeaturesvMotion.html</link>
     <guid>https://Scott-Bollinger.com/050vSphere6FeaturesvMotion.html</guid>
     <pubDate>Thu, 21 Sep 2016 09:00:00 +0000 </pubDate>
+    <category>Virtualization</category>
   </item>
   <item>
     <title>vSphere 6 Product Features - License Entitlement</title>
@@ -167,6 +182,7 @@
     <link>https://Scott-Bollinger.com/049vSphere6Features.html</link>
     <guid>https://Scott-Bollinger.com/049vSphere6Features.html</guid>
     <pubDate>Thu, 21 Sep 2016 09:00:00 +0000 </pubDate>
+    <category>Virtualization</category>
   </item>
   <item>
     <title>VMware vSphere Editions Demystified</title>
@@ -174,6 +190,7 @@
     <link>https://Scott-Bollinger.com/048VMWarevSphere.html</link>
     <guid>https://Scott-Bollinger.com/048VMWarevSphere.html</guid>
     <pubDate>Thu, 21 Sep 2016 09:00:00 +0000 </pubDate>
+    <category>Virtualization</category>
   </item>
   <item>
     <title>VMware Knowledge Base Explained</title>
@@ -181,6 +198,7 @@
     <link>https://Scott-Bollinger.com/047VMKBExplained.html</link>
     <guid>https://Scott-Bollinger.com/047VMKBExplained.html</guid>
     <pubDate>Wed, 14 Sep 2016 09:00:00 +0000 </pubDate>
+    <category>Virtualization</category>
   </item>
   <item>
     <title>Remove Unnecessary Hardware Devices From Your Virtual Machines</title>
@@ -188,6 +206,7 @@
     <link>https://Scott-Bollinger.com/046RemoveUnnessHW.html</link>
     <guid>https://Scott-Bollinger.com/046RemoveUnnessHW.html</guid>
     <pubDate>Fri, 09 Sep 2016 09:00:00 +0000 </pubDate>
+    <category>Virtualization</category>
   </item>
   <item>
     <title>What are the VMware Tools?</title>
@@ -195,6 +214,7 @@
     <link>https://Scott-Bollinger.com/045WhatAreVMWareTools.html</link>
     <guid>https://Scott-Bollinger.com/045WhatAreVMWareTools.html</guid>
     <pubDate>Thu, 08 Sep 2016 09:00:00 +0000 </pubDate>
+    <category>Virtualization</category>
   </item>
   <item>
     <title>VMware VMworld 2016</title>
@@ -202,6 +222,7 @@
     <link>https://Scott-Bollinger.com/044SIFHVMWorld2016Vids.html</link>
     <guid>https://Scott-Bollinger.com/044SIFHVMWorld2016Vids.html</guid>
     <pubDate>Wed, 07 Sep 2016 09:00:00 +0000 </pubDate>
+    <category>Virtualization</category>
   </item>
   <item>
     <title>Top vBlogs 2016</title>
@@ -209,6 +230,7 @@
     <link>https://Scott-Bollinger.com/043TopvBlogs2016.html</link>
     <guid>https://Scott-Bollinger.com/043TopvBlogs2016.html</guid>
     <pubDate>Tue, 06 Sep 2016 09:00:00 +0000 </pubDate>
+    <category>Virtualization</category>
   </item>
   <item>
     <title>CiscoLive 2016 Session Videos</title>
@@ -216,6 +238,7 @@
     <link>https://Scott-Bollinger.com/042InfoFireHoseCiscoLive2016.html</link>
     <guid>https://Scott-Bollinger.com/042InfoFireHoseCiscoLive2016.html</guid>
     <pubDate>Wed, 10 Aug 2016 09:00:00 +0000 </pubDate>
+    <category>Network</category>
   </item>
   <item>
     <title>E1000/VMXnet3</title>
@@ -223,6 +246,7 @@
     <link>https://Scott-Bollinger.com/012TFT-E100.html</link>
     <guid>https://Scott-Bollinger.com/012TFT-E100.html</guid>
     <pubDate>Tue, 08 Mar 2016 09:00:00 +0000 </pubDate>
+    <category>Virtualization</category>
   </item>
   <item>
     <title>VMware Certified Associate 6 - Data Center Virtualization</title>
@@ -230,6 +254,7 @@
     <link>https://Scott-Bollinger.com/011VCA6DCVCert.html</link>
     <guid>https://Scott-Bollinger.com/011VCA6DCVCert.html</guid>
     <pubDate>Sun, 03 Jan 2016 09:00:00 +0000 </pubDate>
+    <category>Virtualization</category>
   </item>
   <item>
     <title>What is Virtualization?</title>
@@ -237,6 +262,7 @@
     <link>https://Scott-Bollinger.com/010EC2Snapshots.html</link>
     <guid>https://Scott-Bollinger.com/010EC2Snapshots.html</guid>
     <pubDate>Sun, 03 Jan 2016 09:00:00 +0000 </pubDate>
+    <category>Virtualization</category>
   </item>
   <item>
     <title>EC2 Snapshots in a Snap</title>
@@ -244,6 +270,7 @@
     <link>https://virtxuallybollinger.com/010AWhatisVirtualization.html</link>
     <guid>https://virtxuallybollinger.com/010AWhatisVirtualization.html</guid>
     <pubDate>Wed, 08 Jul 2015 09:00:00 +0000 </pubDate>
+    <category>Virtualization</category>
   </item>
   <item>
     <title>What's AWS?</title>
@@ -251,6 +278,7 @@
     <link>https://Scott-Bollinger.com/009WhatIsAWS.html</link>
     <guid>https://Scott-Bollinger.com/009WhatIsAWS.html</guid>
     <pubDate>Sun, 05 Jul 2015 09:00:00 +0000 </pubDate>
+    <category>Virtualization</category>
   </item>
   <item>
     <title>What's AWS WorkSpaces?</title>
@@ -258,6 +286,7 @@
     <link>https://Scott-Bollinger.com/008AWSWorkspaces.html</link>
     <guid>https://Scott-Bollinger.com/008AWSWorkspaces.html</guid>
     <pubDate>Sun, 05 Jul 2015 09:00:00 +0000 </pubDate>
+    <category>Virtualization</category>
   </item>
   <item>
     <title>Setting up a NetScaler VPX</title>
@@ -265,6 +294,8 @@
     <link>https://Scott-Bollinger.com/007CitrixNetScalerLab2.html</link>
     <guid>https://Scott-Bollinger.com/007CitrixNetScalerLab2.html</guid>
     <pubDate>Mon, 13 Oct 2014 09:00:00 +0000 </pubDate>
+    <category>Virtualization</category>
+    <category>Network</category>    
   </item>
   <item>
     <title>Change NetScaler root password and add users</title>
@@ -272,6 +303,7 @@
     <link>https://Scott-Bollinger.com/005CitrixNetScaler.html</link>
     <guid>https://Scott-Bollinger.com/005CitrixNetScaler.html</guid>
     <pubDate>Thu, 09 Oct 2014 09:00:00 +0000 </pubDate>
+    <category></category>
   </item>
   <item>
     <title>Citrix NetScaler CCP-N Exam 1Y0-350</title>
@@ -279,6 +311,7 @@
     <link>https://Scott-Bollinger.com/004CitrixNetScalerResources.html</link>
     <guid>https://Scott-Bollinger.com/004CitrixNetScalerResources.html</guid>
     <pubDate>Sun, 05 Oct 2014 09:00:00 +0000 </pubDate>
+    <category></category>
   </item>
   <item>
     <title>Setting up my Citrix NetScaler VPX Lab Part 1</title>
@@ -286,6 +319,7 @@
     <link>https://Scott-Bollinger.com/004ASettingUpNetScalerVPX01.html</link>
     <guid>https://Scott-Bollinger.com/004ASettingUpNetScalerVPX01.html</guid>
     <pubDate>Sun, 05 Oct 2014 09:00:00 +0000 </pubDate>
+    <category></category>
   </item>
   <item>
     <title>Set initial Hostname, NetScaler IP, subnet and gateway</title>
@@ -293,6 +327,7 @@
     <link>https://Scott-Bollinger.com/003CitrixNetScaler.html</link>
     <guid>https://Scott-Bollinger.com/003CitrixNetScaler.html</guid>
     <pubDate>Fri, 03 Oct 2014 09:00:00 +0000 </pubDate>
+    <category></category>
   </item>
   <item>
     <title>Citrix Synergy 2014</title>
@@ -300,6 +335,7 @@
     <link>https://Scott-Bollinger.com/002CitrixSynergy2014.html</link>
     <guid>https://Scott-Bollinger.com/002CitrixSynergy2014.html</guid>
     <pubDate>Tue, 06 May 2014 09:00:00 +0000 </pubDate>
+    <category></category>
   </item>
   <item>
     <title>Identifying, Unmounting CDs, and Rescanning the HBAs</title>
@@ -307,6 +343,7 @@
     <link>https://Scott-Bollinger.com/001PowerCLICDs.html</link>
     <guid>https://Scott-Bollinger.com/001PowerCLICDs.html</guid>
     <pubDate>Sun, 09 Feb 2014 09:00:00 +0000 </pubDate>
+    <category>Virtualization</category>
   </item>
     <item>
     <title>Introducing Sniffer Fun</title>
@@ -314,6 +351,7 @@
     <link>https://010Scott-Bollinger.com.html</link>
     <guid>https://010Scott-Bollinger.com.html</guid>
     <pubDate>Sat, 01 Jul 2017 09:00:00 +0000 </pubDate>
+    <category></category>
   </item>
    <item>
     <title>CiscoLive 2016 Session Videos</title>
@@ -321,6 +359,7 @@
     <link>https://009InfoFireHoseCiscoLive2016.html</link>
     <guid>https://009InfoFireHoseCiscoLive2016.html</guid>
     <pubDate>Wed, 10 Aug 2016 09:00:00 +0000 </pubDate>
+    <category></category>
   </item>
    <item>
     <title>Wireshark Certified Network Analyst</title>
@@ -328,6 +367,7 @@
     <link>https://008WiresharkClass.html</link>
     <guid>https://008WiresharkClass.html</guid>
     <pubDate>Sat, 21 Feb 2015 09:00:00 +0000 </pubDate>
+    <category></category>
   </item>
    <item>
     <title>Packets don't lie</title>
@@ -335,6 +375,7 @@
     <link>https://007PacketsDontLie.html</link>
     <guid>https://007PacketsDontLie.html</guid>
     <pubDate>Sat, 21 Feb 2015 09:00:00 +0000 </pubDate>
+    <category></category>
   </item>
    <item>
     <title>List Troubleshooting Tasks for the Network Analyst</title>
@@ -342,6 +383,7 @@
     <link>https://006Wireshark102.11.2.html</link>
     <guid>https://006Wireshark102.11.2.html</guid>
     <pubDate>Sat, 21 Feb 2015 09:00:00 +0000 </pubDate>
+    <category></category>
   </item>
   <item>
     <title>Laura Chappell Wireshark Videos</title>
@@ -349,6 +391,7 @@
     <link>https://005WiresharkLauraChappell.html</link>
     <guid>https://005WiresharkLauraChappell.html</guid>
     <pubDate>Sat, 21 Feb 2015 09:00:00 +0000 </pubDate>
+    <category></category>
   </item>
   <item>
     <title>Define the Purpose of Network Analysis</title>
@@ -356,6 +399,7 @@
     <link>https://004Wireshark102.11.1.html</link>
     <guid>https://004Wireshark102.11.1.html</guid>
     <pubDate>Sat, 21 Feb 2015 09:00:00 +0000 </pubDate>
+    <category></category>
   </item>
   <item>
     <title>What is Latency?</title>
@@ -363,6 +407,7 @@
     <link>https://003WhatisLatency.html</link>
     <guid>https://003WhatisLatency.html</guid>
     <pubDate>Wed, 18 Feb 2015 09:00:00 +0000 </pubDate>
+    <category></category>
   </item>
   <item>
     <title>What is NTP?</title>
@@ -370,6 +415,7 @@
     <link>https://002WhatisNTP.html</link>
     <guid>https://002WhatisNTP.html</guid>
     <pubDate>Wed, 14 Jan 2015 09:00:00 +0000 </pubDate>
+    <category></category>
   </item>
   <item>
     <title>What is a Network?</title>
@@ -377,6 +423,7 @@
     <link>https://001WhatisaNetwork.html</link>
     <guid>https://001WhatisaNetwork.html</guid>
     <pubDate>Thu, 09 Oct 2014 09:00:00 +0000 </pubDate>
+    <category></category>
   </item>
     <item>
     <title>Introducing Papa Shell</title>
@@ -384,6 +431,7 @@
     <link>https://Scott-Bollinger.com/006PapaShell.html</link>
     <guid>https://Scott-Bollinger.com/006PapaShell.html</guid>
     <pubDate>Sat, 01 Jul 2017 09:00:00 +0000 </pubDate>
+    <category></category>
   </item>
   <item>
     <title>RSA Conference CCSP Crash Course</title>
@@ -391,6 +439,7 @@
     <link>https://Scott-Bollinger.com/005RSAConferenceCCSPCourse.html</link>
     <guid>https://Scott-Bollinger.com/005RSAConferenceCCSPCourse.html</guid>
     <pubDate>Tue, 14 Feb 2017 09:00:00 +0000 </pubDate>
+    <category></category>
   </item>
   <item>
     <title>CCSP Reading List</title>
@@ -398,6 +447,7 @@
     <link>https://Scott-Bollinger.com/004PreRSAReadingList.html</link>
     <guid>https://Scott-Bollinger.com/004PreRSAReadingList.html</guid>
     <pubDate>Mon, 30 Jan 2017 09:00:00 +0000 </pubDate>
+    <category></category>
   </item>
   <item>
     <title>RSA Conference Savings</title>
@@ -405,6 +455,7 @@
     <link>https://Scott-Bollinger.com/003RSAConferenceEarlyBird.html</link>
     <guid>https://Scott-Bollinger.com/003RSAConferenceEarlyBird.html</guid>
     <pubDate>Thu, 20 Oct 2016 09:00:00 +0000 </pubDate>
+    <category></category>
   </item>
   <item>
     <title>Brakeing Down Security Podcast</title>
@@ -412,6 +463,7 @@
     <link>https://Scott-Bollinger.com/002SIFHBrakeingDownSecurityPodcast.html</link>
     <guid>https://Scott-Bollinger.com/002SIFHBrakeingDownSecurityPodcast.html</guid>
     <pubDate>Sun, 24 Jan 2016 09:00:00 +0000 </pubDate>
+    <category></category>
   </item>
   <item>
     <title>SANS Daily Stormcast Podcast</title>
@@ -419,6 +471,7 @@
     <link>https://Scott-Bollinger.com/001SIFHSansDailyStormcasts.html</link>
     <guid>https://Scott-Bollinger.com/001SIFHSansDailyStormcasts.html</guid>
     <pubDate>Sun, 03 Jan 2016 09:00:00 +0000 </pubDate>
+    <category></category>
   </item>
   <item>
     <title>Python Learning Resources Quick List</title>
@@ -426,6 +479,7 @@
     <link>https://Scott-Bollinger.com/047PythonLearningResources.html</link>
     <guid>https://Scott-Bollinger.com/047PythonLearningResources.html</guid>
     <pubDate>Fri, 29 Dec 2017 12:00:00 +0000 </pubDate>
+    <category></category>
   </item>
    <item>
     <title>Finally Live, with Only Two Days to Spare</title>
@@ -433,6 +487,7 @@
     <link>https://Scott-Bollinger.com/046FinallyLive.html</link>
     <guid>https://Scott-Bollinger.com/046FinallyLive.html</guid>
     <pubDate>Fri, 29 Dec 2017 09:00:00 +0000 </pubDate>
+    <category></category>
   </item>
    <item>
     <title>Taking longer to migrate websites, but I’m learning</title>
@@ -440,6 +495,7 @@
     <link>https://Scott-Bollinger.com/045TakingLongerButLearning.html</link>
     <guid>https://Scott-Bollinger.com/045TakingLongerButLearning.html</guid>
     <pubDate>Mon, 30 Oct 2017 19:00:00 +0000 </pubDate>
+    <category></category>
   </item>
   <item>
     <title>Introducing ITTalk Today</title>
@@ -447,6 +503,7 @@
     <link>https://Scott-Bollinger.com/044NewHomeForIT.html</link>
     <guid>https://Scott-Bollinger.com/044NewHomeForIT.html</guid>
     <pubDate>Fri, 01 Sep 2017 09:00:00 +0000 </pubDate>
+    <category></category>
   </item>
   <item>
     <title>Twitter Tip: Using Mute to Streamline your Twitter Timeline</title>
@@ -454,6 +511,7 @@
     <link>https://Scott-Bollinger.com/043TwitterTipMuteToStreamlineTimeline.html</link>
     <guid>https://Scott-Bollinger.com/043TwitterTipMuteToStreamlineTimeline.html</guid>
     <pubDate>Mon, 29 May 2017 09:00:00 +0000 </pubDate>
+    <category></category>
   </item>
   <item>
     <title>Do you love IT?</title>
@@ -461,6 +519,7 @@
     <link>https://Scott-Bollinger.com/042DoYouLoveIT.html</link>
     <guid>https://Scott-Bollinger.com/042DoYouLoveIT.html</guid>
     <pubDate>Sun, 26 Mar 2017 09:00:00 +0000 </pubDate>
+    <category></category>
   </item>
   <item>
     <title>46, Little Look Back, Long Look Forward</title>
@@ -468,6 +527,7 @@
     <link>https://Scott-Bollinger.com/041Im46LittleLookBackLongLookForw.html</link>
     <guid>https://Scott-Bollinger.com/041Im46LittleLookBackLongLookForw.html</guid>
     <pubDate>Fri, 17 Mar 2017 09:00:00 +0000 </pubDate>
+    <category></category>
   </item>
   <item>
     <title>ITIL Free Training Resource</title>
@@ -475,6 +535,7 @@
     <link>https://Scott-Bollinger.com/040ITILFreeTrainingResource.html</link>
     <guid>https://Scott-Bollinger.com/040ITILFreeTrainingResource.html</guid>
     <pubDate>Tue, 28 Feb 2017 09:00:00 +0000 </pubDate>
+    <category></category>
   </item>
   <item>
     <title>Change Management</title>
@@ -482,6 +543,7 @@
     <link>https://Scott-Bollinger.com/036ChangeManagement.html</link>
     <guid>https://Scott-Bollinger.com/036ChangeManagement.html</guid>
     <pubDate>Tue, 03 Aug 2016 09:00:00 +0000 </pubDate>
+    <category></category>
   </item>
   <item>
     <title>2016...50% done loading</title>
@@ -489,6 +551,7 @@
     <link>https://Scott-Bollinger.com/035-201650PercentDone.html</link>
     <guid>https://Scott-Bollinger.com/035-201650PercentDone.html</guid>
     <pubDate>Sun, 29 May 2016 09:00:00 +0000 </pubDate>
+    <category></category>
   </item>
   <item>
     <title>Where to Even Start</title>
@@ -496,6 +559,7 @@
     <link>https://Scott-Bollinger.com/034AssemblyAdventures01WhereToStart.html</link>
     <guid>https://Scott-Bollinger.com/034AssemblyAdventures01WhereToStart.html</guid>
     <pubDate>Fri, 08 Apr 2016 09:00:00 +0000 </pubDate>
+    <category></category>
   </item>
   <item>
     <title>Sparks of Inspiration</title>
@@ -503,6 +567,7 @@
     <link>https://Scott-Bollinger.com/033SparksOfInspirationWhatIsInspiration.html</link>
     <guid>https://Scott-Bollinger.com/033SparksOfInspirationWhatIsInspiration.html</guid>
     <pubDate>Fri, 08 Apr 2016 09:00:00 +0000 </pubDate>
+    <category></category>
   </item>
   <item>
     <title>How To Get The Last Boot Time In Windows</title>
@@ -510,6 +575,7 @@
     <link>https://Scott-Bollinger.com/032HowToGetLastBootTimeWindows.html</link>
     <guid>https://Scott-Bollinger.com/032HowToGetLastBootTimeWindows.html</guid>
     <pubDate>Wed, 09 Mar 2016 09:00:00 +0000 </pubDate>
+    <category></category>
   </item>
   <item>
     <title>A Sip from the infoFireHose</title>
@@ -517,6 +583,7 @@
     <link>https://Scott-Bollinger.com/029ASipfromtheInfoFireHose.html</link>
     <guid>https://Scott-Bollinger.com/029ASipfromtheInfoFireHose.html</guid>
     <pubDate>Sat, 02 Jan 2016 09:00:00 +0000 </pubDate>
+    <category></category>
   </item>
   <item>
     <title>T568A and B Cable Termination</title>
@@ -524,6 +591,7 @@
     <link>https://Scott-Bollinger.com/028T568AandBCableTermination.html</link>
     <guid>https://Scott-Bollinger.com/028T568AandBCableTermination.html</guid>
     <pubDate>Fri, 01 Jan 2016 09:00:00 +0000 </pubDate>
+    <category></category>
   </item>
   <item>
     <title>Happy New Year 2015</title>
@@ -531,6 +599,7 @@
     <link>https://Scott-Bollinger.com/027HappyNewYearsandaNewHome.html</link>
     <guid>https://Scott-Bollinger.com/027HappyNewYearsandaNewHome.html</guid>
     <pubDate>Thu, 31 Dec 2015 09:00:00 +0000 </pubDate>
+    <category></category>
   </item>
   <item>
     <title>Local User Groups and Meetups</title>
@@ -538,6 +607,7 @@
     <link>https://Scott-Bollinger.com/024LocalUserGroupsandMeetings.html</link>
     <guid>https://Scott-Bollinger.com/024LocalUserGroupsandMeetings.html</guid>
     <pubDate>Mon, 19 Oct 2015 09:00:00 +0000 </pubDate>
+    <category></category>
   </item>
   <item>
     <title>What is WSUS?</title>
@@ -545,6 +615,7 @@
     <link>https://Scott-Bollinger.com/023WhatisWSUS.html</link>
     <guid>https://Scott-Bollinger.com/023WhatisWSUS.html</guid>
     <pubDate>Tue, 19 Oct 2015 09:00:00 +0000 </pubDate>
+    <category></category>
   </item>
   <item>
     <title>My Pluralsight Review</title>
@@ -552,6 +623,7 @@
     <link>https://Scott-Bollinger.com/021MyPluralsightReviewAGeekCandyStore.html</link>
     <guid>https://Scott-Bollinger.com/021MyPluralsightReviewAGeekCandyStore.html</guid>
     <pubDate>Fri, 10 Jul 2015 09:00:00 +0000 </pubDate>
+    <category></category>
   </item>
   <item>
     <title>Learning New Things</title>
@@ -559,6 +631,7 @@
     <link>https://Scott-Bollinger.com/020LearningNewThingsandEnjoyingIT.html</link>
     <guid>https://Scott-Bollinger.com/020LearningNewThingsandEnjoyingIT.html</guid>
     <pubDate>Sat, 04 Jul 2015 09:00:00 +0000 </pubDate>
+    <category></category>
   </item>
   <item>
     <title>What Blogging is for Me</title>
@@ -566,6 +639,7 @@
     <link>https://Scott-Bollinger.com/019WhatBloggingisforme.html</link>
     <guid>https://Scott-Bollinger.com/019WhatBloggingisforme.html</guid>
     <pubDate>Wed, 18 Feb 2015 09:00:00 +0000 </pubDate>
+    <category></category>
   </item>
   <item>
     <title>Making the Computer Speak</title>
@@ -573,6 +647,7 @@
     <link>https://Scott-Bollinger.com/015MakeComputerSpeakWithPowerShell.html</link>
     <guid>https://Scott-Bollinger.com/015MakeComputerSpeakWithPowerShell.html</guid>
     <pubDate>Fri, 02 Jan 2015 09:00:00 +0000 </pubDate>
+    <category></category>
   </item>
   <item>
     <title>Is PowerShell Installed?</title>
@@ -580,6 +655,7 @@
     <link>https://Scott-Bollinger.com/012HowToTellIfPowerShellIsInstalled.html</link>
     <guid>https://Scott-Bollinger.com/012HowToTellIfPowerShellIsInstalled.html</guid>
     <pubDate>Fri, 02 Jan 2015 09:00:00 +0000 </pubDate>
+    <category></category>
   </item>
   <item>
     <title>Happy New Year</title>
@@ -587,6 +663,7 @@
     <link>https://Scott-Bollinger.com/011HappyNewYear.html</link>
     <guid>https://Scott-Bollinger.com/011HappyNewYear.html</guid>
     <pubDate>Fri, 02 Jan 2015 09:00:00 +0000 </pubDate>
+    <category></category>
   </item>
   <item>
     <title>What is PowerShell?</title>
@@ -594,6 +671,7 @@
     <link>https://Scott-Bollinger.com/</link>
     <guid>https://Scott-Bollinger.com/</guid>
     <pubDate>Thu, 09 Oct 2014 09:00:00 +0000 </pubDate>
+    <category></category>
   </item>
   <item>
     <title>Setting up my Blog</title>
@@ -601,6 +679,7 @@
     <link>https://Scott-Bollinger.com/001SettingUpMyBlogv1.html</link>
     <guid>https://Scott-Bollinger.com/001SettingUpMyBlogv1.html</guid>
     <pubDate>Thu, 09 Oct 2014 09:00:00 +0000 </pubDate>
+    <category></category>
   </item>
 </channel>
 </rss>
