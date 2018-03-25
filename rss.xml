@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel>
-  <title>Scott-Bollinger.com RSS Virtualization Feed A Collection of My Writings, Notes, and Thoughts by Scott Bollinger @kfalconspb</title>
-  <description>This is the RSS Virtualization Feed For Scott-Bollinger.com A Collection Of My Writings, Notes, And Thoughts By Scott Bollinger @kfalconspb</description>
+  <title>Scott-Bollinger.com RSS Feed A Collection Of My Writings, Notes, And Thoughts on Network, Security, Virtualization, and the Business of IT by Scott Bollinger / @kfalconspb</title>
+  <description>This is the RSS feed for Scott-Bollinger.com A Collection Of My Writings, Notes, And Thoughts on Network, Security, Virtualization, and the Business of IT by Scott Bollinger / @kfalconspb</description>
   <link>https://scott-bollinger.com/index.html</link>
   <atom:link href="https://scott-bollinger/rss.xml" rel="self" type="application/rss+xml" />
+  <category>IT</category>
   <lastBuildDate>Tue, 20 Mar 2018 00:09:00 +0000 </lastBuildDate>
   <pubDate>Tue, 20 Mar 2018 09:00:00 +0000 </pubDate>
   <item>
@@ -13,6 +14,7 @@
     <link>https://Scott-Bollinger.com/070VeeamON2018.html</link>
     <guid>https://Scott-Bollinger.com/070VeeamON2018.html</guid>
     <pubDate>Thu, 15 Mar 2018 09:00:00 +0000 </pubDate>
+    <category>Virtualization</category>
   </item>
     <item>
     <title>VeeamON Exclusive Blogger</title>
@@ -20,27 +22,7 @@
     <link>https://Scott-Bollinger.com/029VeeamONExclusive.html</link>
     <guid>https://Scott-Bollinger.com/029VeeamONExclusive.html</guid>
     <pubDate>Sat, 24 Feb 2018 09:00:00 +0000 </pubDate>
-  </item>
-<channel>
-  <title>Scott-Bollinger.com RSS Feed A Collection of My Writings, Notes, and Thoughts by Scott Bollinger @kfalconspb</title>
-  <description>This is the RSS feed for Scott-Bollinger.com A Collection of My Writings, Notes, and Thoughts by Scott Bollinger @kfalconspb</description>
-  <link>https://scott-bollinger.com/index.html</link>
-  <atom:link href="https://scott-bollinger/rss.xml" rel="self" type="application/rss+xml" />
-  <lastBuildDate>Tue, 20 Mar 2018 00:09:00 +0000 </lastBuildDate>
-  <pubDate>Tue, 20 Mar 2018 09:00:00 +0000 </pubDate>
-  <item>
-    <title>VeeamON 2018</title>
-    <description>Alright, Who's going?</description>
-    <link>https://Scott-Bollinger.com/070VeeamON2018.html</link>
-    <guid>https://Scott-Bollinger.com/070VeeamON2018.html</guid>
-    <pubDate>Thu, 15 Mar 2018 09:00:00 +0000 </pubDate>
-  </item>
-    <item>
-    <title>VeeamON Exclusive Blogger</title>
-    <description>Excited and Honored</description>
-    <link>https://Scott-Bollinger.com/029VeeamONExclusive.html</link>
-    <guid>https://Scott-Bollinger.com/029VeeamONExclusive.html</guid>
-    <pubDate>Sat, 24 Feb 2018 09:00:00 +0000 </pubDate>
+    <category>Virtualization</category>    
   </item>
   <item>
     <title>Python Learning Resources</title>
@@ -62,6 +44,7 @@
     <link>https://Scott-Bollinger.com/066iFH-DFIRSlack.html</link>
     <guid>https://Scott-Bollinger.com/066iFH-DFIRSlack.html</guid>
     <pubDate>Fri, 17 Nov 2017 09:00:00 +0000 </pubDate>
+    <category>Security</category>
   </item>
   <item>
     <title>Taking Longer But Learning</title>
@@ -76,6 +59,7 @@
     <link>https://Scott-Bollinger.com/064RoadtoVMWorld2017.html</link>
     <guid>https://Scott-Bollinger.com/064RoadtoVMWorld2017.html</guid>
     <pubDate>Mon, 28 Aug 2017 09:00:00 +0000 </pubDate>
+    <category>Virtualization</category>    
   </item>
   <item>
     <title>Using Mute to Streamline Your Twitter Timeline</title>
@@ -115,6 +99,7 @@
     <link>https://Scott-Bollinger.com/058RSAConferenceCCSPCourse.html</link>
     <guid>https://Scott-Bollinger.com/058RSAConferenceCCSPCourse.html</guid>
     <pubDate>Tue, 14 Feb 2017 09:00:00 +0000 </pubDate>
+    <category>Security</category>
   </item>
     <item>
     <title>Windows Error 2 While loading Java</title>
@@ -143,6 +128,7 @@
     <link>https://Scott-Bollinger.com/054PreRSAReadingList.html</link>
     <guid>https://Scott-Bollinger.com/054PreRSAReadingList.html</guid>
     <pubDate>Mon, 30 Jan 2017 09:00:00 +0000 </pubDate>
+    <category>Security</category>
   </item>
   <item>
     <title>VMware VMDK to Hyper-V VHDX from OVA/OVF</title>
