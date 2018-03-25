@@ -1,6 +1,27 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel>
+  <title>Scott-Bollinger.com RSS Virtualization Feed A Collection of My Writings, Notes, and Thoughts by Scott Bollinger @kfalconspb</title>
+  <description>This is the RSS Virtualization Feed For Scott-Bollinger.com A Collection Of My Writings, Notes, And Thoughts By Scott Bollinger @kfalconspb</description>
+  <link>https://scott-bollinger.com/index.html</link>
+  <atom:link href="https://scott-bollinger/rss.xml" rel="self" type="application/rss+xml" />
+  <lastBuildDate>Tue, 20 Mar 2018 00:09:00 +0000 </lastBuildDate>
+  <pubDate>Tue, 20 Mar 2018 09:00:00 +0000 </pubDate>
+  <item>
+    <title>VeeamON 2018</title>
+    <description>Alright, Who's going?</description>
+    <link>https://Scott-Bollinger.com/070VeeamON2018.html</link>
+    <guid>https://Scott-Bollinger.com/070VeeamON2018.html</guid>
+    <pubDate>Thu, 15 Mar 2018 09:00:00 +0000 </pubDate>
+  </item>
+    <item>
+    <title>VeeamON Exclusive Blogger</title>
+    <description>Excited and Honored</description>
+    <link>https://Scott-Bollinger.com/029VeeamONExclusive.html</link>
+    <guid>https://Scott-Bollinger.com/029VeeamONExclusive.html</guid>
+    <pubDate>Sat, 24 Feb 2018 09:00:00 +0000 </pubDate>
+  </item>
+<channel>
   <title>Scott-Bollinger.com RSS Feed A Collection of My Writings, Notes, and Thoughts by Scott Bollinger @kfalconspb</title>
   <description>This is the RSS feed for Scott-Bollinger.com A Collection of My Writings, Notes, and Thoughts by Scott Bollinger @kfalconspb</description>
   <link>https://scott-bollinger.com/index.html</link>
