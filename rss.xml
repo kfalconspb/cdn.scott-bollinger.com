@@ -6,8 +6,16 @@
   <link>https://scott-bollinger.com/index.html</link>
   <atom:link href="https://scott-bollinger/rss.xml" rel="self" type="application/rss+xml" />
   <category>IT</category>
-  <lastBuildDate>Tue, 20 Mar 2018 00:09:00 +0000 </lastBuildDate>
-  <pubDate>Tue, 20 Mar 2018 09:00:00 +0000 </pubDate>
+  <lastBuildDate>Fri, 06 Apr 2018 00:09:00 +0000 </lastBuildDate>
+  <pubDate>Fri, 06 Apr 2018 09:00:00 +0000 </pubDate>
+  <item>
+    <title>RSA Conference 2018, Are You Going?</title>
+    <description>RSA Conference 2018, Are You Going?</description>
+    <link>https://Scott-Bollinger.com/071RSAConference2018.html</link>
+    <guid>https://Scott-Bollinger.com/071RSAConference2018.html</guid>
+    <pubDate>Thu, 05 Apr 2018 09:00:00 +0000 </pubDate>
+    <category>Security</category>
+  </item>
   <item>
     <title>VeeamON 2018</title>
     <description>Alright, Who's going?</description>
