@@ -10,8 +10,7 @@ So, for no spoilers, only view html referenced content.
 
 File Prefixes
 0299 and lower - Published
-33XX - 34XX - On Deck - Actively Working
-99XX - Ideas - Draft
+99XX - Ideas - Drafts
 
 Thanks,
 
