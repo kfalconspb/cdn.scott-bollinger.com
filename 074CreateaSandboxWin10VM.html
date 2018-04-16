@@ -78,11 +78,17 @@
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                     <h3 class="section-heading">What Is A Sandbox</h3>
-                    <p>What</p>
+                    <p>A sandbox, in the physical world, is an environment that you have controls. For example the sandbox may have a raised border to keep the sand separate from surrounding dirt. You may choice a cover to keep weather and wildlife. Its placement was probably also a consideration, in a more secure location verse out by a busy roadway. You can keep your shovel and bucket at hand to use. All else fails, the sand could be dumped out and new sand can be brought in.</p>
+                    <p>Like it's namesake in the physical world a sandbox virtual machine is also a controlled environment. It's borders, it's access to the network and other devices can be partitioned off and kept separate. The tools you need are already installed and kept available for use regardless if isolated from the network. Best of all if all else fails, you can restart the virtual machine in a known good configuration or saved point in time.</p>
                     <h3 class="section-heading">Why Use A Sandbox</h3>
-                    <p>Why</p>
+                    <p>Why use a separate virtual environment as a sandbox? Your laptop is backed up and updated. You could restore it or even reinstall if needed. The answer is for security and ease of use. You can have your normal working environment and daily tools and data, but a separate environment, the sandboxes virtual machine to do more riskier things. Browse risky sites, open attachments without the concern the ransomeware may encrypt your files, and you need to spend the next few hours figuring out what needs restored and if there is additional infection needing to be cleaned up</p>
+                    <h3 class="section-heading">How doesn't work</h3>
+                    <p>The process is simple to set up. The first thing needed is to install a hypervisor to do the virtualization in. Which we have already done here.</p>
+                    <p>next we need to create to virtual machine and install the guest OS. In this example I am installing Windows 10, installed needed tools, install updates for the OS and install applications. And make ness configuration tweaks to setting you like to work.</p>
+                    <p>the next process we do is the actual control of the environment once everything is installed, updated, and configured to your liking, a snapshot is taken of the virtual machine, which is a point in time save of the Environment that is reverted to on reboot. Upon revert to this saved snapshot you know if it back to a particular working state,  not infected or compromised by anything that may have been done or executed</p>
+                    <p>periodically updates for both the os and applications will be needed or you may elect to install another tool. At this point the only thing needed to be done is to revert to the snapshot and then proceed to I stal and  updates as needed. When complete and take another snapshot and make sure the setting to vert is select to the most recent snapshot taken after the chNges.</p>
                     <h3 class="section-heading">Create The Sandbox</h3>
-                    <p>Create a Windows 10 Sandbox VM on VMware Workstation 14.</p>      
+                    <p>in this section I have created a video that may be used to follow along while we create a Windows 10 VM, install the OS, a couple of common tools and updates. The. I show you how to take a snapshot and set the Serra g to revert to that snapshot upon reboot.</p>      
                     <p><a href="https://www.youtube.com/embed/A3uBq4ksbqM" target="_blank"><img class="img-responsive" src="https://scott-bollinger.com/img/sandboxrevert.jpg" alt="Creating a Sandbox VM on VMware Workstation 14 Video" />Creating a Sandbox VM on VMware Workstation 14 Video</a></p>
                    
                     <p><a href="about.html">Scott Bollinger</a> / <a href="https://twitter.com/kfalconspb" target="_blank">@kfalconspb</a></p>
