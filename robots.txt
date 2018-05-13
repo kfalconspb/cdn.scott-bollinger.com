@@ -1,5 +1,5 @@
 User-agent: *
 Disallow: /SuperSecretPlans/
 Disallow: /MeaningOfLife/
-Disallow: /nAminGStanDarDDocuments/
-Disallow: 
+Disallow: /nAminGStanDarDDocument/
+Disallow:  
