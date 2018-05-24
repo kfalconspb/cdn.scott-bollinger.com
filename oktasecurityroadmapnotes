@@ -1,0 +1,60 @@
+Okta security roadmap 
+Alex Bovee
+Sami Laine
+
+Adaptive authentication
+Geolocation 
+Ip
+Device
+
+Addition mfa centric integraTRIONS
+Netscaler , vmware . look up
+
+
+May not know your need these. 
+Behavior detection
+Policies based on geo, ip, or device
+
+Detect if user is coming from a vpn or proxy
+
+Trade offs between usability , security , and deploy ability
+
+Security everything
+
+Four categories of integrations 
+
+On prem idps Microsoft , oracle, adfs, ping
+Vpn network based fortunes, Cisco, palalto
+Independent sw vendors epic 
+Authentication
+
+mfa olnlhy developer experience toolkit, adding mfa to application openIDConnect support ODC
+
+Fortinet integration coming soon
+
+Organization must balance security with usability
+
+Different factors have diff attributes and usability
+
+Support generic factors
+
+Add custom providers for okta push verify Sdk experience - do push in a branded way. 
+
+Wevauthn and Fido
+
+
+3rd party mfa solutions duo, 
+
+Support custom factors experience 
+
+Adaptive authentication
+Okta contextual access management
+Contextual response 
+
+Okta threat insight aggregated data powering security to make risk score, and drive apdaptive response capability 
+
+
+Response use authentication factors of choice 
+Factor sequencing 
+
+
