@@ -6,8 +6,16 @@
   <link>https://scott-bollinger.com/index.html</link>
   <atom:link href="https://scott-bollinger/rss.xml" rel="self" type="application/rss+xml" />
   <category>IT</category>
-  <lastBuildDate>Sun, 13 May 2018 00:09:00 +0000 </lastBuildDate>
-  <pubDate>Sun, 13 May 2018 09:00:00 +0000 </pubDate>
+  <lastBuildDate>Fri, 25 May 2018 00:09:00 +0000 </lastBuildDate>
+  <pubDate>Fri, 25 May 2018 09:00:00 +0000 </pubDate>
+  <item>
+    <title></title>
+    <description></description>
+    <link>https://Scott-Bollinger.com/077Veeam.html</link>
+    <guid>https://Scott-Bollinger.com/077Veeam.html</guid>
+    <pubDate>Fri, 25 May 2018 09:00:00 +0000 </pubDate>
+    <category>Virtualization</category>
+    </item>
   <item>
     <title>Create a Windows 10 Sandbox VM on VMware Workstation 14</title>
     <description>Create a Windows 10 Sandbox VM on VMware Workstation 14</description>
