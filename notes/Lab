@@ -1,0 +1,122 @@
+
+Physical
+-Ubiquiti USM, Cloud Key, Managed 1G POE Switch, AP Pro
+--usm setup
+--cloudkey setup
+--managed switch setup
+--ap pro setup
+
+-WiFi Pinapple Tetra
+
+-1900AC WAP OpenxXX BSSID TestWifi 192.168.1.
+Wep Lab
+Wpa2
+Wpaent 
+
+-Synology NFS, Tftp, VPN ,NAS, Docker, git, SYN01 192.168.1.11
+
+-Intel NUC intel prov 192.168.1.90 - VMware ESX 6.7 192.168.1.91
+
+-AlienWare m18x r2 GPU - hashcat Ubuntu 18.04 Tarbal 192.168.1.
+
+-Yoga 900 - Ubuntu 18.04 Knat 192.168.1.
+
+-RaspberryPi 3 kali BLE, Sniffer nic, 192.168.1.
+Portable attack box lab 
+Hw list
+Kali On card for pi
+
+-RaspberryPi 3 DNS to 1.1.1.1 filter with Pihole 192.168.1.53
+
+-RaspberryPi 2B+ Raspbian 192.168.1.
+
+-iPad Pro Air 12.9
+
+Microsoft Lab
+
+-Domain Controllers, DNS, WSUS, DSCerts LabDC01 192.168.1.41 LabDC02 192.168.1.42
+
+-File Servers LabFS01 192.168.1. LabFS02 192.168.1.
+
+-SQL Servers LabSQL01 192.168.1. LabSQL02 192.168.1.
+
+-HyperV Servers LabHV01 192.168.1. LabHV02 192.168.1. LabHV03 192.168.1.
+
+Citrix Lab
+
+-NetScalers LabNS01 192.168.1. LabNS02 192.168.1.
+
+-XAXD Servers LabXDXA01 192.168.1. LabXDXA02 192.168.1.
+
+-NetScaler MAS LabMAS. 192.168.1.
+
+-Xen Server
+
+VMware Lab
+
+-ESX Servers LabESX01 192.168.1. LabESX02 192.168.1. 
+LabESX03 192.168.1.
+
+-VCSA 192.168.1.70
+
+Splunk Lab
+
+-LabSplunk01 192.168.1.
+--What's Splunk
+--Dl and install
+
+Security Lab
+
+-AzriaLabs - qemu Arm ASC and Reversing environment
+
+-metasploitable2
+
+-Kali
+
+Leavitt
+
+-Leavitt - Work Windows vm 192.168.1.
+
+-ScottLab LGUT 
+
+Networking Lab
+
+-GNS3 - Routing and Switching Environment
+
+-Fortinet VM
+
+Linux/BSD Lab
+
+-CentOS Virtualization Lab LabCentOS01 192.168.1. LabCentOS02 192.168.1. LabCentOS03 192.168.1.
+
+-Arch Linux
+
+-Ubuntu
+
+-FreeBSD
+
+Apple Lab
+
+-ESX 6.7 on MAC Mini test to see if can run apple os on hw as vm
+
+Veeam Lab
+
+-LabVeeam01 192.168.1. LabVeeam02 192.168.1.
+
+Puppet Lab
+-
+
+Solarwinds Lab
+
+-Orion 
+
+Ravello Lab Online
+
+O365 Lab
+
+
+
+
+
+
+
