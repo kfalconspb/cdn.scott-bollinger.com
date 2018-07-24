@@ -80,79 +80,73 @@
                     <h3 class="section-heading">For Lab Only, Not for Production</h3>
                     <p>Running a nested ESXi server, on another ESXi server, is definitely not supported by VMware, but it is an excellent way to experiment, and explore setting up a VMware Environment.</p>
                     <p></p>
-                    <p></p>
+                    <p>Since the VCSA isn't installed, log into the Host's HTML5 client and select Create VM</p>
                     <img class="img-responsive" src="https://scott-bollinger.com/img/087VMwareLabNestedESXInstall01.png" alt="" title="" />
-                    <p></p>
+                    <p>Create a new virtual machine. Click Next</p>
                     <img class="img-responsive" src="https://scott-bollinger.com/img/087VMwareLabNestedESXInstall02.png" alt="" title="" />
-                    <p></p>
+                    <p>Assign a name, select compatibility, OS Family, OS Version, and click Next</p>
                     <img class="img-responsive" src="https://scott-bollinger.com/img/087VMwareLabNestedESXInstall03.png" alt="" title="" />
-                    <p></p>
+                    <p>Select the datastore to store the VM</p>
                     <img class="img-responsive" src="https://scott-bollinger.com/img/087VMwareLabNestedESXInstall04.png" alt="" title="" />
-                    <p></p>
+                    <p>Make any Guest resource changes as desired. Change CD/DVD To Datastore ISO</p>
                     <img class="img-responsive" src="https://scott-bollinger.com/img/087VMwareLabNestedESXInstall05.png" alt="" title="" />
-                    <p></p>
+                    <p>and navigate to the location where the ESXi Install ISO is stored</p>
                     <img class="img-responsive" src="https://scott-bollinger.com/img/087VMwareLabNestedESXInstall06.png" alt="" title="" />
-                    <p></p>
+                    <p>Click Next</p>
                     <img class="img-responsive" src="https://scott-bollinger.com/img/087VMwareLabNestedESXInstall07.png" alt="" title="" />
-                    <p></p>
+                    <p>Click Finish</p>
                     <img class="img-responsive" src="https://scott-bollinger.com/img/087VMwareLabNestedESXInstall08.png" alt="" title="" />
-                    <p></p>
+                    <p>Power on the VM, and click on the little remote window to open a remote console tab</p>
                     <img class="img-responsive" src="https://scott-bollinger.com/img/087VMwareLabNestedESXInstall09.png" alt="" title="" />
-                    <p></p>
+                    <p>ESXi should be seen booting</p>
                     <img class="img-responsive" src="https://scott-bollinger.com/img/087VMwareLabNestedESXInstall10.png" alt="" title="" />
-                    <p></p>
                     <img class="img-responsive" src="https://scott-bollinger.com/img/087VMwareLabNestedESXInstall11.png" alt="" title="" />
-                    <p></p>
+                    <p>Press Enter to continue</p>
                     <img class="img-responsive" src="https://scott-bollinger.com/img/087VMwareLabNestedESXInstall12.png" alt="" title="" />
-                    <p></p>
+                    <p>Press F11 to Accept the EULA</p>
                     <img class="img-responsive" src="https://scott-bollinger.com/img/087VMwareLabNestedESXInstall13.png" alt="" title="" />
-                    <p></p>
+                    <p>The install should search and find the hard drive, select it, and press Enter to continue</p>
                     <img class="img-responsive" src="https://scott-bollinger.com/img/087VMwareLabNestedESXInstall14.png" alt="" title="" />
-                    <p></p>
+                    <p>Select keyboard layout, press Enter to continue</p>
                     <img class="img-responsive" src="https://scott-bollinger.com/img/087VMwareLabNestedESXInstall15.png" alt="" title="" />
-                    <p></p>
+                    <p>Create the Root password, and verify</p>
                     <img class="img-responsive" src="https://scott-bollinger.com/img/087VMwareLabNestedESXInstall16.png" alt="" title="" />
-                    <p></p>
+                    <p>This Error/Warning comes up if CPU virtualization options, or it VT features are not available on the CPU</p>
                     <img class="img-responsive" src="https://scott-bollinger.com/img/087VMwareLabNestedESXInstall17.png" alt="" title="" />
-                    <p></p>
+                    <p>Shut down the VM, edit VM settings, Expand out CPU and select, Hardware Virtualization, IOMMU, Performance Counters, and Save</p>
                     <img class="img-responsive" src="https://scott-bollinger.com/img/087VMwareLabNestedESXInstall18.png" alt="" title="" />
-                    <p></p>
+                    <p>Power on the VM perform the previous steps, press F11 to install</p>
                     <img class="img-responsive" src="https://scott-bollinger.com/img/087VMwareLabNestedESXInstall19.png" alt="" title="" />
-                    <p></p>
                     <img class="img-responsive" src="https://scott-bollinger.com/img/087VMwareLabNestedESXInstall20.png" alt="" title="" />
-                    <p></p>
+                    <p>Press Enter to Reboot, Prior to rebooting edit the VM setting and change CD/DVD to Client</p>
                     <img class="img-responsive" src="https://scott-bollinger.com/img/087VMwareLabNestedESXInstall21.png" alt="" title="" />
-                    <p></p>
                     <img class="img-responsive" src="https://scott-bollinger.com/img/087VMwareLabNestedESXInstall22.png" alt="" title="" />
-                    <p></p>
                     <img class="img-responsive" src="https://scott-bollinger.com/img/087VMwareLabNestedESXInstall23.png" alt="" title="" />
-                    <p></p>
+                    <p>Once the ESX VM has booted, Press F2 to configure</p>
                     <img class="img-responsive" src="https://scott-bollinger.com/img/087VMwareLabNestedESXInstall24.png" alt="" title="" />
-                    <p></p>
+                    <p>Enter the Root password</p>
                     <img class="img-responsive" src="https://scott-bollinger.com/img/087VMwareLabNestedESXInstall25.png" alt="" title="" />
-                    <p></p>
+                    <p>Select Configure Management Network</p>
                     <img class="img-responsive" src="https://scott-bollinger.com/img/087VMwareLabNestedESXInstall26.png" alt="" title="" />
-                    <p></p>
+                    <p>Select IPv4 Configuration</p>
                     <img class="img-responsive" src="https://scott-bollinger.com/img/087VMwareLabNestedESXInstall27.png" alt="" title="" />
-                    <p></p>
+                    <p>Select Set Static IP address, and enter the IP information</p>
                     <img class="img-responsive" src="https://scott-bollinger.com/img/087VMwareLabNestedESXInstall28.png" alt="" title="" />
-                    <p></p>
                     <img class="img-responsive" src="https://scott-bollinger.com/img/087VMwareLabNestedESXInstall29.png" alt="" title="" />
-                    <p></p>
+                    <p>Select DNS Configuration</p>
                     <img class="img-responsive" src="https://scott-bollinger.com/img/087VMwareLabNestedESXInstall30.png" alt="" title="" />
-                    <p></p>
+                    <p>Select Use the Following Addresses, enter DNS Server IP's, and assign a hostname</p>
                     <img class="img-responsive" src="https://scott-bollinger.com/img/087VMwareLabNestedESXInstall31.png" alt="" title="" />
-                    <p></p>
+                    <p>Select Custom DNS Suffixes</p>
                     <img class="img-responsive" src="https://scott-bollinger.com/img/087VMwareLabNestedESXInstall32.png" alt="" title="" />
-                    <p></p>
+                    <p>Enter you lab domain</p>
                     <img class="img-responsive" src="https://scott-bollinger.com/img/087VMwareLabNestedESXInstall33.png" alt="" title="" />
-                    <p></p>
+                    <p>Press ESC, and Yes to restart management network</p>
                     <img class="img-responsive" src="https://scott-bollinger.com/img/087VMwareLabNestedESXInstall34.png" alt="" title="" />
-                    <p></p>
+                    <p>Press F12 to Reboot</p>
                     <img class="img-responsive" src="https://scott-bollinger.com/img/087VMwareLabNestedESXInstall35.png" alt="" title="" />
-                    <p></p>
+                    <p>Press F11 to Restart</p>
                     <img class="img-responsive" src="https://scott-bollinger.com/img/087VMwareLabNestedESXInstall36.png" alt="" title="" />
-                    <p></p>
                     <img class="img-responsive" src="https://scott-bollinger.com/img/087VMwareLabNestedESXInstall37.png" alt="" title="" />
                     <p>Thanks,</p>
                     <p><a href="about.html">Scott Bollinger</a> / <a href="https://twitter.com/kfalconspb" target="_blank">@kfalconspb</a></p>
