@@ -8,6 +8,14 @@
   <category>IT</category>
   <lastBuildDate>Tue, 24 Jul 2018 00:09:00 +0000 </lastBuildDate>
   <pubDate>Tue, 24 Jul 2018 09:00:00 +0000 </pubDate>
+   <item>
+    <title>Install ESXi 6.7 Nested in an ESXi 6.7 Environment</title>
+    <description>Install ESXi 6.7 Nested in an ESXi 6.7 Environment</description>
+    <link>https://Scott-Bollinger.com/087VMwareLabNestedESXInstall.html</link>
+    <guid>https://Scott-Bollinger.com/087VMwareLabNestedESXInstall.html</guid>
+    <pubDate>Tue, 24 Jul 2018 09:00:00 +0000 </pubDate>
+    <category>Virtualization</category>
+    </item>
   <item>
     <title>Install Ubuntu 18.04 Virtual Machine in a VMware ESXi 6.7 Environment</title>
     <description>Install Ubuntu 18.04 Virtual Machine in a VMware ESXi 6.7 Environment</description>
