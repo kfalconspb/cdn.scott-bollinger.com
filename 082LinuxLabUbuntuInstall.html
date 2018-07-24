@@ -80,77 +80,56 @@
                     <h3 class="section-heading">Base Camp</h3>
                     <p>Needing a desktop to work from while building the new infrastructure, one of the first virtual machine's I'm building is a Ubuntu 18.04 with a desktop environment. I'll also be installing the Open-VM-Tools.</p>
                     <p>The Ubuntu install is pretty straight forward, so this was a pretty quick lab.</p>
-                    <p></p>
+                    <p>At this point, I don't have vCenter installed, so I'm logged directly into the HTML5 Web Client of the Host. Select VM's and Templates, and Create and New Virtual Machine.</p>
                     <img class="img-responsive" src="https://scott-bollinger.com/img/labUbuntu1804VMInstall01.png" alt="" title="" />
-                    <p></p>
+                    <p>Create a new virtual machine</p>
                     <img class="img-responsive" src="https://scott-bollinger.com/img/labUbuntu1804VMInstall02.png" alt="" title="" />
-                    <p></p>
+                    <p>Configure the VM's Name, select the compatibility, guest OS family, and version.</p>
                     <img class="img-responsive" src="https://scott-bollinger.com/img/labUbuntu1804VMInstall03.png" alt="" title="" />
-                    <p></p>
+                    <p>Select the datastore location to store the VM. I select an NFS datastore, but can seamlessly Storage vMotion it elsewhere, once I have the VCSA installed and configured.</p>
                     <img class="img-responsive" src="https://scott-bollinger.com/img/labUbuntu1804VMInstall04.png" alt="" title="" />
-                    <p></p>
+                    <p>Customize any of the Guest resources as desired. I also changed the CD-Rom to DataStore ISO and selected the location where I have the Ubuntu Install ISO file.</p>
                     <img class="img-responsive" src="https://scott-bollinger.com/img/labUbuntu1804VMInstall05.png" alt="" title="" />
-                    <p></p>
-                    <img class="img-responsive" src="https://scott-bollinger.com/img/labUbuntu1804VMInstall06.png" alt="" title="" />
-                    <p></p>
+                    <p>Click Finish to Create the VM</p>
                     <img class="img-responsive" src="https://scott-bollinger.com/img/labUbuntu1804VMInstall07.png" alt="" title="" />
-                    <p></p>
-                    <img class="img-responsive" src="https://scott-bollinger.com/img/labUbuntu1804VMInstall08.png" alt="" title="" />
-                    <p></p>
+                    <p>Power On the VM, and click on the little remote screen to open a remote session tab.</p>
                     <img class="img-responsive" src="https://scott-bollinger.com/img/labUbuntu1804VMInstall09.png" alt="" title="" />
-                    <p></p>
+                    <p>You should be able to see Ubuntu booting from the ISO.</p>
                     <img class="img-responsive" src="https://scott-bollinger.com/img/labUbuntu1804VMInstall10.png" alt="" title="" />
-                    <p></p>
+                    <p>Selecting my Keyboard Layout</p>
                     <img class="img-responsive" src="https://scott-bollinger.com/img/labUbuntu1804VMInstall11.png" alt="" title="" />
-                    <p></p>
-                    <img class="img-responsive" src="https://scott-bollinger.com/img/labUbuntu1804VMInstall12.png" alt="" title="" />
-                    <p></p>
+                    <p>Select, Install Ubuntu.</p>
                     <img class="img-responsive" src="https://scott-bollinger.com/img/labUbuntu1804VMInstall13.png" alt="" title="" />
-                    <p></p>
+                    <p>Select Normal, download updates, and install third party software</p>
                     <img class="img-responsive" src="https://scott-bollinger.com/img/labUbuntu1804VMInstall14.png" alt="" title="" />
-                    <p></p>
+                    <p>I select LVM, but do not choose to encrypt. This is a lab, and the NAS where the VM disk will be stored is encrypted.</p>
                     <img class="img-responsive" src="https://scott-bollinger.com/img/labUbuntu1804VMInstall15.png" alt="" title="" />
-                    <p></p>
+                    <p>Click Continue, to write partition changes to disk.</p>
                     <img class="img-responsive" src="https://scott-bollinger.com/img/labUbuntu1804VMInstall16.png" alt="" title="" />
-                    <p></p>
+                    <p>Select timezone</p>
                     <img class="img-responsive" src="https://scott-bollinger.com/img/labUbuntu1804VMInstall17.png" alt="" title="" />
-                    <p></p>
+                    <p>Configure the host's name, enter name, username, and password.</p>
                     <img class="img-responsive" src="https://scott-bollinger.com/img/labUbuntu1804VMInstall18.png" alt="" title="" />
-                    <p></p>
+                    <p>Off it goes installing!</p>
                     <img class="img-responsive" src="https://scott-bollinger.com/img/labUbuntu1804VMInstall19.png" alt="" title="" />
-                    <p></p>
-                    <img class="img-responsive" src="https://scott-bollinger.com/img/labUbuntu1804VMInstall20.png" alt="" title="" />
-                    <p></p>
+                    <p>Once the installation is complete, click Restart Now</p>
                     <img class="img-responsive" src="https://scott-bollinger.com/img/labUbuntu1804VMInstall21.png" alt="" title="" />
-                    <p></p>
-                    <img class="img-responsive" src="https://scott-bollinger.com/img/labUbuntu1804VMInstall22.png" alt="" title="" />
-                    <p></p>
-                    <img class="img-responsive" src="https://scott-bollinger.com/img/labUbuntu1804VMInstall23.png" alt="" title="" />
-                    <p></p>
-                    <img class="img-responsive" src="https://scott-bollinger.com/img/labUbuntu1804VMInstall24.png" alt="" title="" />
-                    <p></p>
-                    <img class="img-responsive" src="https://scott-bollinger.com/img/labUbuntu1804VMInstall25.png" alt="" title="" />
-                    <p></p>
-                    <img class="img-responsive" src="https://scott-bollinger.com/img/labUbuntu1804VMInstall26.png" alt="" title="" />
-                    <p></p>
+                    <<p>Open a terminal console, and type the following to install all available updates, and upgrades: sudo apt-get update && echo 'y' | sudo apt-get upgrade && echo  'y' | sudo apt-get dist-upgrade && echo 'y'</p>
                     <img class="img-responsive" src="https://scott-bollinger.com/img/labUbuntu1804VMInstall27.png" alt="" title="" />
                     <p></p>
                     <img class="img-responsive" src="https://scott-bollinger.com/img/labUbuntu1804VMInstall28.png" alt="" title="" />
                     <p></p>
                     <img class="img-responsive" src="https://scott-bollinger.com/img/labUbuntu1804VMInstall29.png" alt="" title="" />
-                    <p></p>
-                    <img class="img-responsive" src="https://scott-bollinger.com/img/labUbuntu1804VMInstall30.png" alt="" title="" />
-                    <p></p>
+                    <p>To install Open VM Tools, type the following: sudo apt-get install open-vm-tools open-vm-tools-desktop</p>
+                    <p>Type Y to continue.</p>
                     <img class="img-responsive" src="https://scott-bollinger.com/img/labUbuntu1804VMInstall31.png" alt="" title="" />
                     <p></p>
                     <img class="img-responsive" src="https://scott-bollinger.com/img/labUbuntu1804VMInstall32.png" alt="" title="" />
-                    <p></p>
-                    installxRDPUbuntu01.png
+                    <p>From the VMware Host's HTML5 client the VMTools now show install and the version of OpenVMTools is shown.</p>
                     <img class="img-responsive" src="https://scott-bollinger.com/img/labUbuntu1804VMInstall34.png" alt="" title="" />
-                    <p></p>
+                    <p>To reboot type: sudo reboot</p>
                     <img class="img-responsive" src="https://scott-bollinger.com/img/labUbuntu1804VMInstall35.png" alt="" title="" />
-                    <p></p>
-                    <p>Thanks,</p>
+                    <p>Thanks for reading</p>
                     <p><a href="about.html">Scott Bollinger</a> / <a href="https://twitter.com/kfalconspb" target="_blank">@kfalconspb</a></p>
                 </div>
             </div>
