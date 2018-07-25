@@ -6,8 +6,16 @@
   <link>https://scott-bollinger.com/index.html</link>
   <atom:link href="https://scott-bollinger/rss.xml" rel="self" type="application/rss+xml" />
   <category>IT</category>
-  <lastBuildDate>Tue, 24 Jul 2018 00:09:00 +0000 </lastBuildDate>
-  <pubDate>Tue, 24 Jul 2018 09:00:00 +0000 </pubDate>
+  <lastBuildDate>Wed, 25 Jul 2018 00:09:00 +0000 </lastBuildDate>
+  <pubDate>Wed, 25 Jul 2018 09:00:00 +0000 </pubDate>
+   <item>
+    <title>Install a Kali Linux VM in a VMware ESXi 6.7 Environment</title>
+    <description>Install a Kali Linux VM in a VMware ESXi 6.7 Environment</description>
+    <link>https://Scott-Bollinger.com/089SecurityLabInstallKaliVm.html</link>
+    <guid>https://Scott-Bollinger.com/089SecurityLabInstallKaliVm.html</guid>
+    <pubDate>Wed, 25 Jul 2018 09:00:00 +0000 </pubDate>
+    <category>Security</category>
+    </item>
    <item>
     <title>Install ESXi 6.7 Nested in an ESXi 6.7 Environment</title>
     <description>Install ESXi 6.7 Nested in an ESXi 6.7 Environment</description>
