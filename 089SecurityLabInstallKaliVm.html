@@ -79,13 +79,16 @@
                 <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                     <h3 class="section-heading">Beginning of the Security Lab</h3>
                     <p>There are a few options, when it comes to Kali, and running it as a VM. Available for download are, prebuilt VM images, as well as different prebuilt ISO's, depending on the environment. Here, I'm downloading the full ISO, and going to install manually, apply all outstanding updates, and install/configure SSH.</p>
+                    <h3 class="section-heading">Kali Download</h3>
                    <p>Go to Kali.org download section and select you desired download.</p>
                     <img class="img-responsive" src="https://scott-bollinger.com/img/089SecurityLabInstallKaliVm02.png" alt="" title="" />
                     <p></p>
                     <img class="img-responsive" src="https://scott-bollinger.com/img/089SecurityLabInstallKaliVm01.png" alt="" title="" />
+                    <h3 class="section-heading">Create the Virtual Machine</h3>
                     <p>I've opened a VMware HTML5 client session with the Host, as I have not yet installed the VSCA. Click Create VM.</p>
                     <p>Name the VM, select VM options, and configure system resources. The only non default item I configured, was to change the CD/DVD to DataStore ISO, and mount the Kali ISO, downloaded earlier.</p>
                     <img class="img-responsive" src="https://scott-bollinger.com/img/089SecurityLabInstallKaliVm04.png" alt="" title="" />
+                    <h3 class="section-heading">Kali Installation</h3>
                     <p>Start the VM, and click on the little remote window, to open a remote console connection tab.</p>
                     <img class="img-responsive" src="https://scott-bollinger.com/img/089SecurityLabInstallKaliVm05.png" alt="" title="" />
                     <p>When the boot menu appears, select Install</p>
@@ -106,6 +109,7 @@
                     <img class="img-responsive" src="https://scott-bollinger.com/img/089SecurityLabInstallKaliVm14.png" alt="" title="" />
                     <p>Set Time Zone</p>
                     <img class="img-responsive" src="https://scott-bollinger.com/img/089SecurityLabInstallKaliVm15.png" alt="" title="" />
+                    <p></p>
                     <img class="img-responsive" src="https://scott-bollinger.com/img/089SecurityLabInstallKaliVm16.png" alt="" title="" />
                     <p>Setting up the disk partitions, I'm selecting Guided setup with LVM. I'll explore best practices, and different partition scheme's in a future lab.</p>
                     <img class="img-responsive" src="https://scott-bollinger.com/img/089SecurityLabInstallKaliVm17.png" alt="" title="" />
@@ -139,8 +143,10 @@
                     <img class="img-responsive" src="https://scott-bollinger.com/img/089SecurityLabInstallKaliVm32.png" alt="" title="" />
                     <p>System is up</p>
                     <img class="img-responsive" src="https://scott-bollinger.com/img/089SecurityLabInstallKaliVm33.png" alt="" title="" />
+                    <h3 class="section-heading">Patch Current</h3>
                     <p>To check for, and apply all available updates, type the following: apt-get update && echo 'y' | apt-get upgrade && echo  'y' | apt-get dist-upgrade && echo 'y'</p>
                     <img class="img-responsive" src="https://scott-bollinger.com/img/089SecurityLabInstallKaliVm34.png" alt="" title="" />
+                    <h3 class="section-heading">Setup SSH</h3>
                     <p>Next, I'm setting up SSH. First thing is to create a key. Type: ssh-keygen</p>
                     <p>Answer file in which to save the key, and assign a password</p>
                     <img class="img-responsive" src="https://scott-bollinger.com/img/089SecurityLabInstallKaliVm35.png" alt="" title="" />
@@ -148,10 +154,12 @@
                     <img class="img-responsive" src="https://scott-bollinger.com/img/089SecurityLabInstallKaliVm36.png" alt="" title="" />
                     <p>Restart the SSH service by typing: service ssh restart</p>
                     <img class="img-responsive" src="https://scott-bollinger.com/img/089SecurityLabInstallKaliVm37.png" alt="" title="" />
+                    <h3 class="section-heading">Test SSH</h3>
                     <p>Open your SSH client of choice on another device, and test SSH to Kali</p>
                     <img class="img-responsive" src="https://scott-bollinger.com/img/089SecurityLabInstallKaliVm38.png" alt="" title="" />
                     <p>Accepted the thumbprint, and we are in!</p>
                     <img class="img-responsive" src="https://scott-bollinger.com/img/089SecurityLabInstallKaliVm39.png" alt="" title="" />
+                    <h3 class="section-heading">Now Explore</h3>
                     <p>Now with Kali installed, I have a ton of stuff to explore and lab!</p>
                     <p><a href="about.html">Scott Bollinger</a> / <a href="https://twitter.com/kfalconspb" target="_blank">@kfalconspb</a></p>
                 </div>
