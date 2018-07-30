@@ -6,8 +6,16 @@
   <link>https://scott-bollinger.com/index.html</link>
   <atom:link href="https://scott-bollinger/rss.xml" rel="self" type="application/rss+xml" />
   <category>IT</category>
-  <lastBuildDate>Wed, 25 Jul 2018 00:09:00 +0000 </lastBuildDate>
-  <pubDate>Wed, 25 Jul 2018 09:00:00 +0000 </pubDate>
+  <lastBuildDate>Mon, 30 Jul 2018 00:09:00 +0000 </lastBuildDate>
+  <pubDate>Mon, 30 Jul 2018 09:00:00 +0000 </pubDate>
+   <item>
+    <title>Macchanger Utility, and Usage Exploring the Command Syntax</title>
+    <description>Macchanger Utility, and Usage Exploring the Command Syntax</description>
+    <link>https://Scott-Bollinger.com/078macchanger.html</link>
+    <guid>https://Scott-Bollinger.com/078macchanger.html</guid>
+    <pubDate>Mon, 30 July 2018 09:00:00 +0000 </pubDate>
+    <category>Security</category>
+    </item>
    <item>
     <title>Install a Kali Linux VM in a VMware ESXi 6.7 Environment</title>
     <description>Install a Kali Linux VM in a VMware ESXi 6.7 Environment</description>
