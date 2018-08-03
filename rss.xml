@@ -6,8 +6,16 @@
   <link>https://scott-bollinger.com/index.html</link>
   <atom:link href="https://scott-bollinger/rss.xml" rel="self" type="application/rss+xml" />
   <category>IT</category>
-  <lastBuildDate>Mon, 30 Jul 2018 00:09:00 +0000 </lastBuildDate>
-  <pubDate>Mon, 30 Jul 2018 09:00:00 +0000 </pubDate>
+  <lastBuildDate>Fri, 03 Aug 2018 00:09:00 +0000 </lastBuildDate>
+  <pubDate>Fri, 03 Aug 2018 09:00:00 +0000 </pubDate>
+   <item>
+    <title>Installing the First Two Domain Controllers in the VMware ESXi 6.7 Lab Environment</title>
+    <description>Installing the First Two Domain Controllers in the VMware ESXi 6.7 Lab Environment</description>
+    <link>https://Scott-Bollinger.com/090MicrosoftLabInstallingFirstTwoDomainControllers.html</link>
+    <guid>https://Scott-Bollinger.com/090MicrosoftLabInstallingFirstTwoDomainControllers.html</guid>
+    <pubDate>Fri, 03 Aug 2018 09:00:00 +0000 </pubDate>
+    <category>Security</category>
+    </item>
    <item>
     <title>Macchanger Utility, and Usage Exploring the Command Syntax</title>
     <description>Macchanger Utility, and Usage Exploring the Command Syntax</description>
