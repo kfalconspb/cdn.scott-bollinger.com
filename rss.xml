@@ -9,6 +9,14 @@
   <lastBuildDate>Fri, 03 Aug 2018 00:09:00 +0000 </lastBuildDate>
   <pubDate>Fri, 03 Aug 2018 09:00:00 +0000 </pubDate>
    <item>
+    <title>Deploy VMWare vCenter Appliance (VCSA) in the VMware Lab</title>
+    <description>Deploy VMWare vCenter Appliance (VCSA) in the VMware Lab</description>
+    <link>https://Scott-Bollinger.com/091VCSADeployment.html</link>
+    <guid>https://Scott-Bollinger.com/091VCSADeployment.html</guid>
+    <pubDate>Fri, 03 Aug 2018 09:00:00 +0000 </pubDate>
+    <category>Security</category>
+    </item>
+   <item>
     <title>Installing the First Two Domain Controllers in the VMware ESXi 6.7 Lab Environment</title>
     <description>Installing the First Two Domain Controllers in the VMware ESXi 6.7 Lab Environment</description>
     <link>https://Scott-Bollinger.com/090MicrosoftLabInstallingFirstTwoDomainControllers.html</link>
