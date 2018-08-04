@@ -14,7 +14,7 @@
     <link>https://Scott-Bollinger.com/091VCSADeployment.html</link>
     <guid>https://Scott-Bollinger.com/091VCSADeployment.html</guid>
     <pubDate>Fri, 03 Aug 2018 09:00:00 +0000 </pubDate>
-    <category>Security</category>
+    <category>Virtualization</category>
     </item>
    <item>
     <title>Installing the First Two Domain Controllers in the VMware ESXi 6.7 Lab Environment</title>
@@ -22,7 +22,7 @@
     <link>https://Scott-Bollinger.com/090MicrosoftLabInstallingFirstTwoDomainControllers.html</link>
     <guid>https://Scott-Bollinger.com/090MicrosoftLabInstallingFirstTwoDomainControllers.html</guid>
     <pubDate>Fri, 03 Aug 2018 09:00:00 +0000 </pubDate>
-    <category>Security</category>
+    <category>General</category>
     </item>
    <item>
     <title>Macchanger Utility, and Usage Exploring the Command Syntax</title>
@@ -54,7 +54,7 @@
     <link>https://Scott-Bollinger.com/082LinuxLabUbuntuInstall.html</link>
     <guid>https://Scott-Bollinger.com/082LinuxLabUbuntuInstall.html</guid>
     <pubDate>Tues, 24 Jul 2018 09:00:00 +0000 </pubDate>
-    <category>Virtualization</category>
+    <category>General</category>
     </item>
   <item>
     <title>Install Chromium on Ubuntu 18.04</title>
@@ -97,8 +97,8 @@
     <category>General</category>
     </item>
   <item>
-    <title></title>
-    <description></description>
+    <title>Who is Veeam?</title>
+    <description>Who is Veeam?</description>
     <link>https://Scott-Bollinger.com/077Veeam.html</link>
     <guid>https://Scott-Bollinger.com/077Veeam.html</guid>
     <pubDate>Fri, 25 May 2018 09:00:00 +0000 </pubDate>
