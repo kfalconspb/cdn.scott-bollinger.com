@@ -6,8 +6,16 @@
   <link>https://scott-bollinger.com/index.html</link>
   <atom:link href="https://scott-bollinger/rss.xml" rel="self" type="application/rss+xml" />
   <category>IT</category>
-  <lastBuildDate>Fri, 03 Aug 2018 00:09:00 +0000 </lastBuildDate>
-  <pubDate>Fri, 03 Aug 2018 09:00:00 +0000 </pubDate>
+  <lastBuildDate>Sat, 04 Aug 2018 00:09:00 +0000 </lastBuildDate>
+  <pubDate>Sat, 04 Aug 2018 09:00:00 +0000 </pubDate>
+   <item>
+    <title>Installing Microsoft SQL 2016, and Management Studio</title>
+    <description>Installing Microsoft SQL 2016, and Management Studio</description>
+    <link>https://Scott-Bollinger.com/095MicrosoftLabSQLInstall.html</link>
+    <guid>https://Scott-Bollinger.com/095MicrosoftLabSQLInstall.html</guid>
+    <pubDate>Sat, 04 Aug 2018 09:00:00 +0000 </pubDate>
+    <category>General</category>
+   </item>
    <item>
     <title>Deploy VMWare vCenter Appliance (VCSA) in the VMware Lab</title>
     <description>Deploy VMWare vCenter Appliance (VCSA) in the VMware Lab</description>
