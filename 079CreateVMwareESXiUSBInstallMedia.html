@@ -65,7 +65,7 @@
                     <div class="post-heading">
                         <h1>Create VMware ESXi USB Install Media</h1>
                         <h2 class="subheading"></h2>
-                        <span class="meta">Posted by <a href="about.html">Scott Bollinger</a> / <a href="https://twitter.com/kfalconspb" target="_blank">@kfalconspb</a> on August 04, 2018</span>
+                        <span class="meta">Posted by <a href="about.html">Scott Bollinger</a> / <a href="https://twitter.com/kfalconspb" target="_blank">@kfalconspb</a> on August 05, 2018</span>
                         <span class="meta"><a href="virtualization.html">#Virtualization</a></span>
                     </div>
                 </div>
@@ -77,33 +77,39 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                    <h3 class="section-heading">Enter Section Heading Here</h3>
-                    <p>Enter Content Here.</p>
-                    <p></p>
-                    <img class="img-responsive" src="https://scott-bollinger.com/img/079CreateVMwareESXiUSBInstallMedia01.png" alt="macchanger command syntax" />
-                    <p></p>
-                    <img class="img-responsive" src="https://scott-bollinger.com/img/079CreateVMwareESXiUSBInstallMedia02.png" alt="macchanger command syntax" />
-                    <p></p>
-                    <img class="img-responsive" src="https://scott-bollinger.com/img/079CreateVMwareESXiUSBInstallMedia03.png" alt="macchanger command syntax" />
-                    <p></p>
-                    <img class="img-responsive" src="https://scott-bollinger.com/img/079CreateVMwareESXiUSBInstallMedia04.png" alt="macchanger command syntax" />
-                    <p></p>
-                    <img class="img-responsive" src="https://scott-bollinger.com/img/079CreateVMwareESXiUSBInstallMedia05.png" alt="macchanger command syntax" />
-                    <p></p>
-                    <img class="img-responsive" src="https://scott-bollinger.com/img/079CreateVMwareESXiUSBInstallMedia06.png" alt="macchanger command syntax" />
-                    <p></p>
-                    <img class="img-responsive" src="https://scott-bollinger.com/img/079CreateVMwareESXiUSBInstallMedia07.png" alt="macchanger command syntax" />
-                    <p></p>
-                    <img class="img-responsive" src="https://scott-bollinger.com/img/079CreateVMwareESXiUSBInstallMedia08.png" alt="macchanger command syntax" />
-                    <p></p>
-                    <img class="img-responsive" src="https://scott-bollinger.com/img/079CreateVMwareESXiUSBInstallMedia09.png" alt="macchanger command syntax" />
-                    <p></p>
-                    <img class="img-responsive" src="https://scott-bollinger.com/img/079CreateVMwareESXiUSBInstallMedia10.png" alt="macchanger command syntax" />
-                    <p></p>
-                    <img class="img-responsive" src="https://scott-bollinger.com/img/079CreateVMwareESXiUSBInstallMedia11.png" alt="macchanger command syntax" />
-                    
-                    <p>Thanks,</p>
+                    <h3 class="section-heading">Something Physical</h3>
+                    <p>It's not often I install anything from physical media anymore, but it still has it's uses. This USB stick, will be used to install ESXi, on my Intel NUC's, and the Mac Mini, in am upcoming post. I'll explore PXE boot in the future, as well, once the core infrastructure is completely operational.</p>
+                     <p>Thanks,</p>
                     <p><a href="about.html">Scott Bollinger</a> / <a href="https://twitter.com/kfalconspb" target="_blank">@kfalconspb</a></p>
+                    <h3 class="section-heading">Prep</h3>
+                    <p>Download the ESXi ISO from the VMware Download Website. This ISO needs to be written to the USB, and be made bootable. There are many applications which can do this for you, in this example, we'll be using UNetbootin.</p>
+                    <p>Download the appropriate version for your OS. In this case, we'll be using apt-get to install UNetbootin on Ubuntu 18.04.</p>
+                    <img class="img-responsive" src="https://scott-bollinger.com/img/079CreateVMwareESXiUSBInstallMedia04.png" alt="" />
+                    <h3 class="section-heading">Add Repo</h3>
+                    <p> Open a terminal console, and type the following, to add the apt repository: sudo add-apt-repository ppa:gezakovacs/ppa</p>
+                    <img class="img-responsive" src="https://scott-bollinger.com/img/079CreateVMwareESXiUSBInstallMedia01.png" alt="" />
+                    <h3 class="section-heading">Install UNetbootin</h3>
+                    <p>Type: sudo apt-get update</p>
+                    <p>Then type: apt-get install unetbootin</p>
+                    <p>Type Y, to install</p>
+                    <img class="img-responsive" src="https://scott-bollinger.com/img/079CreateVMwareESXiUSBInstallMedia02.png" alt="" />
+                    <p>Installing</p>
+                    <img class="img-responsive" src="https://scott-bollinger.com/img/079CreateVMwareESXiUSBInstallMedia03.png" alt="" />
+                    <h3 class="section-heading">Write ISO to USB, and Make Bootable.</h3>
+                    <p>From the Ubuntu desktop. select activities, and search for unetbootin, and click to open.</p>
+                    <img class="img-responsive" src="https://scott-bollinger.com/img/079CreateVMwareESXiUSBInstallMedia05.png" alt="" />
+                    <p>UNetbootin gives the option to select, and download a distribution/version, or an ISO can be chosen.</p>
+                    <img class="img-responsive" src="https://scott-bollinger.com/img/079CreateVMwareESXiUSBInstallMedia06.png" alt="" />
+                    <p>Select Diskimage, navigate to, and select the VMware ESXi downloaded from earlier. Click OK to begin.</p>
+                    <img class="img-responsive" src="https://scott-bollinger.com/img/079CreateVMwareESXiUSBInstallMedia07.png" alt="" />
+                    <p>Extracting files to be written to USB.</p>
+                    <img class="img-responsive" src="https://scott-bollinger.com/img/079CreateVMwareESXiUSBInstallMedia08.png" alt="" />
+                    <p>Installing bootloader.</p>
+                    <img class="img-responsive" src="https://scott-bollinger.com/img/079CreateVMwareESXiUSBInstallMedia09.png" alt="" />
+                    <p>Click Exit, when the installation is complete.</p>
+                    <img class="img-responsive" src="https://scott-bollinger.com/img/079CreateVMwareESXiUSBInstallMedia10.png" alt="" />
+                    <p>Viewing the USB in a file manager, the VMware install files can be seen.</p>
+                    <img class="img-responsive" src="https://scott-bollinger.com/img/079CreateVMwareESXiUSBInstallMedia11.png" alt="" />
                 </div>
             </div>
         </div>
@@ -181,7 +187,7 @@
     <description>Create VMware ESXi USB Install Media</description>
     <link>https://Scott-Bollinger.com/079CreateVMwareESXiUSBInstallMedia.html</link>
     <guid>https://Scott-Bollinger.com/079CreateVMwareESXiUSBInstallMedia.html</guid>
-    <pubDate>Sat, 04 Aug 2018 09:00:00 +0000 </pubDate>
+    <pubDate>Sun, 05 Aug 2018 09:00:00 +0000 </pubDate>
     <category>Virtualization</category>
     </item> 
     -->
@@ -195,7 +201,7 @@
                             
                         </h3>
                     </a>
-                    <p class="post-meta">Posted by <a href="about.html">Scott Bollinger</a> / <a href="https://twitter.com/kfalconspb" target="_blank">@kfalconspb</a> on August 04, 2018</p>
+                    <p class="post-meta">Posted by <a href="about.html">Scott Bollinger</a> / <a href="https://twitter.com/kfalconspb" target="_blank">@kfalconspb</a> on August 05, 2018 <a href="virtualization.html">#Virtualization</a></p>
                 </div>
                 <hr>
     -->
