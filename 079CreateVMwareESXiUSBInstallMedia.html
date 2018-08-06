@@ -82,28 +82,30 @@
                      <p>Thanks,</p>
                     <p><a href="about.html">Scott Bollinger</a> / <a href="https://twitter.com/kfalconspb" target="_blank">@kfalconspb</a></p>
                     <h3 class="section-heading">Prep</h3>
-                    <p>Download the ESXi ISO from the VMware Download Website. The ISO needs to be written to the USB and made bootable. There are many applications </p>
-                    <p></p>
+                    <p>Download the ESXi ISO from the VMware Download Website. The ISO needs to be written to the USB, and be made bootable. There are many applications which can do this for you, in this example we'll be using UNetbootin.</p>
+                    <p>Download the appropriate version for the OS, or in this case we'll be using apt-get to install it.</p>
                     <img class="img-responsive" src="https://scott-bollinger.com/img/079CreateVMwareESXiUSBInstallMedia04.png" alt="" />
-                    <p></p>
+                    <p> Open your terminal console of choice, and type the following to add the apt repository for it: sudo add-apt-repository ppa:gezakovacs/ppa</p>
                     <img class="img-responsive" src="https://scott-bollinger.com/img/079CreateVMwareESXiUSBInstallMedia01.png" alt="" />
-                    <p></p>
+                    <p>Type: sudo apt-get update</p>
+                    <p>Then type: apt-get install unetbootin</p>
+                    <p>Type Y, to install</p>
                     <img class="img-responsive" src="https://scott-bollinger.com/img/079CreateVMwareESXiUSBInstallMedia02.png" alt="" />
-                    <p></p>
+                    <p>Installing</p>
                     <img class="img-responsive" src="https://scott-bollinger.com/img/079CreateVMwareESXiUSBInstallMedia03.png" alt="" />
-                    <p></p>
+                    <p>From the Ubuntu desktop. select activities, and search for unetbootin, and click to open.</p>
                     <img class="img-responsive" src="https://scott-bollinger.com/img/079CreateVMwareESXiUSBInstallMedia05.png" alt="" />
-                    <p></p>
+                    <p>UNetbootin gives the option to select, and download a distribution to install, or an ISO can be chosen.</p>
                     <img class="img-responsive" src="https://scott-bollinger.com/img/079CreateVMwareESXiUSBInstallMedia06.png" alt="" />
-                    <p></p>
+                    <p>Select Diskimage, navigate to, and select the VMware ESXi downloaded from earlier. Click OK to begin.</p>
                     <img class="img-responsive" src="https://scott-bollinger.com/img/079CreateVMwareESXiUSBInstallMedia07.png" alt="" />
-                    <p></p>
+                    <p>Extracting files to be written to USB.</p>
                     <img class="img-responsive" src="https://scott-bollinger.com/img/079CreateVMwareESXiUSBInstallMedia08.png" alt="" />
-                    <p></p>
+                    <p>Installing bootloader.</p>
                     <img class="img-responsive" src="https://scott-bollinger.com/img/079CreateVMwareESXiUSBInstallMedia09.png" alt="" />
-                    <p></p>
+                    <p>Click Exit, when the installation is complete.</p>
                     <img class="img-responsive" src="https://scott-bollinger.com/img/079CreateVMwareESXiUSBInstallMedia10.png" alt="" />
-                    <p></p>
+                    <p>Viewing the USB in a file manager, the VMware install files can be seen.</p>
                     <img class="img-responsive" src="https://scott-bollinger.com/img/079CreateVMwareESXiUSBInstallMedia11.png" alt="" />
                 </div>
             </div>
