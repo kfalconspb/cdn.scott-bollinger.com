@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <title>Making the Computer Speak
+with PowerShell</title>
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" type="text/css" href="/assets/main/css/main.css?v=4c09e1ea51" />
+    <noscript><link rel="stylesheet" href="/assets/main/css/noscript.css?v=4c09e1ea51" /></noscript>
+
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="canonical" href="http://localhost:2368/making-the-computer-speakwith-powershell/" />
+    <meta name="referrer" content="no-referrer-when-downgrade" />
+    <link rel="amphtml" href="http://localhost:2368/making-the-computer-speakwith-powershell/amp/" />
+    
+    <meta property="og:site_name" content="Scott-Bollinger.com" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="Making the Computer Speak
+with PowerShell" />
+    <meta property="og:description" content="Just Talk to Me
+The first movie I saw without adult supervision was the movie War Games.
+
+An adventure with hacking, the threat of nuclear war, space invaders, tab soda,
+and the thought of having a girl in your bedroom.
+
+However the most exciting part to me was the synthesized voice of the computer.
+Having your computer speak to you, WOW.
+
+This movie unlocked in me a life time of wonder, a career, and hobby.
+
+Times have changed in technology but the fun of having my computer speak still
+puts a s" />
+    <meta property="og:url" content="http://localhost:2368/making-the-computer-speakwith-powershell/" />
+    <meta property="article:published_time" content="2015-01-20T17:00:00.000Z" />
+    <meta property="article:modified_time" content="2019-10-20T14:34:17.000Z" />
+    <meta property="article:tag" content="Development" />
+    
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Making the Computer Speak
+with PowerShell" />
+    <meta name="twitter:description" content="Just Talk to Me
+The first movie I saw without adult supervision was the movie War Games.
+
+An adventure with hacking, the threat of nuclear war, space invaders, tab soda,
+and the thought of having a girl in your bedroom.
+
+However the most exciting part to me was the synthesized voice of the computer.
+Having your computer speak to you, WOW.
+
+This movie unlocked in me a life time of wonder, a career, and hobby.
+
+Times have changed in technology but the fun of having my computer speak still
+puts a s" />
+    <meta name="twitter:url" content="http://localhost:2368/making-the-computer-speakwith-powershell/" />
+    <meta name="twitter:label1" content="Written by" />
+    <meta name="twitter:data1" content="Scott Bollinger / @kfalconspb" />
+    <meta name="twitter:label2" content="Filed under" />
+    <meta name="twitter:data2" content="Development" />
+    <meta name="twitter:site" content="@kfalconspb" />
+    <meta name="twitter:creator" content="@kfalconspb" />
+    
+    <script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "publisher": {
+        "@type": "Organization",
+        "name": "Scott-Bollinger.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "http://localhost:2368/favicon.ico",
+            "width": 60,
+            "height": 60
+        }
+    },
+    "author": {
+        "@type": "Person",
+        "name": "Scott Bollinger / @kfalconspb",
+        "image": {
+            "@type": "ImageObject",
+            "url": "http://localhost:2368/content/images/2019/10/kfalconspb.jpg",
+            "width": 399,
+            "height": 399
+        },
+        "url": "http://localhost:2368/author/kfalconspb/",
+        "sameAs": [
+            "http://Scott-Bollinger.com",
+            "https://twitter.com/kfalconspb"
+        ]
+    },
+    "headline": "Making the Computer Speak\nwith PowerShell",
+    "url": "http://localhost:2368/making-the-computer-speakwith-powershell/",
+    "datePublished": "2015-01-20T17:00:00.000Z",
+    "dateModified": "2019-10-20T14:34:17.000Z",
+    "keywords": "Development",
+    "description": "Just Talk to Me\nThe first movie I saw without adult supervision was the movie War Games.\n\nAn adventure with hacking, the threat of nuclear war, space invaders, tab soda,\nand the thought of having a girl in your bedroom.\n\nHowever the most exciting part to me was the synthesized voice of the computer.\nHaving your computer speak to you, WOW.\n\nThis movie unlocked in me a life time of wonder, a career, and hobby.\n\nTimes have changed in technology but the fun of having my computer speak still\nputs a s",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "http://localhost:2368/"
+    }
+}
+    </script>
+
+    <meta name="generator" content="Ghost 2.31" />
+    <link rel="alternate" type="application/rss+xml" title="Scott-Bollinger.com" href="http://localhost:2368/rss/" />
+
+
+</head>
+<body class="is-preload post-template tag-development">
+
+    <div id="wrapper" >
+
+
+        <header id="header">
+                <a href="http://localhost:2368" class="logo">Scott-Bollinger.com</a>
+        </header>
+
+            <nav id="nav">
+    <ul class="links">
+        <li class="nav-home "><a href="http://localhost:2368/">Home</a></li>
+        <li class="nav-disclaimer "><a href="http://localhost:2368/disclaimer-do-good-enjoy-life-and-have-fun-in-all-you-do/">Disclaimer</a></li>
+        <li class="nav-about "><a href="http://localhost:2368/author/kfalconspb/">About</a></li>
+    </ul>
+    <ul class="icons">
+        <li><a href="https://twitter.com/kfalconspb" class="icon fa-twitter" title="Twitter"><span class="label">Twitter</span></a></li>
+        <li><a href="https://feedly.com/i/subscription/feed/http://localhost:2368/rss/" class="icon fa-rss" target="_blank" rel="noopener"><span class="label" title="RSS">RSS</span></a></li>
+    </ul>
+</nav>
+
+
+        
+
+<main id="main">
+
+    <section class="post">
+
+        <header class="major">
+            <span class="date">January 20, 2015</span>
+            <h1>Making the Computer Speak
+with PowerShell</h1>
+        </header>
+
+
+        <div class="content">
+            <h3 id="just-talk-to-me"><strong>Just Talk to Me</strong></h3><p>The first movie I saw without adult supervision was the movie War Games.</p><p>An adventure with hacking, the threat of nuclear war, space invaders, tab soda, and the thought of having a girl in your bedroom.</p><p>However the most exciting part to me was the synthesized voice of the computer. Having your computer speak to you, WOW.</p><p>This movie unlocked in me a life time of wonder, a career, and hobby.</p><p>Times have changed in technology but the fun of having my computer speak still puts a smile on my face. And a stern look and chuckle from my wife when it starts speaking more mature topics. ;)</p><p>From a PowerShell prompt type</p><p><code>(New-Object -com SAPI.SpVoice).speak("Greetings, Professor Falken.")</code></p><p>Have fun.</p>
+        </div>
+
+
+        <footer class="post-footer">
+
+            <div class="authors">
+                <a class="author-box" href="/author/kfalconspb/">
+                    <img class="author-profile-image" src="http://localhost:2368/content/images/2019/10/kfalconspb.jpg" alt="Scott Bollinger / @kfalconspb" />
+                    <section class="author-box-content">
+                        <div class="author-box-label">Author</div>
+                        <h5 class="author-box-name">Scott Bollinger / @kfalconspb</h5>
+                        <p>I&#x27;m Scott Bollinger / @kfalconspb, and have been an IT professional for 25 years. Half that time, in a Fortune 50 financial corporation, and the other half with small/medium size businesses.</p>
+                    </section>
+                </a>
+            </div>
+
+        </footer>
+
+    </section>
+
+</main>
+
+
+<script>
+    var images = document.querySelectorAll('.kg-gallery-image img');
+    images.forEach(function (image) {
+        var container = image.closest('.kg-gallery-image');
+        var width = image.attributes.width.value;
+        var height = image.attributes.height.value;
+        var ratio = width / height;
+        container.style.flex = ratio + ' 1 0%';
+    })
+</script>
+
+
+        <div id="copyright">
+            <ul>
+                <li>&copy; Scott-Bollinger.com</li>
+                <li>Design by <a href="https://html5up.net">HTML5 UP</a></li>
+                <li>Published with <a href="https://ghost.org">Ghost</a></li>
+            </ul>
+        </div>
+
+    </div>
+
+
+    <script src="/assets/main/js/jquery.min.js?v=4c09e1ea51"></script>
+    <script src="/assets/main/js/jquery.scrollex.min.js?v=4c09e1ea51"></script>
+    <script src="/assets/main/js/jquery.scrolly.min.js?v=4c09e1ea51"></script>
+    <script src="/assets/main/js/browser.min.js?v=4c09e1ea51"></script>
+    <script src="/assets/main/js/breakpoints.min.js?v=4c09e1ea51"></script>
+    <script src="/assets/main/js/util.js?v=4c09e1ea51"></script>
+    <script src="/assets/main/js/main.js?v=4c09e1ea51"></script>
+
+    
+
+</body>
+</html>

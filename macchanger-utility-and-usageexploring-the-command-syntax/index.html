@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <title>Macchanger Utility, and Usage
+Exploring the Command Syntax</title>
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" type="text/css" href="/assets/main/css/main.css?v=4c09e1ea51" />
+    <noscript><link rel="stylesheet" href="/assets/main/css/noscript.css?v=4c09e1ea51" /></noscript>
+
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="canonical" href="http://localhost:2368/macchanger-utility-and-usageexploring-the-command-syntax/" />
+    <meta name="referrer" content="no-referrer-when-downgrade" />
+    <link rel="amphtml" href="http://localhost:2368/macchanger-utility-and-usageexploring-the-command-syntax/amp/" />
+    
+    <meta property="og:site_name" content="Scott-Bollinger.com" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="Macchanger Utility, and Usage
+Exploring the Command Syntax" />
+    <meta property="og:description" content="Exploring Macchanger
+Used it before, but nothing beyond changing the MAC, and moving on? In this lab,
+the macchanger command syntax is walked through.
+
+The purpose for these exploration labs, is to get familiar with common tools,
+Operation Systems, and technologies.
+
+Purpose
+The purpose of macchanger by Alvaro Lopez Ortega 
+https://github.com/alobbs/macchanger &quot;GNU MAC Changer is an utility that makes
+the maniputation of MAC addresses of network interfaces easier.&quot; README
+[https://github.com/alo" />
+    <meta property="og:url" content="http://localhost:2368/macchanger-utility-and-usageexploring-the-command-syntax/" />
+    <meta property="article:published_time" content="2018-07-30T16:00:00.000Z" />
+    <meta property="article:modified_time" content="2019-10-20T12:16:24.000Z" />
+    <meta property="article:tag" content="Network" />
+    <meta property="article:tag" content="Security" />
+    
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Macchanger Utility, and Usage
+Exploring the Command Syntax" />
+    <meta name="twitter:description" content="Exploring Macchanger
+Used it before, but nothing beyond changing the MAC, and moving on? In this lab,
+the macchanger command syntax is walked through.
+
+The purpose for these exploration labs, is to get familiar with common tools,
+Operation Systems, and technologies.
+
+Purpose
+The purpose of macchanger by Alvaro Lopez Ortega 
+https://github.com/alobbs/macchanger &quot;GNU MAC Changer is an utility that makes
+the maniputation of MAC addresses of network interfaces easier.&quot; README
+[https://github.com/alo" />
+    <meta name="twitter:url" content="http://localhost:2368/macchanger-utility-and-usageexploring-the-command-syntax/" />
+    <meta name="twitter:label1" content="Written by" />
+    <meta name="twitter:data1" content="Scott Bollinger / @kfalconspb" />
+    <meta name="twitter:label2" content="Filed under" />
+    <meta name="twitter:data2" content="Network, Security" />
+    <meta name="twitter:site" content="@kfalconspb" />
+    <meta name="twitter:creator" content="@kfalconspb" />
+    
+    <script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "publisher": {
+        "@type": "Organization",
+        "name": "Scott-Bollinger.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "http://localhost:2368/favicon.ico",
+            "width": 60,
+            "height": 60
+        }
+    },
+    "author": {
+        "@type": "Person",
+        "name": "Scott Bollinger / @kfalconspb",
+        "image": {
+            "@type": "ImageObject",
+            "url": "http://localhost:2368/content/images/2019/10/kfalconspb.jpg",
+            "width": 399,
+            "height": 399
+        },
+        "url": "http://localhost:2368/author/kfalconspb/",
+        "sameAs": [
+            "http://Scott-Bollinger.com",
+            "https://twitter.com/kfalconspb"
+        ]
+    },
+    "headline": "Macchanger Utility, and Usage\nExploring the Command Syntax",
+    "url": "http://localhost:2368/macchanger-utility-and-usageexploring-the-command-syntax/",
+    "datePublished": "2018-07-30T16:00:00.000Z",
+    "dateModified": "2019-10-20T12:16:24.000Z",
+    "keywords": "Network, Security",
+    "description": "Exploring Macchanger\nUsed it before, but nothing beyond changing the MAC, and moving on? In this lab,\nthe macchanger command syntax is walked through.\n\nThe purpose for these exploration labs, is to get familiar with common tools,\nOperation Systems, and technologies.\n\nPurpose\nThe purpose of macchanger by Alvaro Lopez Ortega \nhttps://github.com/alobbs/macchanger &quot;GNU MAC Changer is an utility that makes\nthe maniputation of MAC addresses of network interfaces easier.&quot; README\n[https://github.com/alo",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "http://localhost:2368/"
+    }
+}
+    </script>
+
+    <meta name="generator" content="Ghost 2.31" />
+    <link rel="alternate" type="application/rss+xml" title="Scott-Bollinger.com" href="http://localhost:2368/rss/" />
+
+
+</head>
+<body class="is-preload post-template tag-network tag-security">
+
+    <div id="wrapper" >
+
+
+        <header id="header">
+                <a href="http://localhost:2368" class="logo">Scott-Bollinger.com</a>
+        </header>
+
+            <nav id="nav">
+    <ul class="links">
+        <li class="nav-home "><a href="http://localhost:2368/">Home</a></li>
+        <li class="nav-disclaimer "><a href="http://localhost:2368/disclaimer-do-good-enjoy-life-and-have-fun-in-all-you-do/">Disclaimer</a></li>
+        <li class="nav-about "><a href="http://localhost:2368/author/kfalconspb/">About</a></li>
+    </ul>
+    <ul class="icons">
+        <li><a href="https://twitter.com/kfalconspb" class="icon fa-twitter" title="Twitter"><span class="label">Twitter</span></a></li>
+        <li><a href="https://feedly.com/i/subscription/feed/http://localhost:2368/rss/" class="icon fa-rss" target="_blank" rel="noopener"><span class="label" title="RSS">RSS</span></a></li>
+    </ul>
+</nav>
+
+
+        
+
+<main id="main">
+
+    <section class="post">
+
+        <header class="major">
+            <span class="date">July 30, 2018</span>
+            <h1>Macchanger Utility, and Usage
+Exploring the Command Syntax</h1>
+        </header>
+
+
+        <div class="content">
+            <h3 id="exploring-macchanger"><strong>Exploring Macchanger</strong></h3><p>Used it before, but nothing beyond changing the MAC, and moving on? In this lab, the macchanger command syntax is walked through.</p><p>The purpose for these exploration labs, is to get familiar with common tools, Operation Systems, and technologies.</p><h3 id="purpose"><strong>Purpose</strong></h3><p>The purpose of macchanger by Alvaro Lopez Ortega <a href="https://github.com/alobbs/macchanger">https://github.com/alobbs/macchanger</a> "GNU MAC Changer is an utility that makes the maniputation of MAC addresses of network interfaces easier." <a href="https://github.com/alobbs/macchanger/blob/master/README">README</a></p><h3 id="usage"><strong>Usage</strong></h3><p>One of the most important things to know is how to find more information. Applications will usually have a help syntax to obtain more information.</p><p>Executing macchanger with the syntax option of -h will list the options available.</p><p>At the prompt type: macchanger -h</p><!--kg-card-begin: image--><figure class="kg-card kg-image-card"><img src="https://scott-bollinger.com/img/macchangerhelp.jpg" class="kg-image" alt="macchanger -h"></figure><!--kg-card-end: image--><p>Next, I like to review, is the man page for the application, to learn additional details not generally put in the syntax help.</p><p>At the prompt type: man macchanger</p><!--kg-card-begin: image--><figure class="kg-card kg-image-card"><img src="https://scott-bollinger.com/img/macchangerman01.jpg" class="kg-image" alt="man macchanger 01"></figure><!--kg-card-end: image--><!--kg-card-begin: image--><figure class="kg-card kg-image-card"><img src="https://scott-bollinger.com/img/macchangerman02.jpg" class="kg-image" alt="man macchanger 02"></figure><!--kg-card-end: image--><p>In the below video, I walk through the different options of macchanger.</p><!--kg-card-begin: image--><figure class="kg-card kg-image-card"><img src="https://scott-bollinger.com/img/macchangerYoutube.png" class="kg-image" alt="Macchanger Utility Command Syntax Walkthrough"></figure><!--kg-card-end: image--><p>Macchanger Utility Command Syntax Walkthrough</p><!--kg-card-begin: image--><figure class="kg-card kg-image-card"><img src="https://scott-bollinger.com/img/macchangerSyntax.png" class="kg-image" alt="macchanger command syntax"></figure><!--kg-card-end: image--><h3 id="why"><strong>Why</strong></h3><p>Why change the MAC address? Obviously it's there for a reason. There are reasons to change it as well.</p><p>A couple of those reasons are:</p><ul><li>Blend in - If all the devices on the network are Apple MAC addresses , an attackers machine with another vendor will standout.</li><li>Masquerade - Pretending to be an device already approved to be on the network, such as in a MAC filtered wireless lan.</li></ul><p>The BIA option, seems interesting as it was unknown to me previously. It would be interesting to see if VMware addresses have that locally administered bit set, but that's for another lab.</p>
+        </div>
+
+
+        <footer class="post-footer">
+
+            <div class="authors">
+                <a class="author-box" href="/author/kfalconspb/">
+                    <img class="author-profile-image" src="http://localhost:2368/content/images/2019/10/kfalconspb.jpg" alt="Scott Bollinger / @kfalconspb" />
+                    <section class="author-box-content">
+                        <div class="author-box-label">Author</div>
+                        <h5 class="author-box-name">Scott Bollinger / @kfalconspb</h5>
+                        <p>I&#x27;m Scott Bollinger / @kfalconspb, and have been an IT professional for 25 years. Half that time, in a Fortune 50 financial corporation, and the other half with small/medium size businesses.</p>
+                    </section>
+                </a>
+            </div>
+
+        </footer>
+
+    </section>
+
+</main>
+
+
+<script>
+    var images = document.querySelectorAll('.kg-gallery-image img');
+    images.forEach(function (image) {
+        var container = image.closest('.kg-gallery-image');
+        var width = image.attributes.width.value;
+        var height = image.attributes.height.value;
+        var ratio = width / height;
+        container.style.flex = ratio + ' 1 0%';
+    })
+</script>
+
+
+        <div id="copyright">
+            <ul>
+                <li>&copy; Scott-Bollinger.com</li>
+                <li>Design by <a href="https://html5up.net">HTML5 UP</a></li>
+                <li>Published with <a href="https://ghost.org">Ghost</a></li>
+            </ul>
+        </div>
+
+    </div>
+
+
+    <script src="/assets/main/js/jquery.min.js?v=4c09e1ea51"></script>
+    <script src="/assets/main/js/jquery.scrollex.min.js?v=4c09e1ea51"></script>
+    <script src="/assets/main/js/jquery.scrolly.min.js?v=4c09e1ea51"></script>
+    <script src="/assets/main/js/browser.min.js?v=4c09e1ea51"></script>
+    <script src="/assets/main/js/breakpoints.min.js?v=4c09e1ea51"></script>
+    <script src="/assets/main/js/util.js?v=4c09e1ea51"></script>
+    <script src="/assets/main/js/main.js?v=4c09e1ea51"></script>
+
+    
+
+</body>
+</html>

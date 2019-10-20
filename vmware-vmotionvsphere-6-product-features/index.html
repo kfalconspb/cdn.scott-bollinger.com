@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <title>VMware vMotion
+vSphere 6 Product Features</title>
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" type="text/css" href="/assets/main/css/main.css?v=4c09e1ea51" />
+    <noscript><link rel="stylesheet" href="/assets/main/css/noscript.css?v=4c09e1ea51" /></noscript>
+
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="canonical" href="http://localhost:2368/vmware-vmotionvsphere-6-product-features/" />
+    <meta name="referrer" content="no-referrer-when-downgrade" />
+    <link rel="amphtml" href="http://localhost:2368/vmware-vmotionvsphere-6-product-features/amp/" />
+    
+    <meta property="og:site_name" content="Scott-Bollinger.com" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="VMware vMotion
+vSphere 6 Product Features" />
+    <meta property="og:description" content="This post is about the vSphere 6 product feature vMotion. [1]
+
+The first time I saw a vMotion between two hosts it was amazing. Not only doing
+it without down time, but while the server was up and functional!
+
+Now we have not only vMotion cross vSwitch but cross vCenter and even Long
+Distance. If I was told 25 years ago that I&#x27;d be able to move a server while it
+was up from one data center to another in another State or Country, it would
+have seemed impossible and far fetched.
+
+Technology advanc" />
+    <meta property="og:url" content="http://localhost:2368/vmware-vmotionvsphere-6-product-features/" />
+    <meta property="article:published_time" content="2016-09-26T16:00:00.000Z" />
+    <meta property="article:modified_time" content="2019-10-20T13:12:03.000Z" />
+    <meta property="article:tag" content="Virtualization" />
+    
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="VMware vMotion
+vSphere 6 Product Features" />
+    <meta name="twitter:description" content="This post is about the vSphere 6 product feature vMotion. [1]
+
+The first time I saw a vMotion between two hosts it was amazing. Not only doing
+it without down time, but while the server was up and functional!
+
+Now we have not only vMotion cross vSwitch but cross vCenter and even Long
+Distance. If I was told 25 years ago that I&#x27;d be able to move a server while it
+was up from one data center to another in another State or Country, it would
+have seemed impossible and far fetched.
+
+Technology advanc" />
+    <meta name="twitter:url" content="http://localhost:2368/vmware-vmotionvsphere-6-product-features/" />
+    <meta name="twitter:label1" content="Written by" />
+    <meta name="twitter:data1" content="Scott Bollinger / @kfalconspb" />
+    <meta name="twitter:label2" content="Filed under" />
+    <meta name="twitter:data2" content="Virtualization" />
+    <meta name="twitter:site" content="@kfalconspb" />
+    <meta name="twitter:creator" content="@kfalconspb" />
+    
+    <script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "publisher": {
+        "@type": "Organization",
+        "name": "Scott-Bollinger.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "http://localhost:2368/favicon.ico",
+            "width": 60,
+            "height": 60
+        }
+    },
+    "author": {
+        "@type": "Person",
+        "name": "Scott Bollinger / @kfalconspb",
+        "image": {
+            "@type": "ImageObject",
+            "url": "http://localhost:2368/content/images/2019/10/kfalconspb.jpg",
+            "width": 399,
+            "height": 399
+        },
+        "url": "http://localhost:2368/author/kfalconspb/",
+        "sameAs": [
+            "http://Scott-Bollinger.com",
+            "https://twitter.com/kfalconspb"
+        ]
+    },
+    "headline": "VMware vMotion\nvSphere 6 Product Features",
+    "url": "http://localhost:2368/vmware-vmotionvsphere-6-product-features/",
+    "datePublished": "2016-09-26T16:00:00.000Z",
+    "dateModified": "2019-10-20T13:12:03.000Z",
+    "keywords": "Virtualization",
+    "description": "This post is about the vSphere 6 product feature vMotion. [1]\n\nThe first time I saw a vMotion between two hosts it was amazing. Not only doing\nit without down time, but while the server was up and functional!\n\nNow we have not only vMotion cross vSwitch but cross vCenter and even Long\nDistance. If I was told 25 years ago that I&#x27;d be able to move a server while it\nwas up from one data center to another in another State or Country, it would\nhave seemed impossible and far fetched.\n\nTechnology advanc",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "http://localhost:2368/"
+    }
+}
+    </script>
+
+    <meta name="generator" content="Ghost 2.31" />
+    <link rel="alternate" type="application/rss+xml" title="Scott-Bollinger.com" href="http://localhost:2368/rss/" />
+
+
+</head>
+<body class="is-preload post-template tag-virtualization">
+
+    <div id="wrapper" >
+
+
+        <header id="header">
+                <a href="http://localhost:2368" class="logo">Scott-Bollinger.com</a>
+        </header>
+
+            <nav id="nav">
+    <ul class="links">
+        <li class="nav-home "><a href="http://localhost:2368/">Home</a></li>
+        <li class="nav-disclaimer "><a href="http://localhost:2368/disclaimer-do-good-enjoy-life-and-have-fun-in-all-you-do/">Disclaimer</a></li>
+        <li class="nav-about "><a href="http://localhost:2368/author/kfalconspb/">About</a></li>
+    </ul>
+    <ul class="icons">
+        <li><a href="https://twitter.com/kfalconspb" class="icon fa-twitter" title="Twitter"><span class="label">Twitter</span></a></li>
+        <li><a href="https://feedly.com/i/subscription/feed/http://localhost:2368/rss/" class="icon fa-rss" target="_blank" rel="noopener"><span class="label" title="RSS">RSS</span></a></li>
+    </ul>
+</nav>
+
+
+        
+
+<main id="main">
+
+    <section class="post">
+
+        <header class="major">
+            <span class="date">September 26, 2016</span>
+            <h1>VMware vMotion
+vSphere 6 Product Features</h1>
+        </header>
+
+
+        <div class="content">
+            <p>This post is about the vSphere 6 product feature vMotion. [1]</p><!--kg-card-begin: image--><figure class="kg-card kg-image-card"><img src="https://scott-bollinger.com/img/vmotion.png" class="kg-image" alt="vMotion"></figure><!--kg-card-end: image--><p>The first time I saw a vMotion between two hosts it was amazing. Not only doing it without down time, but while the server was up and functional!</p><p>Now we have not only vMotion cross vSwitch but cross vCenter and even Long Distance. If I was told 25 years ago that I'd be able to move a server while it was up from one data center to another in another State or Country, it would have seemed impossible and far fetched.</p><p>Technology advances</p><h3 id="vmotion"><strong>vMotion</strong></h3><p>vMotion is the live migration of virtual machines from one physical host to another with no downtime or service interruption.</p><p>The three different editions of vSphere supply different vMotion functionality.</p><p>vSphere Standard - cross vSwitch vMotions</p><p>vSphere Enterprise &amp; vSphere Enterprise Plus - cross vSwitch, cross vCenter, and Long Distance vMotions</p><h3 id="reference"><strong>Reference</strong></h3><ol><li><a href="https://www.vmware.com/products/vsphere.html#collapse361">vSphere vMotion</a></li></ol>
+        </div>
+
+
+        <footer class="post-footer">
+
+            <div class="authors">
+                <a class="author-box" href="/author/kfalconspb/">
+                    <img class="author-profile-image" src="http://localhost:2368/content/images/2019/10/kfalconspb.jpg" alt="Scott Bollinger / @kfalconspb" />
+                    <section class="author-box-content">
+                        <div class="author-box-label">Author</div>
+                        <h5 class="author-box-name">Scott Bollinger / @kfalconspb</h5>
+                        <p>I&#x27;m Scott Bollinger / @kfalconspb, and have been an IT professional for 25 years. Half that time, in a Fortune 50 financial corporation, and the other half with small/medium size businesses.</p>
+                    </section>
+                </a>
+            </div>
+
+        </footer>
+
+    </section>
+
+</main>
+
+
+<script>
+    var images = document.querySelectorAll('.kg-gallery-image img');
+    images.forEach(function (image) {
+        var container = image.closest('.kg-gallery-image');
+        var width = image.attributes.width.value;
+        var height = image.attributes.height.value;
+        var ratio = width / height;
+        container.style.flex = ratio + ' 1 0%';
+    })
+</script>
+
+
+        <div id="copyright">
+            <ul>
+                <li>&copy; Scott-Bollinger.com</li>
+                <li>Design by <a href="https://html5up.net">HTML5 UP</a></li>
+                <li>Published with <a href="https://ghost.org">Ghost</a></li>
+            </ul>
+        </div>
+
+    </div>
+
+
+    <script src="/assets/main/js/jquery.min.js?v=4c09e1ea51"></script>
+    <script src="/assets/main/js/jquery.scrollex.min.js?v=4c09e1ea51"></script>
+    <script src="/assets/main/js/jquery.scrolly.min.js?v=4c09e1ea51"></script>
+    <script src="/assets/main/js/browser.min.js?v=4c09e1ea51"></script>
+    <script src="/assets/main/js/breakpoints.min.js?v=4c09e1ea51"></script>
+    <script src="/assets/main/js/util.js?v=4c09e1ea51"></script>
+    <script src="/assets/main/js/main.js?v=4c09e1ea51"></script>
+
+    
+
+</body>
+</html>

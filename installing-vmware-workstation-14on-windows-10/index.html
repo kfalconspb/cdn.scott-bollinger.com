@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <title>Installing VMware Workstation 14
+On Windows 10</title>
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" type="text/css" href="/assets/main/css/main.css?v=4c09e1ea51" />
+    <noscript><link rel="stylesheet" href="/assets/main/css/noscript.css?v=4c09e1ea51" /></noscript>
+
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="canonical" href="http://localhost:2368/installing-vmware-workstation-14on-windows-10/" />
+    <meta name="referrer" content="no-referrer-when-downgrade" />
+    <link rel="amphtml" href="http://localhost:2368/installing-vmware-workstation-14on-windows-10/amp/" />
+    
+    <meta property="og:site_name" content="Scott-Bollinger.com" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="Installing VMware Workstation 14
+On Windows 10" />
+    <meta property="og:description" content="Why
+The reason I am doing this post, is for anyone new to IT that wants to
+experiment, and play with other Operation Systems, Create vulnerable systems to
+attack those in a safe environment without reaping havoc on your home or
+production network.
+
+If you want to know what virtualization is, please visit my earlier post What
+is
+Virtualization? [https://scott-bollinger.com/032AWhatisVirtualization.html]
+
+There are other virtualization hypervisors you can choose. In this post, I will
+be installing" />
+    <meta property="og:url" content="http://localhost:2368/installing-vmware-workstation-14on-windows-10/" />
+    <meta property="article:published_time" content="2018-04-13T16:00:00.000Z" />
+    <meta property="article:modified_time" content="2019-10-20T12:26:10.000Z" />
+    <meta property="article:tag" content="Virtualization" />
+    
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Installing VMware Workstation 14
+On Windows 10" />
+    <meta name="twitter:description" content="Why
+The reason I am doing this post, is for anyone new to IT that wants to
+experiment, and play with other Operation Systems, Create vulnerable systems to
+attack those in a safe environment without reaping havoc on your home or
+production network.
+
+If you want to know what virtualization is, please visit my earlier post What
+is
+Virtualization? [https://scott-bollinger.com/032AWhatisVirtualization.html]
+
+There are other virtualization hypervisors you can choose. In this post, I will
+be installing" />
+    <meta name="twitter:url" content="http://localhost:2368/installing-vmware-workstation-14on-windows-10/" />
+    <meta name="twitter:label1" content="Written by" />
+    <meta name="twitter:data1" content="Scott Bollinger / @kfalconspb" />
+    <meta name="twitter:label2" content="Filed under" />
+    <meta name="twitter:data2" content="Virtualization" />
+    <meta name="twitter:site" content="@kfalconspb" />
+    <meta name="twitter:creator" content="@kfalconspb" />
+    
+    <script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "publisher": {
+        "@type": "Organization",
+        "name": "Scott-Bollinger.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "http://localhost:2368/favicon.ico",
+            "width": 60,
+            "height": 60
+        }
+    },
+    "author": {
+        "@type": "Person",
+        "name": "Scott Bollinger / @kfalconspb",
+        "image": {
+            "@type": "ImageObject",
+            "url": "http://localhost:2368/content/images/2019/10/kfalconspb.jpg",
+            "width": 399,
+            "height": 399
+        },
+        "url": "http://localhost:2368/author/kfalconspb/",
+        "sameAs": [
+            "http://Scott-Bollinger.com",
+            "https://twitter.com/kfalconspb"
+        ]
+    },
+    "headline": "Installing VMware Workstation 14\nOn Windows 10",
+    "url": "http://localhost:2368/installing-vmware-workstation-14on-windows-10/",
+    "datePublished": "2018-04-13T16:00:00.000Z",
+    "dateModified": "2019-10-20T12:26:10.000Z",
+    "keywords": "Virtualization",
+    "description": "Why\nThe reason I am doing this post, is for anyone new to IT that wants to\nexperiment, and play with other Operation Systems, Create vulnerable systems to\nattack those in a safe environment without reaping havoc on your home or\nproduction network.\n\nIf you want to know what virtualization is, please visit my earlier post What\nis\nVirtualization? [https://scott-bollinger.com/032AWhatisVirtualization.html]\n\nThere are other virtualization hypervisors you can choose. In this post, I will\nbe installing",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "http://localhost:2368/"
+    }
+}
+    </script>
+
+    <meta name="generator" content="Ghost 2.31" />
+    <link rel="alternate" type="application/rss+xml" title="Scott-Bollinger.com" href="http://localhost:2368/rss/" />
+
+
+</head>
+<body class="is-preload post-template tag-virtualization">
+
+    <div id="wrapper" >
+
+
+        <header id="header">
+                <a href="http://localhost:2368" class="logo">Scott-Bollinger.com</a>
+        </header>
+
+            <nav id="nav">
+    <ul class="links">
+        <li class="nav-home "><a href="http://localhost:2368/">Home</a></li>
+        <li class="nav-disclaimer "><a href="http://localhost:2368/disclaimer-do-good-enjoy-life-and-have-fun-in-all-you-do/">Disclaimer</a></li>
+        <li class="nav-about "><a href="http://localhost:2368/author/kfalconspb/">About</a></li>
+    </ul>
+    <ul class="icons">
+        <li><a href="https://twitter.com/kfalconspb" class="icon fa-twitter" title="Twitter"><span class="label">Twitter</span></a></li>
+        <li><a href="https://feedly.com/i/subscription/feed/http://localhost:2368/rss/" class="icon fa-rss" target="_blank" rel="noopener"><span class="label" title="RSS">RSS</span></a></li>
+    </ul>
+</nav>
+
+
+        
+
+<main id="main">
+
+    <section class="post">
+
+        <header class="major">
+            <span class="date">April 13, 2018</span>
+            <h1>Installing VMware Workstation 14
+On Windows 10</h1>
+        </header>
+
+
+        <div class="content">
+            <h3 id="why"><strong>Why</strong></h3><p>The reason I am doing this post, is for anyone new to IT that wants to experiment, and play with other Operation Systems, Create vulnerable systems to attack those in a safe environment without reaping havoc on your home or production network.</p><p>If you want to know what virtualization is, please visit my earlier post <a href="https://scott-bollinger.com/032AWhatisVirtualization.html">What is Virtualization?</a></p><p>There are other virtualization hypervisors you can choose. In this post, I will be installing, my favorite, the VMware Workstation 14 Hypervisor.</p><p>The installation is simple. For those that wish to follow along, I created a short video below.</p><!--kg-card-begin: image--><figure class="kg-card kg-image-card"><img src="https://scott-bollinger.com/img/installvmware14.png" class="kg-image" alt="Installing VMware Workstation 14 Video"></figure><!--kg-card-end: image--><p>Installing VMware Workstation 14 Pro on Windows 10 Video</p><p>I'll be posting about configuration, and a walk through in another post.</p>
+        </div>
+
+
+        <footer class="post-footer">
+
+            <div class="authors">
+                <a class="author-box" href="/author/kfalconspb/">
+                    <img class="author-profile-image" src="http://localhost:2368/content/images/2019/10/kfalconspb.jpg" alt="Scott Bollinger / @kfalconspb" />
+                    <section class="author-box-content">
+                        <div class="author-box-label">Author</div>
+                        <h5 class="author-box-name">Scott Bollinger / @kfalconspb</h5>
+                        <p>I&#x27;m Scott Bollinger / @kfalconspb, and have been an IT professional for 25 years. Half that time, in a Fortune 50 financial corporation, and the other half with small/medium size businesses.</p>
+                    </section>
+                </a>
+            </div>
+
+        </footer>
+
+    </section>
+
+</main>
+
+
+<script>
+    var images = document.querySelectorAll('.kg-gallery-image img');
+    images.forEach(function (image) {
+        var container = image.closest('.kg-gallery-image');
+        var width = image.attributes.width.value;
+        var height = image.attributes.height.value;
+        var ratio = width / height;
+        container.style.flex = ratio + ' 1 0%';
+    })
+</script>
+
+
+        <div id="copyright">
+            <ul>
+                <li>&copy; Scott-Bollinger.com</li>
+                <li>Design by <a href="https://html5up.net">HTML5 UP</a></li>
+                <li>Published with <a href="https://ghost.org">Ghost</a></li>
+            </ul>
+        </div>
+
+    </div>
+
+
+    <script src="/assets/main/js/jquery.min.js?v=4c09e1ea51"></script>
+    <script src="/assets/main/js/jquery.scrollex.min.js?v=4c09e1ea51"></script>
+    <script src="/assets/main/js/jquery.scrolly.min.js?v=4c09e1ea51"></script>
+    <script src="/assets/main/js/browser.min.js?v=4c09e1ea51"></script>
+    <script src="/assets/main/js/breakpoints.min.js?v=4c09e1ea51"></script>
+    <script src="/assets/main/js/util.js?v=4c09e1ea51"></script>
+    <script src="/assets/main/js/main.js?v=4c09e1ea51"></script>
+
+    
+
+</body>
+</html>
