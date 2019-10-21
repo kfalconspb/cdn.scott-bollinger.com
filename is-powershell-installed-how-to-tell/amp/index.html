@@ -17,63 +17,27 @@ How to Tell</title>
     <meta property="og:type" content="article" />
     <meta property="og:title" content="Is PowerShell Installed?
 How to Tell" />
-    <meta property="og:description" content="The CLI Console
-You&#x27;ve heard of PowerShell and now want to see if you have it installed and
-available on your Windows OS.
-
-At the Microsoft command prompt (run cmd.exe) type the command PowerShell and
-hit enter.
-
-PowerShell
-
-If PowerShell is installed, a PowerShell command prompt should be seen like the
-below.
-
-PS C:\Users\kfalconspb\
-
-At the PS command prompt type $PSVersionTable for version information.
-
-$PSVersionTable
-
-You can also type this one liner at the Microsoft command prompt.
-
-powers" />
+    <meta property="og:description" content="You&#x27;ve heard of PowerShell and now want to see if you have it installed and available on your Windows OS." />
     <meta property="og:url" content="http://Scott-Bollinger.com/is-powershell-installed-how-to-tell/" />
+    <meta property="og:image" content="http://Scott-Bollinger.com/content/images/2019/10/powershell-1.jpg" />
     <meta property="article:published_time" content="2015-01-02T17:00:00.000Z" />
-    <meta property="article:modified_time" content="2019-10-20T14:35:20.000Z" />
+    <meta property="article:modified_time" content="2019-10-21T10:06:24.000Z" />
     <meta property="article:tag" content="Development" />
     
-    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="Is PowerShell Installed?
 How to Tell" />
-    <meta name="twitter:description" content="The CLI Console
-You&#x27;ve heard of PowerShell and now want to see if you have it installed and
-available on your Windows OS.
-
-At the Microsoft command prompt (run cmd.exe) type the command PowerShell and
-hit enter.
-
-PowerShell
-
-If PowerShell is installed, a PowerShell command prompt should be seen like the
-below.
-
-PS C:\Users\kfalconspb\
-
-At the PS command prompt type $PSVersionTable for version information.
-
-$PSVersionTable
-
-You can also type this one liner at the Microsoft command prompt.
-
-powers" />
+    <meta name="twitter:description" content="You&#x27;ve heard of PowerShell and now want to see if you have it installed and available on your Windows OS." />
     <meta name="twitter:url" content="http://Scott-Bollinger.com/is-powershell-installed-how-to-tell/" />
+    <meta name="twitter:image" content="http://Scott-Bollinger.com/content/images/2019/10/powershell-1.jpg" />
     <meta name="twitter:label1" content="Written by" />
     <meta name="twitter:data1" content="Scott Bollinger / @kfalconspb" />
     <meta name="twitter:label2" content="Filed under" />
     <meta name="twitter:data2" content="Development" />
     <meta name="twitter:site" content="@kfalconspb" />
     <meta name="twitter:creator" content="@kfalconspb" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="940" />
     
     <script type="application/ld+json">
 {
@@ -107,9 +71,15 @@ powers" />
     "headline": "Is PowerShell Installed?\nHow to Tell",
     "url": "http://Scott-Bollinger.com/is-powershell-installed-how-to-tell/",
     "datePublished": "2015-01-02T17:00:00.000Z",
-    "dateModified": "2019-10-20T14:35:20.000Z",
+    "dateModified": "2019-10-21T10:06:24.000Z",
+    "image": {
+        "@type": "ImageObject",
+        "url": "http://Scott-Bollinger.com/content/images/2019/10/powershell-1.jpg",
+        "width": 1200,
+        "height": 940
+    },
     "keywords": "Development",
-    "description": "The CLI Console\nYou&#x27;ve heard of PowerShell and now want to see if you have it installed and\navailable on your Windows OS.\n\nAt the Microsoft command prompt (run cmd.exe) type the command PowerShell and\nhit enter.\n\nPowerShell\n\nIf PowerShell is installed, a PowerShell command prompt should be seen like the\nbelow.\n\nPS C:\\Users\\kfalconspb\\\n\nAt the PS command prompt type $PSVersionTable for version information.\n\n$PSVersionTable\n\nYou can also type this one liner at the Microsoft command prompt.\n\npowers",
+    "description": "You&#x27;ve heard of PowerShell and now want to see if you have it installed and available on your Windows OS.",
     "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "http://Scott-Bollinger.com/"
@@ -148,6 +118,9 @@ How to Tell</h1>
                     <time class="post-date" datetime="2015-01-02">2015-01-02</time>
                 </section>
             </header>
+            <figure class="post-image">
+                <amp-img src="http://Scott-Bollinger.com/content/images/2019/10/powershell-1.jpg" width="600" height="400" layout="responsive"></amp-img>
+            </figure>
             <section class="post-content">
 
                 <h3 id="the-cli-console"><strong>The CLI Console</strong></h3><p>You've heard of PowerShell and now want to see if you have it installed and available on your Windows OS.</p><p>At the Microsoft command prompt (run cmd.exe) type the command PowerShell and hit enter.</p><p><code>PowerShell</code></p><p>If PowerShell is installed, a PowerShell command prompt should be seen like the below.</p><p>PS C:\Users\kfalconspb\</p><p>At the PS command prompt type $PSVersionTable for version information.</p><p><code>$PSVersionTable</code></p><p>You can also type this one liner at the Microsoft command prompt.</p><p><code>powershell -command "&amp;{(get-item c:\windows\system32\windowspowershell\v1.0\powershell.exe).VersionInfo | fl *"}</code></p>
