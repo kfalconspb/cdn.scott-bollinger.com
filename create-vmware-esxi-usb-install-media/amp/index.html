@@ -17,20 +17,24 @@
     <meta property="og:title" content="Create VMware ESXi USB Install Media" />
     <meta property="og:description" content="Download the ESXi ISO from the VMware Download Website. This ISO needs to be written to the USB, and be made bootable. There are many applications which can do this for you, in this example, we&#x27;ll be using UNetbootin." />
     <meta property="og:url" content="http://Scott-Bollinger.com/create-vmware-esxi-usb-install-media/" />
+    <meta property="og:image" content="http://Scott-Bollinger.com/content/images/2019/10/079CreateVMwareESXiUSBInstallMedia07-1.png" />
     <meta property="article:published_time" content="2018-08-05T16:00:00.000Z" />
-    <meta property="article:modified_time" content="2019-10-20T11:41:53.000Z" />
+    <meta property="article:modified_time" content="2019-10-21T04:46:58.000Z" />
     <meta property="article:tag" content="Virtualization" />
     
-    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="Create VMware ESXi USB Install Media" />
     <meta name="twitter:description" content="Download the ESXi ISO from the VMware Download Website. This ISO needs to be written to the USB, and be made bootable. There are many applications which can do this for you, in this example, we&#x27;ll be using UNetbootin." />
     <meta name="twitter:url" content="http://Scott-Bollinger.com/create-vmware-esxi-usb-install-media/" />
+    <meta name="twitter:image" content="http://Scott-Bollinger.com/content/images/2019/10/079CreateVMwareESXiUSBInstallMedia07-1.png" />
     <meta name="twitter:label1" content="Written by" />
     <meta name="twitter:data1" content="Scott Bollinger / @kfalconspb" />
     <meta name="twitter:label2" content="Filed under" />
     <meta name="twitter:data2" content="Virtualization" />
     <meta name="twitter:site" content="@kfalconspb" />
     <meta name="twitter:creator" content="@kfalconspb" />
+    <meta property="og:image:width" content="2000" />
+    <meta property="og:image:height" content="1499" />
     
     <script type="application/ld+json">
 {
@@ -64,7 +68,13 @@
     "headline": "Create VMware ESXi USB Install Media",
     "url": "http://Scott-Bollinger.com/create-vmware-esxi-usb-install-media/",
     "datePublished": "2018-08-05T16:00:00.000Z",
-    "dateModified": "2019-10-20T11:41:53.000Z",
+    "dateModified": "2019-10-21T04:46:58.000Z",
+    "image": {
+        "@type": "ImageObject",
+        "url": "http://Scott-Bollinger.com/content/images/2019/10/079CreateVMwareESXiUSBInstallMedia07-1.png",
+        "width": 2000,
+        "height": 1499
+    },
     "keywords": "Virtualization",
     "description": "Download the ESXi ISO from the VMware Download Website. This ISO needs to be written to the USB, and be made bootable. There are many applications which can do this for you, in this example, we&#x27;ll be using UNetbootin.",
     "mainEntityOfPage": {
@@ -104,9 +114,12 @@
                     <time class="post-date" datetime="2018-08-05">2018-08-05</time>
                 </section>
             </header>
+            <figure class="post-image">
+                <amp-img src="http://Scott-Bollinger.com/content/images/2019/10/079CreateVMwareESXiUSBInstallMedia07-1.png" width="600" height="400" layout="responsive"></amp-img>
+            </figure>
             <section class="post-content">
 
-                <h3 id="something-physical"><strong><strong>Something Physical</strong></strong></h3><p>It's not often I install anything from physical media anymore, but it still has it's uses. This USB stick, will be used to install ESXi, on my Intel NUC's, and the Mac Mini, in am upcoming post. I'll explore PXE boot in the future, as well, once the core infrastructure is completely operational.</p><h3 id="prep"><strong><strong>Prep</strong></strong></h3><p>Download the ESXi ISO from the VMware Download Website. This ISO needs to be written to the USB, and be made bootable. There are many applications which can do this for you, in this example, we'll be using UNetbootin.</p><p>Download the appropriate version for your OS. In this case, we'll be using apt-get to install UNetbootin on Ubuntu 18.04.</p><figure class="kg-card kg-image-card"></figure><h3 id="add-repo"><strong><strong>Add Repo</strong></strong></h3><p>Open a terminal console, and type the following, to add the apt repository: sudo add-apt-repository ppa:gezakovacs/ppa</p><figure class="kg-card kg-image-card"></figure><h3 id="install-unetbootin"><strong><strong>Install UNetbootin</strong></strong></h3><p>Type: sudo apt-get update</p><p>Then type: apt-get install unetbootin</p><p>Type Y, to install</p><figure class="kg-card kg-image-card"></figure><p>Installing</p><figure class="kg-card kg-image-card"></figure><h3 id="write-iso-to-usb-and-make-bootable-"><strong><strong>Write ISO to USB, and Make Bootable.</strong></strong></h3><p>From the Ubuntu desktop. select activities, and search for unetbootin, and click to open.</p><figure class="kg-card kg-image-card"></figure><p>UNetbootin gives the option to select, and download a distribution/version, or an ISO can be chosen.</p><figure class="kg-card kg-image-card"></figure><p>Select Diskimage, navigate to, and select the VMware ESXi downloaded from earlier. Click OK to begin.</p><figure class="kg-card kg-image-card"></figure><p>Extracting files to be written to USB.</p><figure class="kg-card kg-image-card"></figure><p>Installing bootloader.</p><figure class="kg-card kg-image-card"></figure><p>Click Exit, when the installation is complete.</p><figure class="kg-card kg-image-card"></figure><p>Viewing the USB in a file manager, the VMware install files can be seen.</p><figure class="kg-card kg-image-card"></figure>
+                <h3 id="something-physical"><strong><strong>Something Physical</strong></strong></h3><p>It's not often I install anything from physical media anymore, but it still has it's uses. This USB stick, will be used to install ESXi, on my Intel NUC's, and the Mac Mini, in am upcoming post. I'll explore PXE boot in the future, as well, once the core infrastructure is completely operational.</p><h3 id="prep"><strong><strong>Prep</strong></strong></h3><p>Download the ESXi ISO from the VMware Download Website. This ISO needs to be written to the USB, and be made bootable. There are many applications which can do this for you, in this example, we'll be using UNetbootin.</p><p>Download the appropriate version for your OS. In this case, we'll be using apt-get to install UNetbootin on Ubuntu 18.04.</p><figure class="kg-card kg-image-card"></figure><h3 id="add-repo"><strong><strong>Add Repo</strong></strong></h3><p>Open a terminal console, and type the following, to add the apt repository: sudo add-apt-repository ppa:gezakovacs/ppa</p><figure class="kg-card kg-image-card"></figure><h3 id="install-unetbootin"><strong><strong>Install UNetbootin</strong></strong></h3><p>Type: sudo apt-get update</p><p>Then type: apt-get install unetbootin</p><p>Type Y, to install</p><figure class="kg-card kg-image-card"></figure><p>Installing</p><figure class="kg-card kg-image-card"></figure><h3 id="write-iso-to-usb-and-make-bootable-"><strong><strong>Write ISO to USB, and Make Bootable.</strong></strong></h3><p>From the Ubuntu desktop. select activities, and search for unetbootin, and click to open.</p><figure class="kg-card kg-image-card"></figure><p>UNetbootin gives the option to select, and download a distribution/version, or an ISO can be chosen.</p><figure class="kg-card kg-image-card"></figure><p>Select Diskimage, navigate to, and select the VMware ESXi downloaded from earlier. Click OK to begin.</p><figure class="kg-card kg-image-card"></figure><p>Extracting files to be written to USB.</p><p>Installing bootloader.</p><figure class="kg-card kg-image-card"></figure><p>Click Exit, when the installation is complete.</p><figure class="kg-card kg-image-card"></figure><p>Viewing the USB in a file manager, the VMware install files can be seen.</p><figure class="kg-card kg-image-card"></figure>
 
             </section>
 
