@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Install Ubuntu 18.04 Virtual Machine in a VMware ESXi 6.7 Environment">
+    <meta name="author" content="Scott Bollinger / @kfalconspb">
+    <link rel="alternate" type="application/rss+xml" title="Scott-Bollinger.com RSS Feed a Collection of My Writings, Notes, and Thoughts by Scott Bollinger / @kfalconspb" href="rss.xml" />
+    <title>Install Ubuntu 18.04 Virtual Machine in a VMware ESXi 6.7 Environment</title>
+    <!-- Bootstrap Core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Theme CSS -->
+    <link href="css/clean-blog.min.css" rel="stylesheet">
+    <!-- Custom Fonts -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    Menu <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand" href="index.html">Scott-Bollinger.com</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="about.html">About</a>
+                    </li>
+                    <li>
+                        <a href="disclaimer.html">Disclaimer</a>
+                    </li>
+                    <li>
+                        <a href="infoFireHose.html">infoFireHose</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+    <!-- Page Header -->
+    <!-- Set your background image for this header on the line below. -->
+    <header class="intro-header" style="background-image: url('/img/asset-156.jpg')">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    <div class="post-heading">
+                        <h1>Install Ubuntu 18.04 Virtual Machine</h1>
+                        <h2 class="subheading">in a VMware ESXi 6.7 Environment</h2>
+                        <span class="meta">Posted by <a href="about.html">Scott Bollinger</a> / <a href="https://twitter.com/kfalconspb" target="_blank">@kfalconspb</a> on July 24, 2018</span>
+                        <span class="meta"><a href="virtualization.html">#General</a></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Post Content -->
+    <article>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    <h3 class="section-heading">Base Camp</h3>
+                    <p>Needing a desktop to work from while building the new infrastructure, one of the first virtual machine's I'm building is a Ubuntu 18.04 with a desktop environment. I'll also be updating the OS, and installing the Open-VM-Tools.</p>
+                    <p>The Ubuntu install is pretty straight forward, so this was a pretty quick lab.</p>
+                    <p>At this point, vCenter is not installed, so I'm logged directly into the HTML5 Client on the Host. Select VM's and Templates, and Create and New Virtual Machine.</p>
+                    <img class="img-responsive" src="https://scott-bollinger.com/img/labUbuntu1804VMInstall01.png" alt="" title="" />
+                    <p>Create a new virtual machine</p>
+                    <img class="img-responsive" src="https://scott-bollinger.com/img/labUbuntu1804VMInstall02.png" alt="" title="" />
+                    <p>Configure the VM's Name, select the compatibility, guest OS family, and version.</p>
+                    <img class="img-responsive" src="https://scott-bollinger.com/img/labUbuntu1804VMInstall03.png" alt="" title="" />
+                    <p>Select the datastore location to store the VM. I select an NFS datastore, but can seamlessly Storage vMotion it elsewhere, once I have the VCSA installed and configured.</p>
+                    <img class="img-responsive" src="https://scott-bollinger.com/img/labUbuntu1804VMInstall04.png" alt="" title="" />
+                    <p>Customize any of the Guest resources as desired. I changed the CD-Rom to DataStore ISO, and selected the location where I have the Ubuntu Install ISO file.</p>
+                    <img class="img-responsive" src="https://scott-bollinger.com/img/labUbuntu1804VMInstall05.png" alt="" title="" />
+                    <p>Click Finish to Create the VM</p>
+                    <img class="img-responsive" src="https://scott-bollinger.com/img/labUbuntu1804VMInstall07.png" alt="" title="" />
+                    <p>Power On the VM, and click on the little remote screen to open a remote session tab.</p>
+                    <img class="img-responsive" src="https://scott-bollinger.com/img/labUbuntu1804VMInstall09.png" alt="" title="" />
+                    <p>You should be able to see Ubuntu booting from the ISO.</p>
+                    <img class="img-responsive" src="https://scott-bollinger.com/img/labUbuntu1804VMInstall10.png" alt="" title="" />
+                    <p>Selecting my Keyboard Layout</p>
+                    <img class="img-responsive" src="https://scott-bollinger.com/img/labUbuntu1804VMInstall11.png" alt="" title="" />
+                    <p>Select, Install Ubuntu.</p>
+                    <img class="img-responsive" src="https://scott-bollinger.com/img/labUbuntu1804VMInstall13.png" alt="" title="" />
+                    <p>Select Normal, download updates, and install third party software</p>
+                    <img class="img-responsive" src="https://scott-bollinger.com/img/labUbuntu1804VMInstall14.png" alt="" title="" />
+                    <p>I selected LVM, but did not choose to encrypt, as this is a lab, and the NAS where the VM disk will be stored is encrypted.</p>
+                    <img class="img-responsive" src="https://scott-bollinger.com/img/labUbuntu1804VMInstall15.png" alt="" title="" />
+                    <p>Click Continue, to write partition changes to disk.</p>
+                    <img class="img-responsive" src="https://scott-bollinger.com/img/labUbuntu1804VMInstall16.png" alt="" title="" />
+                    <p>Select timezone</p>
+                    <img class="img-responsive" src="https://scott-bollinger.com/img/labUbuntu1804VMInstall17.png" alt="" title="" />
+                    <p>Configure the host's name, enter name, username, and password.</p>
+                    <img class="img-responsive" src="https://scott-bollinger.com/img/labUbuntu1804VMInstall18.png" alt="" title="" />
+                    <p>Off it goes installing!</p>
+                    <img class="img-responsive" src="https://scott-bollinger.com/img/labUbuntu1804VMInstall19.png" alt="" title="" />
+                    <p>Once the installation is complete, click Restart Now</p>
+                    <img class="img-responsive" src="https://scott-bollinger.com/img/labUbuntu1804VMInstall21.png" alt="" title="" />
+                    <<p>Open a terminal console, and type the following to install all available updates, and upgrades: sudo apt-get update && echo 'y' | sudo apt-get upgrade && echo  'y' | sudo apt-get dist-upgrade && echo 'y'</p>
+                    <img class="img-responsive" src="https://scott-bollinger.com/img/labUbuntu1804VMInstall27.png" alt="" title="" />
+                    <p></p>
+                    <img class="img-responsive" src="https://scott-bollinger.com/img/labUbuntu1804VMInstall28.png" alt="" title="" />
+                    <p></p>
+                    <img class="img-responsive" src="https://scott-bollinger.com/img/labUbuntu1804VMInstall29.png" alt="" title="" />
+                    <p>To install Open VM Tools, type the following: sudo apt-get install open-vm-tools open-vm-tools-desktop</p>
+                    <p>Type Y to continue.</p>
+                    <img class="img-responsive" src="https://scott-bollinger.com/img/labUbuntu1804VMInstall31.png" alt="" title="" />
+                    <p></p>
+                    <img class="img-responsive" src="https://scott-bollinger.com/img/labUbuntu1804VMInstall32.png" alt="" title="" />
+                    <p>From the VMware Host's HTML5 client the VMTools now show install and the version of OpenVMTools is shown.</p>
+                    <img class="img-responsive" src="https://scott-bollinger.com/img/labUbuntu1804VMInstall34.png" alt="" title="" />
+                    <p>To reboot type: sudo reboot</p>
+                    <img class="img-responsive" src="https://scott-bollinger.com/img/labUbuntu1804VMInstall35.png" alt="" title="" />
+                    <p>Thanks for reading</p>
+                    <p><a href="about.html">Scott Bollinger</a> / <a href="https://twitter.com/kfalconspb" target="_blank">@kfalconspb</a></p>
+                </div>
+            </div>
+        </div>
+    </article>
+    <hr>
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    <ul class="list-inline text-center">
+                        <li>
+                            <a href="https://twitter.com/kfalconspb/" target="_blank">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/ScottPBollinger/" target="_blank">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/kfalconspb/" target="_blank">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/kfalconspb/" target="_blank">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-instagram fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/kfalconspb/" target="_blank">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.youtube.com/user/LaboratoriumRattus/" target="_blank">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-youtube fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                    </ul>
+                    <p class="copyright text-muted">Copyright &copy; 2019 <a href="about.html">Scott Bollinger</a> / <a href="https://twitter.com/kfalconspb" target="_blank">@kfalconspb</a> / <a href="https://scott-bollinger.com/sitemap.html" target="_blank">Site Map</p>
+               </div>
+            </div>
+        </div>
+    </footer>
+    <!-- jQuery -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+    <!-- Theme JavaScript -->
+    <script src="js/clean-blog.min.js"></script>
+    <!-- Add This To RSS.xml
+    <item>
+    <title>Install Ubuntu 18.04 Virtual Machine in a VMware ESXi 6.7 Environment</title>
+    <description>Install Ubuntu 18.04 Virtual Machine in a VMware ESXi 6.7 Environment</description>
+    <link>https://Scott-Bollinger.com/082LinuxLabUbuntuInstall.html</link>
+    <guid>https://Scott-Bollinger.com/082LinuxLabUbuntuInstall.html</guid>
+    <pubDate>Tues, 24 Jul 2018 09:00:00 +0000 </pubDate>
+    <category>General</category>
+    </item> 
+    -->
+    <!-- Add This To index.html
+    <div class="post-preview">
+                    <a href="082LinuxLabUbuntuInstall.html">
+                        <h2 class="post-title">
+                            Install Ubuntu 18.04 Virtual Machine
+                        </h2>
+                        <h3 class="post-subtitle">
+                            in a VMware ESXi 6.7 Environment
+                        </h3>
+                    </a>
+                    <p class="post-meta">Posted by <a href="about.html">Scott Bollinger</a> / <a href="https://twitter.com/kfalconspb" target="_blank">@kfalconspb</a> on July 24, 2018</p>
+                </div>
+                <hr>
+    -->
+    <!-- Add This To lists.html
+    <li><a href="https://scott-bollinger.com/082LinuxLabUbuntuInstall.html" title="Install Ubuntu 18.04 Virtual Machine in a VMware ESXi 6.7 Environment">Install Ubuntu 18.04 Virtual Machine in a VMware ESXi 6.7 Environment</a></li>
+    -->
+</body>
+</html>

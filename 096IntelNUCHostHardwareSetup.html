@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Intel NUC Lab Hosts Hardware Setup">
+    <meta name="author" content="Scott Bollinger / @kfalconspb">
+    <link rel="alternate" type="application/rss+xml" title="Scott-Bollinger.com RSS Feed a Collection of My Writings, Notes, and Thoughts by Scott Bollinger / @kfalconspb" href="rss.xml" />
+    <title>Intel NUC Lab Hosts Hardware Setup</title>
+    <!-- Bootstrap Core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Theme CSS -->
+    <link href="css/clean-blog.min.css" rel="stylesheet">
+    <!-- Custom Fonts -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    Menu <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand" href="index.html">Scott-Bollinger.com</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="about.html">About</a>
+                    </li>
+                    <li>
+                        <a href="disclaimer.html">Disclaimer</a>
+                    </li>
+                    <li>
+                        <a href="infoFireHose.html">infoFireHose</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+    <!-- Page Header -->
+    <!-- Set your background image for this header on the line below. -->
+    <header class="intro-header" style="background-image: url('/img/asset-98.jpg')">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    <div class="post-heading">
+                        <h1>Intel NUC Lab Hosts</h1>
+                        <h2 class="subheading">Hardware Setup</h2>
+                        <span class="meta">Posted by <a href="about.html">Scott Bollinger</a> / <a href="https://twitter.com/kfalconspb" target="_blank">@kfalconspb</a> on August 05, 2018</span>
+                        <span class="meta"><a href="virtualization.html">#Virtualizartion</a></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Post Content -->
+    <article>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    <h3 class="section-heading">Hosts for the New Lab</h3>
+                    <p>It was a long time coming, buying proper Lab hardware. If you read my post <a href="https://scott-bollinger.com/080LaboratoriumRattus.html" target="_blank">here</a>, then you know the state of my Lab prior to the rebuild. It was after reading a couple of <a href="https://www.virten.net/" target="_blank">Blogs by Florian</a> <a href="https://twitter.com/virgin" target="_blank">@virten</a>, one of which was <a href="https://www.virten.net/2018/05/esxi-on-7th-gen-intel-nuc-kaby-lake-dawson-canyon/" target="_blank">https://www.virten.net/2018/05/esxi-on-7th-gen-intel-nuc-kaby-lake-dawson-canyon/</a>, that I decided on the Intel NUC.</p>
+                    <p>It's performed exceptionally well, and met my requirements of, remote vPro/ilo connectivity, as well as low power consumption. I have two in operation, servicing the lab, and am quite happy with the speed/performance, as well as, the ease of upgrade/install.</p>
+                    <p>As I've mentioned in prior posts, you don't need a bunch of expensive hardware to learn, and have a working lab. It's just easier to configure, and allows you to run more virtual machines at one time.</p>
+                    <p>Lab along with me, and I hope you enjoy!</p>
+                    <p><a href="about.html">Scott Bollinger</a> / <a href="https://twitter.com/kfalconspb" target="_blank">@kfalconspb</a></p>
+                    <h3 class="section-heading">Lab Intel NUC HW Build</h3>
+                    <p>All the parts have arrived. Let the fun begin.</p>
+                    <img class="img-responsive" src="https://scott-bollinger.com/img/086IntelNUCHostHardwareSetup02.png" alt="" title="" />
+                    <p>The NUC in the palm of my hand for comparison. It feels heavy and well made, even empty.</p>
+                    <img class="img-responsive" src="https://scott-bollinger.com/img/086IntelNUCHostHardwareSetup03.jpg" alt="" title="" />
+                    <p>Bottom unscrewed, and bottom/drive chassis set off to the back. Everything was very accessible, making it easily upgradable.</p>
+                    <img class="img-responsive" src="https://scott-bollinger.com/img/086IntelNUCHostHardwareSetup04.jpg" alt="" title="" />
+                    <p>Unplugged the drive vhassis, and moving it aside, to install the SSD.</p>
+                    <img class="img-responsive" src="https://scott-bollinger.com/img/086IntelNUCHostHardwareSetup05.jpg" alt="" title="" />
+                    <p>Bottom unscrewed, the drive chassis unplugged, and removed. DIMM Slots on the right, NVMe slot on the left.</p>
+                    <img class="img-responsive" src="https://scott-bollinger.com/img/086IntelNUCHostHardwareSetup06.jpg" alt="" title="" />
+                    <p>Installing the WD SSD in the drive chassis</p>
+                    <img class="img-responsive" src="https://scott-bollinger.com/img/086IntelNUCHostHardwareSetup07.jpg" alt="" title="" />
+                    <p>With the Corsair 2x16GB Vengeance DDR4 Installed.</p>
+                    <img class="img-responsive" src="https://scott-bollinger.com/img/086IntelNUCHostHardwareSetup08.jpg" alt="" title="" />
+                    <p>With the Samsung 970 Pro 512GB NVMe Installed</p>
+                    <img class="img-responsive" src="https://scott-bollinger.com/img/086IntelNUCHostHardwareSetup09.jpg" alt="" title="" />
+                    <h3 class="section-heading">Parts List</h3>
+                    <p>Samsung 970 Pro 512GB NVMe PCIe M.2 2280 SSD (MZ-V7P512BW)</p>
+                    <a href="https://www.amazon.com/dp/B07C8Y31G2/ref=cm_sw_r_cp_tai_z59zBbEA75324" target="_blank"><img class="img-responsive" src="https://scott-bollinger.com/img/086IntelNUCHostHardwareSetup11.png" alt="Samsung 970 PRO 512GB - NVMe PCIe M.2 2280 SSD (MZ-V7P512BW) https://www.amazon.com/dp/B07C8Y31G2/ref=cm_sw_r_cp_tai_z59zBbEA75324" title="Samsung 970 PRO 512GB - NVMe PCIe M.2 2280 SSD (MZ-V7P512BW) https://www.amazon.com/dp/B07C8Y31G2/ref=cm_sw_r_cp_tai_z59zBbEA75324" /></a>
+                    <p>Corsair CMSX32GX4M2A2400C16 Vengeance 32GB (2x16GB) 260-Pin DDR4 SO-DIMM DDR4 2400 (PC4 19200) Memory</p>
+                    <a href="https://www.amazon.com/dp/B01G26166W/ref=cm_sw_r_cp_tai_359zBb7E4BBE4" target="_blank"><img class="img-responsive" src="https://scott-bollinger.com/img/086IntelNUCHostHardwareSetup12.png" alt="CORSAIR CMSX32GX4M2A2400C16 Vengeance 32GB (2x16GB) 260-Pin DDR4 SO-DIMM DDR4 2400 (PC4 19200) Memory (Notebook Memory) https://www.amazon.com/dp/B01G26166W/ref=cm_sw_r_cp_tai_359zBb7E4BBE4" title="CORSAIR CMSX32GX4M2A2400C16 Vengeance 32GB (2x16GB) 260-Pin DDR4 SO-DIMM DDR4 2400 (PC4 19200) Memory (Notebook Memory) https://www.amazon.com/dp/B01G26166W/ref=cm_sw_r_cp_tai_359zBb7E4BBE4" /></a>
+                    <p>Intel NUC 7 Business Mini PC Kit Tall with vPro Technology (BLKNUCi7DNH1E)</p>
+                    <a href="https://www.amazon.com/dp/B07CCQ8V4R/ref=cm_sw_r_cp_tai_q69zBbF80EF04" target="_blank"><img class="img-responsive" src="https://scott-bollinger.com/img/086IntelNUCHostHardwareSetup13.png" alt="Intel NUC 7 Business Mini PC Kit Tall with vPro Technology (BLKNUC7i7DNH1E) https://www.amazon.com/dp/B07CCQ8V4R/ref=cm_sw_r_cp_tai_q69zBbF80EF04" title="Intel NUC 7 Business Mini PC Kit Tall with vPro Technology (BLKNUC7i7DNH1E) https://www.amazon.com/dp/B07CCQ8V4R/ref=cm_sw_r_cp_tai_q69zBbF80EF04" /></a>
+                     <p>WD Blue 3D NAND 1TB PC SSD SATA III 6GB/s 2.5"/7mm Solid State Drive WDS100T2B0A</p>
+                    <a href="https://www.amazon.com/dp/B073SBQMCX/ref=cm_sw_r_cp_tai_jw9zBb021A3C4" target="_blank"><img class="img-responsive" src="https://scott-bollinger.com/img/086IntelNUCHostHardwareSetup14.png" alt="WD Blue 3D NAND 1TB PC SSD - SATA III 6 Gb/s 2.5"/7mm Solid State Drive - WDS100T2B0A https://www.amazon.com/dp/B073SBQMCX/ref=cm_sw_r_cp_tai_jw9zBb021A3C4" title="WD Blue 3D NAND 1TB PC SSD - SATA III 6 Gb/s 2.5"/7mm Solid State Drive - WDS100T2B0A https://www.amazon.com/dp/B073SBQMCX/ref=cm_sw_r_cp_tai_jw9zBb021A3C4" /></a>
+                </div>
+            </div>
+        </div>
+    </article>
+    <hr>
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    <ul class="list-inline text-center">
+                        <li>
+                            <a href="https://twitter.com/kfalconspb/" target="_blank">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/ScottPBollinger/" target="_blank">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/kfalconspb/" target="_blank">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/kfalconspb/" target="_blank">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-instagram fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/kfalconspb/" target="_blank">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.youtube.com/user/LaboratoriumRattus/" target="_blank">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-youtube fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                    </ul>
+                    <p class="copyright text-muted">Copyright &copy; 2019 <a href="about.html">Scott Bollinger</a> / <a href="https://twitter.com/kfalconspb" target="_blank">@kfalconspb</a> / <a href="https://scott-bollinger.com/sitemap.html" target="_blank">Site Map</p>
+               </div>
+            </div>
+        </div>
+    </footer>
+    <!-- jQuery -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+    <!-- Theme JavaScript -->
+    <script src="js/clean-blog.min.js"></script>
+    <!-- Add This To RSS.xml
+    <item>
+    <title>Intel NUC Lab Hosts Hardware Setup</title>
+    <description>Intel NUC Lab Hosts Hardware Setup</description>
+    <link>https://Scott-Bollinger.com/096IntelNUCHostHardwareSetup.html</link>
+    <guid>https://Scott-Bollinger.com/096IntelNUCHostHardwareSetup.html</guid>
+    <pubDate>Sun, 05 Aug 2018 09:00:00 +0000 </pubDate>
+    <category>General</category>
+    </item> 
+    -->
+    <!-- Add This To index.html
+    <div class="post-preview">
+                    <a href="096IntelNUCHostHardwareSetup.html">
+                        <h2 class="post-title">
+                            Intel NUC Lab Hosts
+                        </h2>
+                        <h3 class="post-subtitle">
+                            Hardware Setup
+                        </h3>
+                    </a>
+                    <p class="post-meta">Posted by <a href="about.html">Scott Bollinger</a> / <a href="https://twitter.com/kfalconspb" target="_blank">@kfalconspb</a> on August 05, 2018 <a href="general.html">#General</a></p>
+                </div>
+                <hr>
+    -->
+    <!-- Add This To lists.html
+    <li><a href="https://scott-bollinger.com/096IntelNUCHostHardwareSetup.html" title="Intel NUC Lab Hosts Hardware Setup">Intel NUC Lab Hosts Hardware Setup</a></li>
+    -->
+</body>
+</html>
