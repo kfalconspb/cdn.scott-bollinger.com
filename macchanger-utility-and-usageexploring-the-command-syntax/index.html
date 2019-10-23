@@ -35,12 +35,13 @@ https://github.com/alobbs/macchanger &quot;GNU MAC Changer is an utility that ma
 the maniputation of MAC addresses of network interfaces easier.&quot; README
 [https://github.com/alo" />
     <meta property="og:url" content="http://Scott-Bollinger.com/macchanger-utility-and-usageexploring-the-command-syntax/" />
+    <meta property="og:image" content="http://Scott-Bollinger.com/content/images/2019/10/macchangerhelp-1.jpg" />
     <meta property="article:published_time" content="2018-07-30T16:00:00.000Z" />
-    <meta property="article:modified_time" content="2019-10-23T06:51:37.000Z" />
+    <meta property="article:modified_time" content="2019-10-23T08:21:21.000Z" />
     <meta property="article:tag" content="Network" />
     <meta property="article:tag" content="Security" />
     
-    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="Macchanger Utility, and Usage
 Exploring the Command Syntax" />
     <meta name="twitter:description" content="Exploring Macchanger
@@ -56,12 +57,15 @@ https://github.com/alobbs/macchanger &quot;GNU MAC Changer is an utility that ma
 the maniputation of MAC addresses of network interfaces easier.&quot; README
 [https://github.com/alo" />
     <meta name="twitter:url" content="http://Scott-Bollinger.com/macchanger-utility-and-usageexploring-the-command-syntax/" />
+    <meta name="twitter:image" content="http://Scott-Bollinger.com/content/images/2019/10/macchangerhelp-1.jpg" />
     <meta name="twitter:label1" content="Written by" />
     <meta name="twitter:data1" content="Scott Bollinger / @kfalconspb" />
     <meta name="twitter:label2" content="Filed under" />
     <meta name="twitter:data2" content="Network, Security" />
     <meta name="twitter:site" content="@kfalconspb" />
     <meta name="twitter:creator" content="@kfalconspb" />
+    <meta property="og:image:width" content="2000" />
+    <meta property="og:image:height" content="587" />
     
     <script type="application/ld+json">
 {
@@ -95,7 +99,13 @@ the maniputation of MAC addresses of network interfaces easier.&quot; README
     "headline": "Macchanger Utility, and Usage\nExploring the Command Syntax",
     "url": "http://Scott-Bollinger.com/macchanger-utility-and-usageexploring-the-command-syntax/",
     "datePublished": "2018-07-30T16:00:00.000Z",
-    "dateModified": "2019-10-23T06:51:37.000Z",
+    "dateModified": "2019-10-23T08:21:21.000Z",
+    "image": {
+        "@type": "ImageObject",
+        "url": "http://Scott-Bollinger.com/content/images/2019/10/macchangerhelp-1.jpg",
+        "width": 2000,
+        "height": 587
+    },
     "keywords": "Network, Security",
     "description": "Exploring Macchanger\nUsed it before, but nothing beyond changing the MAC, and moving on? In this lab,\nthe macchanger command syntax is walked through.\n\nThe purpose for these exploration labs, is to get familiar with common tools,\nOperation Systems, and technologies.\n\nPurpose\nThe purpose of macchanger by Alvaro Lopez Ortega \nhttps://github.com/alobbs/macchanger &quot;GNU MAC Changer is an utility that makes\nthe maniputation of MAC addresses of network interfaces easier.&quot; README\n[https://github.com/alo",
     "mainEntityOfPage": {
@@ -154,6 +164,8 @@ the maniputation of MAC addresses of network interfaces easier.&quot; README
 Exploring the Command Syntax</h1>
         </header>
 
+        <div class="image main"><img src="/content/images/2019/10/macchangerhelp-1.jpg" alt="Macchanger Utility, and Usage
+Exploring the Command Syntax" /></div>
 
         <div class="content">
             <h3 id="exploring-macchanger"><strong>Exploring Macchanger</strong></h3><p>Used it before, but nothing beyond changing the MAC, and moving on? In this lab, the macchanger command syntax is walked through.</p><p>The purpose for these exploration labs, is to get familiar with common tools, Operation Systems, and technologies.</p><h3 id="purpose"><strong>Purpose</strong></h3><p>The purpose of macchanger by Alvaro Lopez Ortega <a href="https://github.com/alobbs/macchanger">https://github.com/alobbs/macchanger</a> "GNU MAC Changer is an utility that makes the maniputation of MAC addresses of network interfaces easier." <a href="https://github.com/alobbs/macchanger/blob/master/README">README</a></p><h3 id="usage"><strong>Usage</strong></h3><p>One of the most important things to know is how to find more information. Applications will usually have a help syntax to obtain more information.</p><p>Executing macchanger with the syntax option of -h will list the options available.</p><p>At the prompt type: macchanger -h</p><!--kg-card-begin: image--><figure class="kg-card kg-image-card"><img src="http://Scott-Bollinger.com/content/images/2019/10/macchangerhelp.jpg" class="kg-image"></figure><!--kg-card-end: image--><p>Next, I like to review, is the man page for the application, to learn additional details not generally put in the syntax help.</p><p>At the prompt type: man macchanger</p><!--kg-card-begin: image--><figure class="kg-card kg-image-card"><img src="http://Scott-Bollinger.com/content/images/2019/10/macchangerman01.jpg" class="kg-image"></figure><!--kg-card-end: image--><!--kg-card-begin: image--><figure class="kg-card kg-image-card"><img src="http://Scott-Bollinger.com/content/images/2019/10/macchangerman02.jpg" class="kg-image"></figure><!--kg-card-end: image--><p>In the below <a href="https://www.youtube.com/embed/t5scs7T-EUc">video</a>, I walk through the different options of macchanger.</p><!--kg-card-begin: image--><figure class="kg-card kg-image-card"><img src="http://Scott-Bollinger.com/content/images/2019/10/macchangerYoutube.png" class="kg-image"></figure><!--kg-card-end: image--><p>Macchanger Utility Command Syntax Walkthrough</p><!--kg-card-begin: image--><figure class="kg-card kg-image-card"><img src="http://Scott-Bollinger.com/content/images/2019/10/macchangerSyntax.png" class="kg-image"></figure><!--kg-card-end: image--><h3 id="why"><strong>Why</strong></h3><p>Why change the MAC address? Obviously it's there for a reason. There are reasons to change it as well.</p><p>A couple of those reasons are:</p><ul><li>Blend in - If all the devices on the network are Apple MAC addresses , an attackers machine with another vendor will standout.</li><li>Masquerade - Pretending to be an device already approved to be on the network, such as in a MAC filtered wireless lan.</li></ul><p>The BIA option, seems interesting as it was unknown to me previously. It would be interesting to see if VMware addresses have that locally administered bit set, but that's for another lab.</p>
