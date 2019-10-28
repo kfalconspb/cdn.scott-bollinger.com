@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Create VMware ESXi USB Install Media">
+    <meta name="author" content="Scott Bollinger / @kfalconspb">
+    <link rel="alternate" type="application/rss+xml" title="Scott-Bollinger.com RSS Feed a Collection of My Writings, Notes, and Thoughts by Scott Bollinger / @kfalconspb" href="rss.xml" />
+    <title>Create VMware ESXi USB Install Media</title>
+    <!-- Bootstrap Core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Theme CSS -->
+    <link href="css/clean-blog.min.css" rel="stylesheet">
+    <!-- Custom Fonts -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    Menu <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand" href="index.html">Scott-Bollinger.com</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="about.html">About</a>
+                    </li>
+                    <li>
+                        <a href="disclaimer.html">Disclaimer</a>
+                    </li>
+                    <li>
+                        <a href="infoFireHose.html">infoFireHose</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+    <!-- Page Header -->
+    <!-- Set your background image for this header on the line below. -->
+    <header class="intro-header" style="background-image: url('/img/asset-42.png')">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    <div class="post-heading">
+                        <h1>Create VMware ESXi USB Install Media</h1>
+                        <h2 class="subheading"></h2>
+                        <span class="meta">Posted by <a href="about.html">Scott Bollinger</a> / <a href="https://twitter.com/kfalconspb" target="_blank">@kfalconspb</a> on August 05, 2018</span>
+                        <span class="meta"><a href="virtualization.html">#Virtualization</a></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Post Content -->
+    <article>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    <h3 class="section-heading">Something Physical</h3>
+                    <p>It's not often I install anything from physical media anymore, but it still has it's uses. This USB stick, will be used to install ESXi, on my Intel NUC's, and the Mac Mini, in am upcoming post. I'll explore PXE boot in the future, as well, once the core infrastructure is completely operational.</p>
+                     <p>Thanks,</p>
+                    <p><a href="about.html">Scott Bollinger</a> / <a href="https://twitter.com/kfalconspb" target="_blank">@kfalconspb</a></p>
+                    <h3 class="section-heading">Prep</h3>
+                    <p>Download the ESXi ISO from the VMware Download Website. This ISO needs to be written to the USB, and be made bootable. There are many applications which can do this for you, in this example, we'll be using UNetbootin.</p>
+                    <p>Download the appropriate version for your OS. In this case, we'll be using apt-get to install UNetbootin on Ubuntu 18.04.</p>
+                    <img class="img-responsive" src="https://scott-bollinger.com/img/079CreateVMwareESXiUSBInstallMedia04.png" alt="" />
+                    <h3 class="section-heading">Add Repo</h3>
+                    <p> Open a terminal console, and type the following, to add the apt repository: sudo add-apt-repository ppa:gezakovacs/ppa</p>
+                    <img class="img-responsive" src="https://scott-bollinger.com/img/079CreateVMwareESXiUSBInstallMedia01.png" alt="" />
+                    <h3 class="section-heading">Install UNetbootin</h3>
+                    <p>Type: sudo apt-get update</p>
+                    <p>Then type: apt-get install unetbootin</p>
+                    <p>Type Y, to install</p>
+                    <img class="img-responsive" src="https://scott-bollinger.com/img/079CreateVMwareESXiUSBInstallMedia02.png" alt="" />
+                    <p>Installing</p>
+                    <img class="img-responsive" src="https://scott-bollinger.com/img/079CreateVMwareESXiUSBInstallMedia03.png" alt="" />
+                    <h3 class="section-heading">Write ISO to USB, and Make Bootable.</h3>
+                    <p>From the Ubuntu desktop. select activities, and search for unetbootin, and click to open.</p>
+                    <img class="img-responsive" src="https://scott-bollinger.com/img/079CreateVMwareESXiUSBInstallMedia05.png" alt="" />
+                    <p>UNetbootin gives the option to select, and download a distribution/version, or an ISO can be chosen.</p>
+                    <img class="img-responsive" src="https://scott-bollinger.com/img/079CreateVMwareESXiUSBInstallMedia06.png" alt="" />
+                    <p>Select Diskimage, navigate to, and select the VMware ESXi downloaded from earlier. Click OK to begin.</p>
+                    <img class="img-responsive" src="https://scott-bollinger.com/img/079CreateVMwareESXiUSBInstallMedia07.png" alt="" />
+                    <p>Extracting files to be written to USB.</p>
+                    <img class="img-responsive" src="https://scott-bollinger.com/img/079CreateVMwareESXiUSBInstallMedia08.png" alt="" />
+                    <p>Installing bootloader.</p>
+                    <img class="img-responsive" src="https://scott-bollinger.com/img/079CreateVMwareESXiUSBInstallMedia09.png" alt="" />
+                    <p>Click Exit, when the installation is complete.</p>
+                    <img class="img-responsive" src="https://scott-bollinger.com/img/079CreateVMwareESXiUSBInstallMedia10.png" alt="" />
+                    <p>Viewing the USB in a file manager, the VMware install files can be seen.</p>
+                    <img class="img-responsive" src="https://scott-bollinger.com/img/079CreateVMwareESXiUSBInstallMedia11.png" alt="" />
+                </div>
+            </div>
+        </div>
+    </article>
+    <hr>
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    <ul class="list-inline text-center">
+                        <li>
+                            <a href="https://twitter.com/kfalconspb/" target="_blank">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/ScottPBollinger/" target="_blank">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/kfalconspb/" target="_blank">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/kfalconspb/" target="_blank">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-instagram fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/kfalconspb/" target="_blank">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.youtube.com/user/LaboratoriumRattus/" target="_blank">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-youtube fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                    </ul>
+                    <p class="copyright text-muted">Copyright &copy; 2019 <a href="about.html">Scott Bollinger</a> / <a href="https://twitter.com/kfalconspb" target="_blank">@kfalconspb</a> / <a href="https://scott-bollinger.com/sitemap.html" target="_blank">Site Map</p>
+               </div>
+            </div>
+        </div>
+    </footer>
+    <!-- jQuery -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+    <!-- Theme JavaScript -->
+    <script src="js/clean-blog.min.js"></script>
+    <!-- Add This To RSS.xml
+    <item>
+    <title>Create VMware ESXi USB Install Media</title>
+    <description>Create VMware ESXi USB Install Media</description>
+    <link>https://Scott-Bollinger.com/079CreateVMwareESXiUSBInstallMedia.html</link>
+    <guid>https://Scott-Bollinger.com/079CreateVMwareESXiUSBInstallMedia.html</guid>
+    <pubDate>Sun, 05 Aug 2018 09:00:00 +0000 </pubDate>
+    <category>Virtualization</category>
+    </item> 
+    -->
+    <!-- Add This To index.html
+    <div class="post-preview">
+                    <a href="079CreateVMwareESXiUSBInstallMedia.html">
+                        <h2 class="post-title">
+                            Create VMware ESXi USB Install Media
+                        </h2>
+                        <h3 class="post-subtitle">
+                            
+                        </h3>
+                    </a>
+                    <p class="post-meta">Posted by <a href="about.html">Scott Bollinger</a> / <a href="https://twitter.com/kfalconspb" target="_blank">@kfalconspb</a> on August 05, 2018 <a href="virtualization.html">#Virtualization</a></p>
+                </div>
+                <hr>
+    -->
+    <!-- Add This To lists.html
+    <li><a href="https://scott-bollinger.com/079CreateVMwareESXiUSBInstallMedia.html" title="Create VMware ESXi USB Install Media">Create VMware ESXi USB Install Media</a></li>
+    -->
+</body>
+</html>
