@@ -18,7 +18,7 @@ These are my Tech Notes for File IO in Python. A file can be opened in several m
     <meta property="og:url" content="https://scott-bollinger.com/tech-notes-file-io-in-python/" />
     <meta property="og:image" content="https://scott-bollinger.com/content/images/2020/09/D1679731-8E1D-4CE5-9AB5-C682DE298884.jpeg" />
     <meta property="article:published_time" content="2020-08-26T16:00:00.000Z" />
-    <meta property="article:modified_time" content="2020-09-01T09:52:26.000Z" />
+    <meta property="article:modified_time" content="2020-09-01T12:02:33.000Z" />
     <meta property="article:tag" content="python" />
     <meta property="article:tag" content="fileio" />
     <meta property="article:tag" content="Tech Notes" />
@@ -31,7 +31,7 @@ These are my Tech Notes for File IO in Python. A file can be opened in several m
     <meta name="twitter:url" content="https://scott-bollinger.com/tech-notes-file-io-in-python/" />
     <meta name="twitter:image" content="https://scott-bollinger.com/content/images/2020/09/D1679731-8E1D-4CE5-9AB5-C682DE298884.jpeg" />
     <meta name="twitter:label1" content="Written by" />
-    <meta name="twitter:data1" content="Scott Bollinger / @kfalconspb" />
+    <meta name="twitter:data1" content="Scott Bollinger" />
     <meta name="twitter:label2" content="Filed under" />
     <meta name="twitter:data2" content="python, fileio, Tech Notes" />
     <meta name="twitter:site" content="@kfalconspb" />
@@ -56,7 +56,7 @@ These are my Tech Notes for File IO in Python. A file can be opened in several m
     },
     "author": {
         "@type": "Person",
-        "name": "Scott Bollinger / @kfalconspb",
+        "name": "Scott Bollinger",
         "image": {
             "@type": "ImageObject",
             "url": "https://scott-bollinger.com/content/images/2019/10/kfalconspb.jpg",
@@ -72,7 +72,7 @@ These are my Tech Notes for File IO in Python. A file can be opened in several m
     "headline": "Tech Notes: File IO in Python",
     "url": "https://scott-bollinger.com/tech-notes-file-io-in-python/",
     "datePublished": "2020-08-26T16:00:00.000Z",
-    "dateModified": "2020-09-01T09:52:26.000Z",
+    "dateModified": "2020-09-01T12:02:33.000Z",
     "image": {
         "@type": "ImageObject",
         "url": "https://scott-bollinger.com/content/images/2020/09/D1679731-8E1D-4CE5-9AB5-C682DE298884.jpeg",
@@ -670,7 +670,7 @@ These are my Tech Notes for File IO in Python. A file can be opened in several m
             <header class="post-header">
                 <h1 class="post-title">Tech Notes: File IO in Python</h1>
                 <section class="post-meta">
-                    Scott Bollinger / @kfalconspb -
+                    Scott Bollinger -
                     <time class="post-date" datetime="2020-08-26">26 Aug 2020</time>
                 </section>
             </header>
@@ -682,69 +682,107 @@ These are my Tech Notes for File IO in Python. A file can be opened in several m
                 <h2 id="readingwritinganddeletingfiles">Reading, Writing, and Deleting Files</h2>
 <p>These are my Tech Notes for File IO in Python. A file can be opened in several modes, read, append, write, and create. It can also be specified as text or binary.</p>
 <h3 id="readingafile">Reading a file</h3>
-<p>A file can be opened in several modes read, append, write, and create. Create a variable name, and assign it the opened file to be manipulated.</p>
-<p>Create a file stream with read access and assign it to variable fh.</p>
+<ul>
+<li>A file can be opened in several modes read, append, write, and create. Create a variable name, and assign it the opened file to be manipulated. Create a file stream with read access and assign it to variable fh.</li>
+</ul>
 <pre><code class="language-python">fh = open("demo.txt", "r")
 </code></pre>
-<p>Readable will return True or False, if the opened file stream can be read.</p>
-<p>Call Readable(), if stream can be read, True will be returned.</p>
+<ul>
+<li>Readable will return True or False, if the opened file stream can be read. Call Readable(), if stream can be read, True will be returned.</li>
+</ul>
 <pre><code class="language-python">fh.readable()
 </code></pre>
-<p>Read the first five characters of the file stream.</p>
+<ul>
+<li>Read the first five characters of the file stream.</li>
+</ul>
 <pre><code class="language-python">fh.read(5)
 </code></pre>
-<p>Reading the next five characters of the file stream. Note the read does not begin at beginning again, it picks up from where it left off from last read. That is why it is important to assign to a variable, if not assigned to variable, the file must be reread.</p>
+<ul>
+<li>Reading the next five characters of the file stream. Note the read does not begin at beginning again, it picks up from where it left off from last read. That is why it is important to assign to a variable, if not assigned to variable, the file must be reread.</li>
+</ul>
 <pre><code class="language-python">fh.read(5)
 </code></pre>
-<p>Return the location in file by calling tell. Note if 5 characters had been read plus and additional 5 characters above, tell would be return a location of 10.</p>
+<ul>
+<li>Return the location in file by calling tell. Note if 5 characters had been read plus and additional 5 characters above, tell would be return a location of 10.</li>
+</ul>
 <pre><code class="language-python">fh.tell()
 </code></pre>
-<p>Reads from current position until the end of line (EOL). A number of characters can be passed to readline(70). If the number of characters passed is less the EOL, then line is read to that character. Equal to or greater than the end of line, the read stops at the EOL.</p>
+<ul>
+<li>Reads from current position until the end of line (EOL). A number of characters can be passed to readline(70). If the number of characters passed is less the EOL, then line is read to that character. Equal to or greater than the end of line, the read stops at the EOL.</li>
+</ul>
 <pre><code class="language-python">fh.readline()
 </code></pre>
-<p>Reads number of passed characters, or until the end of file (EOF).</p>
+<ul>
+<li>Readlines reads the number of passed characters, or until the end of file (EOF).</li>
+</ul>
 <pre><code class="language-python">fh.readlines()
 </code></pre>
-<p>If a negative number is passed to read, readline, or readlines, file is read to EOF.</p>
+<ul>
+<li>If a negative number is passed to read, readline, or readlines, file is read to EOF.</li>
+</ul>
 <pre><code class="language-python">fh.read(-1)
 </code></pre>
-<p>When file tasks are done the file stream should be properly closed</p>
+<ul>
+<li>When file tasks are done the file stream should be properly closed</li>
+</ul>
 <pre><code class="language-python">fh.close()
 </code></pre>
 <h3 id="writingtoafile">Writing to a file</h3>
-<p>Like reading a file, a file handle needs to be created, but this time passing w, as the mode, to signify write. Note if the file does not exist it will be created. If it exists, it will be truncated to zero characters (contents overwritten). See x (create mode) below to not overwrite the file.</p>
+<ul>
+<li>Like reading a file, a file handle needs to be created, but this time passing w, as the mode, to signify write. Note if the file does not exist it will be created. If it exists, it will be truncated to zero characters (contents overwritten). See x (create mode) below to not overwrite the file.</li>
+</ul>
 <pre><code class="language-python">fh = open("demo.txt", "w")
 </code></pre>
-<p>Writable will return True if file stream can be written to.</p>
+<ul>
+<li>Writable will return True if file stream can be written to.</li>
+</ul>
 <pre><code class="language-python">fh.writable()
 </code></pre>
-<p>Write will write the text to the current position in the file. This will write quoted text to file.</p>
+<ul>
+<li>Write will write the text to the current position in the file. This will write quoted text to file.</li>
+</ul>
 <pre><code class="language-python">fh.write("Text to write to file")
 </code></pre>
-<p>Writing additional text, will write the text, starting at the current location. Note, no spaces or newlines(\n) unless included in the passed string. Also Note, write returns the number of characters written.</p>
+<ul>
+<li>Writing additional text, will write the text, starting at the current location. Note, no spaces or newlines(\n) unless included in the passed string. Also Note, write returns the number of characters written.</li>
+</ul>
 <pre><code class="language-python">fh.write("This is some more text")
 </code></pre>
-<p>The writelines method can be used to pass a list of lines to be written to the file.</p>
+<ul>
+<li>The writelines method can be used to pass a list of lines to be written to the file.</li>
+</ul>
 <pre><code class="language-python">fh.writelines(["\nThis is a line to write", "\nAnother line of text to be written"])
 </code></pre>
-<p>If the File handle is opened using the x mode, a file will be created if it does not exist. However, if the file exists it will not be overwritten, and the write will fail.</p>
+<ul>
+<li>If the File handle is opened using the x mode, a file will be created if it does not exist. However, if the file exists it will not be overwritten, and the write will fail.</li>
+</ul>
 <pre><code class="language-python">fh = open("demo.txt", "x")
 </code></pre>
-<p>When opening a file encoding can be specified. Most common is utf-8, which will encompass Unicode characters, and is backward compatible to ASCII.</p>
+<ul>
+<li>When opening a file encoding can be specified. Most common is utf-8, which will encompass Unicode characters, and is backward compatible to ASCII.</li>
+</ul>
 <pre><code class="language-python">fh = open("demounicode.txt", mode="r", encoding="utf-8")
 </code></pre>
-<p>Using the append mode, the current file is appended to the EOF.</p>
+<ul>
+<li>Using the append mode, the current file is appended to the EOF.</li>
+</ul>
 <pre><code class="language-python">fh = open("demo.txt", "a")
 </code></pre>
 <h3 id="deletingafile">Deleting a File</h3>
-<p>Deleting a file requires the use of the OS module and must be imported (should be placed a top of file).</p>
+<ul>
+<li>Deleting a file requires the use of the OS module and must be imported (should be placed a top of file).</li>
+</ul>
 <pre><code class="language-python">import os
 </code></pre>
-<p>Existence of the file should be checked prior to deleting by using<br />
-os.path.exists.</p>
+<ul>
+<li>Existence of the file should be checked prior to deleting by using<br />
+os.path.exists.</li>
+</ul>
 <pre><code class="language-python">print(os.path.exists("demo.txt"))
 </code></pre>
-<p>To delete a file the remove function is used.</p>
+<ul>
+<li>To delete a file the remove function is used.</li>
+</ul>
 <pre><code class="language-python">os.remove("demo.txt")
 </code></pre>
 <h4 id="resources">Resources:</h4>
